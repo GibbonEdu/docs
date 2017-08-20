@@ -3,8 +3,9 @@ languageCode = "en-gb"
 DefaultContentLanguage = "en"
 
 title = "Gibbon Documentation"
-theme = "docdock"
+theme = "gibbon"
 themesdir = "themes"
+enableGitInfo = true
 
 [params]
 editURL = "https://github.com/GibbonEdu/docs/edit/master/content/"
@@ -15,7 +16,7 @@ highlightStyle = "atom-one-dark"
 themeStyle = "theme" # overide base css
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
-
+pluralizelisttitles = false
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
