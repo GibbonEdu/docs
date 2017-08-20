@@ -1,6 +1,10 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
-draft = true
+categories = ["support"]
+tags = []
+# Author Details
+authorname = "Ross Parker"
+authorurl = "http://rossparker.org/"
 +++
 

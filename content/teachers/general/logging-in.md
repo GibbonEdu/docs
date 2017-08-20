@@ -4,8 +4,8 @@ date = 2017-08-20T11:06:37+08:00
 categories = ["support"]
 tags = []
 # Theme Details
-creatordisplayname = "Ross Parker"
-creatorusername = "GibbonEdu"
+authorname = "Ross Parker"
+authorurl = "http://rossparker.org/"
 +++
 
 ### Introduction
