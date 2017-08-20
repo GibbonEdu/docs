@@ -290,6 +290,12 @@ pre {
 b, strong, label, th {
     font-weight: 600;
 }
+
+strong > em {
+    font-style: inherit;
+    text-decoration: underline;
+}
+
 .default-animation, #header #logo-svg, #header #logo-svg path, #sidebar, #sidebar ul, #body, #body .padding, #body .nav {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;

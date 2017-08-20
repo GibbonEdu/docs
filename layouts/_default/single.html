@@ -3,19 +3,17 @@
 {{ .Content }}
 
 <footer class=" footline" >
-    <div>
-        <a href="{{ $.Permalink }}">“{{ $.Title }}”</a> was
+    <a href="{{ $.Permalink }}">“{{ $.Title }}”</a> was
 
-        {{ with .Params.AuthorName }}
-            written by <a href="{{ $.Params.AuthorURL | title }}">{{ . }}</a>
-        {{ end }}
-        and
-        {{ with $.GitInfo }}
-            last updated {{ .AuthorDate.Format "January 2, 2006" }}: <a style="color: #666;font-size:70%;" href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}" title=" {{ .AuthorName }} committed: {{ .Subject }}"><i class='fa fa-sm fa-code'></i> {{ .AbbreviatedHash }}</a>
-        {{ else }}
-            last updated {{ $.Date.Format "January 2, 2006" }}
-        {{ end }}
-    </div>
+    {{ with .Params.AuthorName }}
+        written by <a href="{{ $.Params.AuthorURL | title }}">{{ . }}</a>
+    {{ end }}
+    and
+    {{ with $.GitInfo }}
+        last updated {{ .AuthorDate.Format "January 2, 2006" }}: <a style="color: #666;font-size:70%;" href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}" title=" {{ .AuthorName }} committed: {{ .Subject }}"><i class='fa fa-sm fa-code'></i> {{ .AbbreviatedHash }}</a>
+    {{ else }}
+        last updated {{ $.Date.Format "January 2, 2006" }}
+    {{ end }}
 </footer>
 
 

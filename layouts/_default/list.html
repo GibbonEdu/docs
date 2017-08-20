@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<footer class=" footline" >
+	{{ with .Params.AuthorName }}
+	    <a href="{{ $.Permalink }}">“{{ $.Title }}”</a> was
+	    written by <a href="{{ $.Params.AuthorURL | title }}">{{ . }}</a> and
+	    {{ with $.GitInfo }}
+	        last updated {{ .AuthorDate.Format "January 2, 2006" }}: <a style="color: #666;font-size:70%;" href="{{$.Site.Params.ghrepo}}commit/{{ .Hash }}" title=" {{ .AuthorName }} committed: {{ .Subject }}"><i class='fa fa-sm fa-code'></i> {{ .AbbreviatedHash }}</a>
+	    {{ else }}
+	        last updated {{ $.Date.Format "January 2, 2006" }}
+	    {{ end }}
+    {{ end }}
+</footer>
+
+{{if not .Content }}
+	{{ $paginator := .Paginator }}
+
+	<div class="extra-pagination inner">
+	{{ partial "pagination.html" $paginator }}
+	</div>
+
+	{{ range $index, $page := $paginator.Pages }}
+	   {{ .Render "li" }}
+	{{ end }}
+
+	<div style="margin-bottom:2rem"></div>
+
+	{{ partial "pagination.html" $paginator }}
+{{end}}
+
+{{ partial "footer.html" . }}

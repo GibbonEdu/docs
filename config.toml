@@ -16,7 +16,7 @@ showVisitedLinks = true # default is false
 highlightStyle = "atom-one-dark"
 themeStyle = "theme" # overide base css
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
-ordersectionsby = "weight" # ordersectionsby = "title"
+ordersectionsby = "weight" # ordersectionsby = "title" | "weight"
 pluralizelisttitles = false
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
