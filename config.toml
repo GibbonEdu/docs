@@ -1,0 +1,33 @@
+baseURL = "/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+
+title = "Gibbon Documentation"
+theme = "docdock"
+themesdir = "themes"
+
+[params]
+editURL = "https://github.com/SKuipers/gibbon-docs/edit/master/content/"
+noHomeIcon = false # default is false
+noSearch = false # default is false
+showVisitedLinks = true # default is false
+highlightStyle = "atom-one-dark"
+themeStyle = "theme" # overide base css
+themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>Links</h3>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/SKuipers/gibbon-docs"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-home'></i> GibbonEdu"
+url = "https://gibbonedu.org"
+weight = 11
