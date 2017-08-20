@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+languageCode = "en-gb"
 DefaultContentLanguage = "en"
 
 title = "Gibbon Documentation"
@@ -7,7 +7,7 @@ theme = "docdock"
 themesdir = "themes"
 
 [params]
-editURL = "https://github.com/SKuipers/gibbon-docs/edit/master/content/"
+editURL = "https://github.com/GibbonEdu/docs/edit/master/content/"
 noHomeIcon = false # default is false
 noSearch = false # default is false
 showVisitedLinks = true # default is false
@@ -20,14 +20,26 @@ ordersectionsby = "weight" # ordersectionsby = "title"
 home = [ "HTML", "RSS", "JSON"]
 
 
+
 [[menu.shortcuts]]
 pre = "<h3>Links</h3>"
-name = "<i class='fa fa-github'></i> Github repo"
-identifier = "ds"
-url = "https://github.com/SKuipers/gibbon-docs"
+name = "<i class='fa fa-fw fa-home'></i> Gibbon Website"
+url = "https://gibbonedu.org"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-home'></i> GibbonEdu"
-url = "https://gibbonedu.org"
-weight = 11
+name = "<i class='fa fa-fw fa-comments-o'></i> Support Forum"
+url = "https://ask.gibbonedu.org"
+weight = 20
+
+[[menu.shortcuts]]
+
+name = "<i class='fa fa-fw fa-github'></i> GibbonEdu/core"
+identifier = "ds"
+url = "https://github.com/GibbonEdu/core/"
+weight = 30
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-fw fa-github'></i> GibbonEdu/docs"
+url = "https://github.com/GibbonEdu/docs/"
+weight = 40
