@@ -1,6 +1,5 @@
 +++
 title = "Download Gibbon"
-description = ""
 date = 2017-08-20T15:13:08+08:00
 categories = ["support"]
 tags = []

@@ -1,0 +1,19 @@
++++
+title = "Coding Standards"
+date = 2017-08-20T18:15:35+08:00
+categories = ["support"]
+tags = []
+weight = 20
+# Author Details
+authorname = "Ross Parker"
+authorurl = "http://rossparker.org/"
++++
+
+## General
+
+1.  Avoid PHP Shortcodes - as of v8.0.00 Gibbon is moving away from `<?` in favour of `<?php`.
+
+## Security
+
+1.  When using `isActionAccessible()`, always hard code the address, rather than relying on session, get, post or server variables.
+2.  For database connections, use the PDO class (instead of the more common mysql one), and parameterise any user-generated inputs. With PDO's parameters, you do not need to escape your input.

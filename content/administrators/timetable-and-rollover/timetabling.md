@@ -1,6 +1,5 @@
 +++
 title = "Timetabling"
-description = ""
 date = 2017-08-20T15:05:12+08:00
 categories = ["support"]
 tags = []

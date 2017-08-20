@@ -1,6 +1,5 @@
 +++
 title = "Sounding an Alarm"
-description = ""
 date = 2017-08-20T15:09:53+08:00
 categories = ["support"]
 tags = []

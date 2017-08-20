@@ -11,7 +11,7 @@ authorurl = "http://rossparker.org/"
 
 ## Introduction
 
-Gibbon is released in two different ways, according to our release cycle and [road map](https://gibbonedu.org/support/developers/gibbon-road-map/):
+Gibbon is released in two different ways, according to our release cycle and [road map]({{< relref "gibbon-road-map.md" >}}):
 
 *   ___Stable Code___ - these are official releases, published through our [mailing list](https://gibbonedu.org/support/). They may be major releases (e.g. v10.0.0) or minor releases (e.g. v10.0.01), depending on a variety of circumstances. Stable releases are available via our [Download](https://gibbonedu.org/download/) page. Stable code enforces a much slower update cycle.
 *   ___Cutting Edge Code___ - these are our latest code cuts, and so are not as well tested or refined as stable releases. They are not recommended for production, but do give access to the latest features, via an update cycle that is as fast as you like (or as we commit). Cutting edge code can be downloaded via the dev branches on [our GitHub repo](https://github.com/GibbonEdu/core).

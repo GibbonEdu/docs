@@ -1,6 +1,5 @@
 +++
 title = "Gibbon Docs"
-description = ""
 date = "2017-08-15T14:32:00+08:00"
 
 +++
@@ -29,7 +28,7 @@ At this time the Gibbon team are not certifying any companies for official comme
 
 ## GitHub Repos
 
-If you want to get involved in the development process, check out our [GitHub repository](https://github.com/GibbonEdu/core/issues?state=open). Generally there will be a development branch with the latest code, as per our [Development Road Map](https://gibbonedu.org/support/developers/gibbon-road-map/).
+If you want to get involved in the development process, check out our [GitHub repository](https://github.com/GibbonEdu/core/issues?state=open). Generally there will be a development branch with the latest code, as per our [Development Road Map]({{< relref "gibbon-road-map.md" >}}).
 
 ## Mailing List
 

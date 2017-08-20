@@ -1,6 +1,5 @@
 +++
 title = "Useful SQL"
-description = ""
 date = 2017-08-20T15:11:14+08:00
 categories = ["support"]
 tags = []

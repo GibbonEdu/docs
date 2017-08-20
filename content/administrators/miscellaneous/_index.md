@@ -1,6 +1,5 @@
 +++
 title = "Miscellaneous"
-description = ""
 weight = 30
 +++
 

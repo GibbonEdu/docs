@@ -1,6 +1,5 @@
 +++
 title = "Timetable & Rollover"
-description = ""
 weight = 20
 +++
 

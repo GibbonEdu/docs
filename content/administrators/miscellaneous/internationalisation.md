@@ -1,6 +1,5 @@
 +++
 title = "Multilingual, Internationalisation & Localisation"
-description = ""
 date = 2017-08-20T15:08:44+08:00
 categories = ["support"]
 tags = []

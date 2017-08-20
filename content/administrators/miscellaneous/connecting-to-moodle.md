@@ -1,6 +1,5 @@
 +++
 title = "Connecting to Moodle"
-description = ""
 date = 2017-08-20T15:07:45+08:00
 categories = ["support"]
 tags = []

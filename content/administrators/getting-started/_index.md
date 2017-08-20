@@ -1,6 +1,5 @@
 +++
 title = "Getting Started"
-description = ""
 weight = 10
 +++
 
