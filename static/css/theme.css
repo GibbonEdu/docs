@@ -408,6 +408,12 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-size: 90%;
     line-height: 27px;
     -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+}
+
+#sidebarInner{
+    overflow-y: scroll;
+    margin-right: -20px;
 }
 #sidebar a {
     color: #ddd;
