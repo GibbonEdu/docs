@@ -411,7 +411,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     overflow: hidden;
 }
 
-#sidebarInner{
+#sidebar > .highlightable:first-child {
     overflow-y: scroll;
     margin-right: -20px;
 }

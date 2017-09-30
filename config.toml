@@ -3,7 +3,7 @@ languageCode = "en-gb"
 DefaultContentLanguage = "en"
 
 title = "Gibbon Documentation"
-theme = "gibbon"
+theme = "docdock"
 themesdir = "themes"
 enableGitInfo = true
 
