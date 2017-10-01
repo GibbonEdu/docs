@@ -8,7 +8,9 @@ themesdir = "themes"
 enableGitInfo = true
 
 [params]
+version = "v15.0.00"
 ghRepo = "https://github.com/GibbonEdu/docs/"
+newURL = "https://github.com/GibbonEdu/docs/new/master/content/"
 editURL = "https://github.com/GibbonEdu/docs/edit/master/content/"
 noHomeIcon = false # default is false
 noSearch = false # default is false
@@ -18,10 +20,46 @@ themeStyle = "theme" # overide base css
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title" | "weight"
 pluralizelisttitles = false
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
 
+## Top Menu Links
+
+[[menu.links]]
+name = "Home"
+url = "https://gibbonedu.org"
+weight = 10
+identifier = "primary"
+
+[[menu.links]]
+name = "About"
+url = "https://gibbonedu.org/about"
+weight = 20
+
+[[menu.links]]
+name = "Features"
+url = "https://gibbonedu.org/features"
+weight = 30
+
+[[menu.links]]
+name = "Download"
+url = "https://gibbonedu.org/download"
+weight = 40
+
+[[menu.links]]
+name = "Extend"
+url = "https://gibbonedu.org/extend"
+weight = 50
+
+[[menu.links]]
+name = "Support"
+url = "https://gibbonedu.org/support"
+weight = 60
+
+
+## Sidebar Links
 
 [[menu.shortcuts]]
 pre = "<h3>Links</h3>"

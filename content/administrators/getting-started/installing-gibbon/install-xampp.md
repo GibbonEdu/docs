@@ -1,5 +1,6 @@
 +++
 title = "Install Xampp for Testing on Windows"
+linkTitle = "Installing Xampp"
 date = 2017-08-20T14:09:45+08:00
 categories = ["support"]
 tags = []
