@@ -9,7 +9,7 @@ enableGitInfo = true
 
 ## Syntax Highlighting
 pygmentsCodefences = true
-pygmentsStyle = "manni"
+pygmentsStyle = "colorful"
 pygmentsOptions = "startinline=true"
 
 [params]

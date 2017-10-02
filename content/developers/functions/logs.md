@@ -23,18 +23,16 @@ setLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $tit
 
 This function will return the ID of the log.
 
-``` php
-<?php
+```
 getLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $title, $startDate, $endDate);
-?>
 ```
 
 *   **$gibbonSchoolYearID** - The ID of the year that the log was submitted in.
 *   **$gibbonModuleID (Optional)** - The ID of the module that submitted the log.
-*   **$gibbonPersonID **(Optional)**** - The ID of the person who caused the log to be submitted.
-*   **$title **(Optional)**** - The title of the log.
-*   **$startDate **(Optional)**** - The start of a date range to search in (if no end date is set it will search all until today).
-*   **$endDate **(Optional)**** - The end of a date range to search in (if no start date is set it will search all until the first log).
+*   **$gibbonPersonID (Optional)** - The ID of the person who caused the log to be submitted.
+*   **$title (Optional)** - The title of the log.
+*   **$startDate (Optional)** - The start of a date range to search in (if no end date is set it will search all until today).
+*   **$endDate (Optional)** - The end of a date range to search in (if no start date is set it will search all until the first log).
 
 This function will return a PDO result of the query.
 
