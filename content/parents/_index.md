@@ -2,8 +2,8 @@
 title = "Parents"
 date = 2017-08-20T14:10:32+08:00
 categories = ["support"]
-tags = []
-weight = 30
+tags = ["parents", "getting started"]
+weight = 40
 # Author Details
 authorname = "Ross Parker"
 authorurl = "http://rossparker.org/"

@@ -1,7 +1,7 @@
 +++
 title = "Custom Code Loaders"
 date = 2017-08-20T18:18:08+08:00
-categories = ["support"]
+categories = ["support", "customization"]
 tags = []
 weight = 10
 # Author Details

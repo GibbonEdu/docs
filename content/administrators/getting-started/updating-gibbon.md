@@ -2,7 +2,7 @@
 title = "Updating Gibbon"
 date = 2017-08-20T14:11:09+08:00
 categories = ["support"]
-tags = []
+tags = ["getting started"]
 weight = 50
 # Author Details
 authorname = "Ross Parker"

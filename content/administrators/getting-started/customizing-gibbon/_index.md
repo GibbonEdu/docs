@@ -1,7 +1,7 @@
 +++
 title = "Customizing Gibbon"
 date = 2017-08-20T14:10:32+08:00
-categories = ["support"]
+categories = ["support", "customization"]
 tags = []
 weight = 40
 # Author Details

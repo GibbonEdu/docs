@@ -1,7 +1,7 @@
 +++
 title = "Module Development"
 date = 2017-08-20T18:16:23+08:00
-categories = ["support"]
+categories = ["support", "customization"]
 tags = []
 weight = 30
 # Author Details

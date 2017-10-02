@@ -3,7 +3,7 @@ title = "Getting Started With Gibbon"
 linkTitle = "Getting Started"
 date = 2017-08-20T14:10:06+08:00
 categories = ["support"]
-tags = []
+tags = ["getting started"]
 weight = 20
 # Author Details
 authorname = "Ross Parker"

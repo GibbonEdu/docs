@@ -7,7 +7,13 @@ theme = "gibbon"
 themesdir = "themes"
 enableGitInfo = true
 
+## Syntax Highlighting
+pygmentsCodefences = true
+pygmentsStyle = "manni"
+pygmentsOptions = "startinline=true"
+
 [params]
+logo = "/images/gibbon-logo.png"
 version = "v15.0.00"
 ghRepo = "https://github.com/GibbonEdu/docs/"
 newURL = "https://github.com/GibbonEdu/docs/new/master/content/"
@@ -83,3 +89,31 @@ weight = 30
 name = "<i class='fa fa-fw fa-github'></i> GibbonEdu/docs"
 url = "https://github.com/GibbonEdu/docs/"
 weight = 40
+
+## Related Content Settings
+
+[related]
+# Only include matches with rank >= threshold. This is a normalized rank between 0 and 100.
+threshold = 80
+# To get stable "See also" sections we, by default, exclude newer related pages.
+includeNewer = true
+# Will lower case keywords in both queries and in the indexes.
+toLower = false
+
+[[related.indices]]
+name = "keywords"
+weight = 150
+[[related.indices]]
+name  = "author"
+toLower = true
+weight = 30
+[[related.indices]]
+name  = "tags"
+weight = 100
+[[related.indices]]
+name  = "categories"
+weight = 100
+[[related.indices]]
+name  = "date"
+weight = 10
+pattern = "2006"

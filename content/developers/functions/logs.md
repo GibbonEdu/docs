@@ -11,7 +11,9 @@ authorurl = "http://rossparker.org/"
 
 As of v10.0.00, Gibbon has a new system for system-wide logs. This will allow you to create or replace a log system to keep track of certain events or create reports or statistics using the logs. Any module, or indeed the core itself, can set or get logs using the following system-wide function call:
 
-    setLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $title, $array);
+```php
+setLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $title, $array);
+```
 
 *   **$gibbonSchoolYearID** - The current school year ID.
 *   **$gibbonModuleID** - Your module's ID.
@@ -21,7 +23,11 @@ As of v10.0.00, Gibbon has a new system for system-wide logs. This will allow yo
 
 This function will return the ID of the log.
 
-    getLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $title, $startDate, $endDate);
+``` php
+<?php
+getLog($connection2, $gibbonSchoolYearID, $gibbonModuleID, $gibbonPersonID, $title, $startDate, $endDate);
+?>
+```
 
 *   **$gibbonSchoolYearID** - The ID of the year that the log was submitted in.
 *   **$gibbonModuleID (Optional)** - The ID of the module that submitted the log.
@@ -32,7 +38,9 @@ This function will return the ID of the log.
 
 This function will return a PDO result of the query.
 
-    getLogByID($connection2, $gibbonLogID);
+```php
+getLogByID($connection2, $gibbonLogID);
+```
 
 *   **$gibbonLogID** - The ID of the log you are looking for.
 
