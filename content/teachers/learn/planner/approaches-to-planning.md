@@ -1,13 +1,13 @@
-+++
-title = "Approaches to Planning"
-date = 2017-08-20T18:59:32+08:00
-categories = ["support"]
-tags = []
-weight = 10
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Approaches to Planning"
+date: 2017-08-20T18:59:32+08:00
+categories: ["support"]
+tags: []
+weight: 10
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 ### Introduction
 

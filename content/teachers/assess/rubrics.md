@@ -1,13 +1,13 @@
-+++
-title = "Rubrics"
-date = 2017-08-20T18:56:47+08:00
-categories = ["support"]
-tags = []
-weight = 30
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Rubrics"
+date: 2017-08-20T18:56:47+08:00
+categories: ["support"]
+tags: []
+weight: 30
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 ### Introduction
 

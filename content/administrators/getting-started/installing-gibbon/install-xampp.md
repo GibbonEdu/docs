@@ -1,14 +1,14 @@
-+++
-title = "Install Xampp for Testing on Windows"
-linkTitle = "Installing Xampp"
-date = 2017-08-20T14:09:45+08:00
-categories = ["support"]
-tags = []
-weight = 30
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Install Xampp for Testing on Windows"
+linktitle: "Installing Xampp"
+date: 2017-08-20T14:09:45+08:00
+categories: ["support"]
+tags: []
+weight: 30
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 The Gibbon school platform requires the PHP programming language and the MySQL database. The industry standard is to use the Linux operating system which runs most publicly facing web sites. However there are packages (or stacks) of software designed to make it easy to run under Microsoft Windows. Two of these are XAMPP and WAMPP. Note that both of these packages are aimed at making it easy to set up and experiment with on a local machine rather than for production use. Because of this they are designed to ignore security issues and so should not be used to run live sites. For example the default installation would allow a person with passing knowledge to login to your setup and delete all databases. So please do not use on live sites. In this tutorial, we will look at setting up XAMPP, in order to be ready to install Gibbon. Download XAMPP from the Apache Friends website [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html). There are several different versions of the install, the one used here was called xampp-win32-5.6.3-0-VC11-installer.exe When you run it you will probably get an alert similar to the following ![XAMPP install first page](https://gibbonedu.org/wp-content/uploads/2015/03/xampp_install_1.png) Don't worry, it is part of the standard install process. You may then get a message that says
 

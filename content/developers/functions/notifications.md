@@ -1,13 +1,13 @@
-+++
-title = "Notifications"
-date = 2017-08-20T18:19:52+08:00
-categories = ["support"]
-tags = []
-weight = 40
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Notifications"
+date: 2017-08-20T18:19:52+08:00
+categories: ["support"]
+tags: []
+weight: 40
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 As of v8.2.00, Gibbon has a new system for system-wide notifications. This replaces the old-fashioned (and very limited) approach of hard coding notifications into the sidebar. Any module, or indeed the core itself, can set a notification using the following system-wide function call:
 

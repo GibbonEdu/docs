@@ -1,6 +1,6 @@
-+++
-title = "API"
-weight = 100
-head = "<hr>"
-+++
+---
+title: "API"
+weight: 100
+head: "<hr>"
+---
 

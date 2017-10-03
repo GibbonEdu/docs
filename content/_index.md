@@ -1,8 +1,8 @@
-+++
-title = "Gibbon Docs"
-date = "2017-08-15T14:32:00+08:00"
+---
+title: "Gibbon Docs"
+date: "2017-08-15T14:32:00+08:00"
 
-+++
+---
 
 # Welcome
 

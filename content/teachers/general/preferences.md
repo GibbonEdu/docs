@@ -1,13 +1,13 @@
-+++
-title = "Preferences"
-date = 2017-08-20T18:54:46+08:00
-categories = ["support"]
-tags = []
-weight = 50
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Preferences"
+date: 2017-08-20T18:54:46+08:00
+categories: ["support"]
+tags: []
+weight: 50
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 ### Introduction
 

@@ -1,13 +1,13 @@
-+++
-title = "Rollover"
-date = 2017-08-20T15:05:22+08:00
-categories = ["support"]
-tags = []
-weight = 20
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Rollover"
+date: 2017-08-20T15:05:22+08:00
+categories: ["support"]
+tags: []
+weight: 20
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 The Rollover is Gibbon's tool for moving your installation from one school year to another, updating various records in one go.
 

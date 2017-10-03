@@ -1,13 +1,13 @@
-+++
-title = "Deploying a Unit"
-date = 2017-08-20T19:03:22+08:00
-categories = ["support"]
-tags = []
-weight = 10
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Deploying a Unit"
+date: 2017-08-20T19:03:22+08:00
+categories: ["support"]
+tags: []
+weight: 10
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 ## Introduction
 

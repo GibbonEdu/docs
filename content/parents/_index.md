@@ -1,13 +1,13 @@
-+++
-title = "Parents"
-date = 2017-08-20T14:10:32+08:00
-categories = ["support"]
-tags = ["parents", "getting started"]
-weight = 40
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Parents"
+date: 2017-08-20T14:10:32+08:00
+categories: ["support"]
+tags: ["parents", "getting started"]
+weight: 40
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 This manual is currently under development. Requests for new materials can be sent to [support@gibbonedu.org](mailto:support@gibbonedu.org).
 

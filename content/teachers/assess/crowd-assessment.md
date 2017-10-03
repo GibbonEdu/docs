@@ -1,13 +1,13 @@
-+++
-title = "Crowd Assessment"
-date = 2017-08-20T18:56:19+08:00
-categories = ["support"]
-tags = []
-weight = 20
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Crowd Assessment"
+date: 2017-08-20T18:56:19+08:00
+categories: ["support"]
+tags: []
+weight: 20
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 ### Introduction
 

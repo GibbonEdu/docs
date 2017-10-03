@@ -1,13 +1,13 @@
-+++
-title = "Connecting to Moodle"
-date = 2017-08-20T15:07:45+08:00
-categories = ["support"]
-tags = []
-weight = 20
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Connecting to Moodle"
+date: 2017-08-20T15:07:45+08:00
+categories: ["support"]
+tags: []
+weight: 20
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 By using the Gibbon module "Moodle" you can use Gibbon to populate Moodle with users and courses. To do this you will need to install the module (see [Extend](https://gibbonedu.org/extend/ "Extend")) and then configure 2 areas of Moodle with the settings shown below:
 

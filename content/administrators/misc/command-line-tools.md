@@ -1,13 +1,13 @@
-+++
-title = "Command Line Tools"
-date = 2017-08-20T15:06:46+08:00
-categories = ["support"]
-tags = []
-weight = 10
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Command Line Tools"
+date: 2017-08-20T15:06:46+08:00
+categories: ["support"]
+tags: []
+weight: 10
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 Gibbon features command line tools that allow you to automate certain tasks using cron, including the following:
 

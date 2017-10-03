@@ -1,13 +1,13 @@
-+++
-title = "Customizing Gibbon"
-date = 2017-08-20T14:10:32+08:00
-categories = ["support", "customization"]
-tags = []
-weight = 40
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Customizing Gibbon"
+date: 2017-08-20T14:10:32+08:00
+categories: ["support", "customization"]
+tags: []
+weight: 40
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 Gibbon is designed on the idea that every school is different, and hopes to provide tools to meet a wide range of needs. The approach to customizing Gibbon to your school needs depends on the scope of change you're looking to make.
 

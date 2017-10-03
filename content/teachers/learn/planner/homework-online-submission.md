@@ -1,13 +1,13 @@
-+++
-title = "Homework & Online Submission"
-date = 2017-08-20T19:00:50+08:00
-categories = ["support"]
-tags = []
-weight = 30
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Homework & Online Submission"
+date: 2017-08-20T19:00:50+08:00
+categories: ["support"]
+tags: []
+weight: 30
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 One of Gibbon's aims is to save teacher time by offering a system of [Smart Workflow]({{< relref "smart-workflow.md" >}}). Part of this process is arguably one of Gibbon's most time-saving features: the ability for students to submit work online. The result of using this feature is an organised collection of work, attached to a lesson, rather than a disparate set of emails or Google Docs.
 

@@ -1,13 +1,13 @@
-+++
-title = "Installing Gibbon"
-date = 2017-08-20T14:07:45+08:00
-categories = ["support"]
-tags = []
-weight = 10
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Installing Gibbon"
+date: 2017-08-20T14:07:45+08:00
+categories: ["support"]
+tags: []
+weight: 10
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 ## Server Requirements
 

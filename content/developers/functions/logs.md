@@ -1,13 +1,13 @@
-+++
-title = "Logs"
-date = 2017-08-20T18:19:13+08:00
-categories = ["support"]
-tags = []
-weight = 30
-# Author Details
-authorname = "Ross Parker"
-authorurl = "http://rossparker.org/"
-+++
+---
+title: "Logs"
+date: 2017-08-20T18:19:13+08:00
+categories: ["support"]
+tags: []
+weight: 30
+
+authorname: "Ross Parker"
+authorurl: "http://rossparker.org/"
+---
 
 As of v10.0.00, Gibbon has a new system for system-wide logs. This will allow you to create or replace a log system to keep track of certain events or create reports or statistics using the logs. Any module, or indeed the core itself, can set or get logs using the following system-wide function call:
 
