@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://docs.gibbonedu.org/"
 languageCode = "en-gb"
 DefaultContentLanguage = "en"
 
