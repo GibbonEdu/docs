@@ -1,13 +1,10 @@
 ---
 title: "Importing Users Into Gibbon"
 linktitle: "Importing Users"
-date: 2017-08-20T14:10:20+08:00
 categories: ["support"]
 tags: ["getting started"]
 weight: 30
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 Gibbon allows you to use CSV files to import synchronise users from other system. To do this go to ___Admin___ > ___User Admin___ in the main menu, and then ___Sync Users___ in the module menu. Note, it is also possible to import and sync student enrollment records and family relationships using other options within the User Admin module menu. When importing, the following procedure may help ensure your success:

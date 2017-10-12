@@ -1,12 +1,9 @@
 ---
 title: "Timetabling"
-date: 2017-08-20T15:05:12+08:00
 categories: ["support"]
 tags: []
 weight: 10
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 Gibbon supports storing and rendering of timetables using a non-grid-restrained approach. The timetable is created in a systematic, interactive procedure that is easy to achieve and understand. Before you proceed:

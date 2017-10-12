@@ -1,12 +1,9 @@
 ---
 title: "Smart Workflow"
-date: 2017-08-20T18:55:20+08:00
 categories: ["support"]
 tags: []
 weight: 60
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

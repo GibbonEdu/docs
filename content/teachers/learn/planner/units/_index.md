@@ -1,12 +1,9 @@
 ---
 title: "Units"
-date: 2017-08-20T19:02:46+08:00
 categories: ["support"]
 tags: []
 weight: 50
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

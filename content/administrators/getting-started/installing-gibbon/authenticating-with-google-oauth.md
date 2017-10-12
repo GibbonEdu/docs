@@ -1,12 +1,9 @@
 ---
 title: "Google Integration"
-date: 2017-08-20T14:08:34+08:00
 categories: ["support"]
 tags: []
 weight: 20
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 If your school uses GSuite (Formerly Google Apps), you can enable single sign on and calendar integration via Gibbon. This process makes use of Google APIs, including OAuth, and allows a user to access Gibbon without a username and password, provided that their listed email address is a Google account to which they have access

@@ -1,12 +1,9 @@
 ---
 title: "Making a Request"
-date: 2017-08-20T19:11:58+08:00
 categories: ["support"]
 tags: []
 weight: 30
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

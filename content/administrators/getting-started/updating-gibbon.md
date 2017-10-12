@@ -1,12 +1,9 @@
 ---
 title: "Updating Gibbon"
-date: 2017-08-20T14:11:09+08:00
 categories: ["support"]
 tags: ["getting started"]
 weight: 50
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ## Core Updates

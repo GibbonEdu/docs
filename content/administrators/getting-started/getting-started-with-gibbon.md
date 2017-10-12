@@ -1,13 +1,10 @@
 ---
 title: "Getting Started With Gibbon"
 linktitle: "Getting Started"
-date: 2017-08-20T14:10:06+08:00
 categories: ["support"]
-tags: ["getting started"]
+tags: ["getting started", "video"]
 weight: 20
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 Gibbon aims to cater to all sorts of schools, and the back end has a correspondingly large assortment of options. This can be overwhelming to start with, so this page aims to highlight the most important options when first setting up a school. The video below gives a quick start guide, with the following text going into more detail:

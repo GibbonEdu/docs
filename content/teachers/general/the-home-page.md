@@ -1,12 +1,9 @@
 ---
 title: "The Home Page"
-date: 2017-08-20T18:52:18+08:00
 categories: ["support"]
 tags: []
 weight: 20
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

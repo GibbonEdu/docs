@@ -1,12 +1,9 @@
 ---
 title: "Notifications"
-date: 2017-08-20T18:54:15+08:00
 categories: ["support"]
 tags: []
 weight: 40
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

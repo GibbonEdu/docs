@@ -1,12 +1,9 @@
 ---
 title: "Custom Fields"
-date: 2017-08-20T14:10:46+08:00
 categories: ["support", "customization"]
 tags: []
 weight: 10
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

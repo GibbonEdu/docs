@@ -1,12 +1,9 @@
 ---
 title: "Module Development"
-date: 2017-08-20T18:16:23+08:00
 categories: ["support", "customization"]
 tags: []
 weight: 30
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 If you are interested in developing a module for Gibbon, use the instructions below. Contact [support@gibbonedu.org](mailto:support@gibbonedu.org) if you are stuck.

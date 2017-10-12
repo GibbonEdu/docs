@@ -1,12 +1,9 @@
 ---
 title: "Useful SQL"
-date: 2017-08-20T15:11:14+08:00
 categories: ["support"]
 tags: []
 weight: 60
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 {{% alert theme="danger" %}}**PLEASE NOTE THAT THIS PAGE IS NO LONGER UPDATED. ALL OF THESE USEFUL SQL QUERIES, PLUS MORE IN TIME, ARE NOW AVAILABLE TO RUN DIRECTLY IN GIBBON USING THE QUERY BUILDER MODULE. DOWNLOAD IT ON OUR [<span style="color: #ff0000;">EXTEND PAGE</span>](https://gibbonedu.org/extend/ "Extend").**{{% /alert %}}

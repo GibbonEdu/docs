@@ -1,12 +1,9 @@
 ---
 title: "Parents"
-date: 2017-08-20T14:10:32+08:00
 categories: ["support"]
 tags: ["parents", "getting started"]
 weight: 40
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 This manual is currently under development. Requests for new materials can be sent to [support@gibbonedu.org](mailto:support@gibbonedu.org).
@@ -25,7 +22,7 @@ One of Gibbon's most useful features is the Planner, which allows you to see wha
 
 ![Screen Shot 2013-05-10 at 10.25.44 AM](https://gibbonedu.org/wp-content/uploads/2013/05/Screen-Shot-2013-05-10-at-10.25.44-AM.png)
 
-Use ![zoom](https://gibbonedu.org/wp-content/uploads/2013/05/zoom.png) icon to select a lesson and view more details. Once inside a lesson you can post chat messages, available to student, teachers and other parents. You can use the ![like_off](https://gibbonedu.org/wp-content/uploads/2013/05/like_off.png)icon to give positive feedback on a lesson (this helps teachers to know what you like).
+Use ![zoom](https://gibbonedu.org/wp-content/uploads/2013/05/zoom.png?classes=inline) icon to select a lesson and view more details. Once inside a lesson you can post chat messages, available to student, teachers and other parents. You can use the ![like_off](https://gibbonedu.org/wp-content/uploads/2013/05/like_off.png?classes=inline)icon to give positive feedback on a lesson (this helps teachers to know what you like).
 
 #### Homework & Deadlines
 

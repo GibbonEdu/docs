@@ -1,12 +1,9 @@
 ---
 title: "Multilingual, Internationalisation & Localisation"
-date: 2017-08-20T15:08:44+08:00
 categories: ["support"]
 tags: []
 weight: 40
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ## Translation

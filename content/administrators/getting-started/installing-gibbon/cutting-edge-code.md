@@ -1,12 +1,9 @@
 ---
 title: "Cutting Edge Code"
-date: 2017-08-20T14:08:01+08:00
 categories: ["support"]
 tags: []
 weight: 10
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ## Introduction

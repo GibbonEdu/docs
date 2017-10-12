@@ -1,12 +1,9 @@
 ---
 title: "Planner"
-date: 2017-08-20T18:58:30+08:00
 categories: ["support"]
 tags: []
 weight: 10
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction

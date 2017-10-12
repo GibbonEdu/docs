@@ -1,12 +1,9 @@
 ---
 title: "Outcomes"
-date: 2017-08-20T19:02:20+08:00
 categories: ["support"]
 tags: []
 weight: 40
-
-authorname: "Ross Parker"
-authorurl: "http://rossparker.org/"
+contributors: ["rossdotparker"]
 ---
 
 ### Introduction
