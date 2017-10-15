@@ -30,7 +30,7 @@ If you want to get involved in the development process, check out our [GitHub re
 
 ## Mailing List
 
-To receive emails on our Release & Security mailing list, please use the form on the right.
+To receive emails on our Release & Security mailing list, please use the form on the left.
 
 ## Email
 

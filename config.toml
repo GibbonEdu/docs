@@ -68,25 +68,20 @@ weight = 60
 ## Sidebar Links
 
 [[menu.shortcuts]]
-pre = "<h3>Links</h3>"
-name = "<i class='fa fa-fw fa-home'></i> Gibbon Website"
-url = "https://gibbonedu.org"
-weight = 10
-
-[[menu.shortcuts]]
+pre = "<h5>Links</h5>"
 name = "<i class='fa fa-fw fa-comments-o'></i> Support Forum"
 url = "https://ask.gibbonedu.org"
 weight = 20
 
 [[menu.shortcuts]]
 
-name = "<i class='fa fa-fw fa-github'></i> GibbonEdu/core"
+name = "<i class='fa fa-fw fa-github'></i> Gibbon on GitHub"
 identifier = "ds"
 url = "https://github.com/GibbonEdu/core/"
 weight = 30
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-fw fa-github'></i> GibbonEdu/docs"
+name = "<i class='fa fa-fw fa-github'></i> Docs on GitHub"
 url = "https://github.com/GibbonEdu/docs/"
 weight = 40
 
