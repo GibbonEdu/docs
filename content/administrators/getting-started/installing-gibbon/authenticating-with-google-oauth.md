@@ -1,5 +1,6 @@
 ---
 title: "Google Integration"
+slug: google-oauth
 categories: ["support"]
 tags: []
 weight: 20

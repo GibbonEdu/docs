@@ -64,4 +64,4 @@ Most users of Gibbon will fit into three main categories: staff, student, parent
 
 ## Timetable
 
-Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling]({{< relref "administrators/timetable-and-rollover/timetabling.md" >}}) section.
+Enabling and configuring a timetable improves staff efficiency in many of the other areas of the system (such as the planner). This is covered in more detail in the [Timetabling]({{< relref "administrators/timetable/timetabling.md" >}}) section.

@@ -1,6 +1,7 @@
 ---
 title: "Importing Users Into Gibbon"
 linktitle: "Importing Users"
+slug: importing-users
 categories: ["support"]
 tags: ["getting started"]
 weight: 30
