@@ -61,7 +61,7 @@ weight = 50
 
 [[menu.links]]
 name = "Support"
-url = "https://gibbonedu.org/support"
+url = "https://docs.gibbonedu.org"
 weight = 60
 
 
