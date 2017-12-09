@@ -12,7 +12,7 @@ contributors: ["rossdotparker"]
 
 ## Getting Started
 
-You can use LaTeX anywhere in Gibbon that has a rich text editor. Simply switch from Visual to HTML views to get started: [![Editor](https://gibbonedu.org/wp-content/uploads/2015/09/Editor-1024x762.png)](https://gibbonedu.org/wp-content/uploads/2015/09/Editor.png) Once in HTML view, wrap your LaTeX code in a div tag, with class set to latex, as shown below: [![LaTeX Raw](https://gibbonedu.org/wp-content/uploads/2015/09/LaTeX-Raw-1024x93.png)](https://gibbonedu.org/wp-content/uploads/2015/09/LaTeX-Raw.png) When the content is saved and viewed, the LaTeX will be rendered, as below: ![LaTeX](https://gibbonedu.org/wp-content/uploads/2015/09/LaTeX.gif)
+You can use LaTeX anywhere in Gibbon that has a rich text editor. Simply switch from Visual to HTML views to get started: [![Editor](/wp/2015/09/Editor-1024x762.png)](/wp/2015/09/Editor.png) Once in HTML view, wrap your LaTeX code in a div tag, with class set to latex, as shown below: [![LaTeX Raw](/wp/2015/09/LaTeX-Raw-1024x93.png)](/wp/2015/09/LaTeX-Raw.png) When the content is saved and viewed, the LaTeX will be rendered, as below: ![LaTeX](/wp/2015/09/LaTeX.gif)
 
 ## Credits
 

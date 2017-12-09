@@ -14,7 +14,7 @@ Modules are the easiest way to extend Gibbon without having to hack the core, an
 
 ## Starter Module
 
-Download the [starter module](https://gibbonedu.org/wp-content/uploads/2012/11/Starter-Module-v12.0.00.zip) and use it to begin coding up a module. Remove or replace the GNU GPL statement depending on your needs. The starter module consists of:
+Download the [starter module](/wp/2012/11/Starter-Module-v12.0.00.zip) and use it to begin coding up a module. Remove or replace the GNU GPL statement depending on your needs. The starter module consists of:
 
 *   **CHANGEDB.php** - stores database changes for each version of the module, used in upgrades.
 *   **CHANGELOG.txt** - list of changes per version
@@ -40,7 +40,7 @@ As of Gibbon v13 (released on January 20th 2016), additional modules are transla
 *   For any translatable text in the module's code, wrap it for translation as:
     *   e.g. `__($guid, $row['nameDisplay'], 'Free Learning');` where the third argument is the module name and sets the domain for translation.
     *   This process is not yet 100% complete on the Free Learning module.
-*   In order to generate your PO file, use a variant of this [xgettextGenerationCommands.sh shell script](https://gibbonedu.org/wp-content/uploads/2012/11/xgettextGenerationCommands.sh)
+*   In order to generate your PO file, use a variant of this [xgettextGenerationCommands.sh shell script](/wp/2012/11/xgettextGenerationCommands.sh)
     *   This script could be improved by filtering on the domain in `__()`, so as to ignore any strings that already exist in gibbon.PO, and so need not be retranslated. _Any takers?_
 
 The PO file can now be translated, and the resulting MO file produced. Installing and using such a module should lead to the relevant strings being translated.
