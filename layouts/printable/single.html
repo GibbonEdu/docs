@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    {{ .Hugo.Generator }}
+    {{ partial "meta.html" . }}
+    <title>{{ .Title }} :: {{ .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{"images/favicon.ico" | relURL}}" type="image/x-icon" />
+    <!-- <link href="{{"css/nucleus.css" | relURL}}" rel="stylesheet"> -->
+    <link href="{{"css/font-awesome.min.css" | relURL}}" rel="stylesheet">
+    <!-- {{with .Site.Params.highlightStyle}}
+    <link href="{{(printf "css/%s.css" .) | relURL}}" rel="stylesheet">
+    {{else}}
+    <link href="{{"css/hybrid.css" | relURL}}" rel="stylesheet">
+    {{end}} -->
+    <link href="{{"css/featherlight.min.css" | relURL}}" rel="stylesheet">
+    <link href="{{"css/auto-complete.css" | relURL}}" rel="stylesheet">
+    {{with .Site.Params.themeStyle}}
+    <link href="{{(printf "css/%s.css" .) | relURL}}" rel="stylesheet">
+    {{else}}
+    <link href="{{"css/theme.css" | relURL}}" rel="stylesheet">
+    {{end}}
+    {{with .Site.Params.themeVariant}}
+      <link href="{{(printf "css/theme-%s.css" .) | relURL}}" rel="stylesheet">
+    {{end}}
+    <link rel="stylesheet" href="{{"css/bootstrap.min.css" | relURL}}">
+    <script src="{{"js/jquery-2.x.min.js" | relURL}}"></script>
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left {
+        display:none !important;
+      }
+      h2:not(.print-title) {
+        font-size: 1.4rem;
+      }
+      h3:not(.print-title) {
+        font-size: 1.25rem;
+      }
+      h4:not(.print-title) {
+        font-size: 1.0rem;
+      }
+      img {
+        page-break-inside: avoid;
+      }
+      iframe {
+          display: block;
+      }
+    </style>
+  </head>
+  <body class="" data-url="{{ .RelPermalink }}" style="font-size: 14px;">
+
+    <h1>{{ .Site.Title }}<br/>
+        <small style="text-transform: none;"><strong>{{ .Site.Params.version }}</strong></small>
+    </h1>
+
+    {{ with .Parent }}
+        <div>
+            <h2 class="print-title" style="text-align:center;font-size: 5rem;">{{ .Title }}</h2>
+
+            {{ .Content }}
+
+            {{ if .Sections }}
+                {{ range .Sections.ByWeight }}
+                <article style="page-break-before: always;">
+                {{ template "all" dict "depth" 0 "Page" . }}
+                </article>
+                {{ end }}
+            {{ end }}
+        </div>
+    {{ end }}
+
+    {{ define "all" }}
+        
+        <article>
+        {{ $depth := (add .depth 1) }}
+        {{ $h := (add $depth 1) }} 
+		{{ $pages := (union .Page.Pages .Page.Sections) }}
+
+        <h{{$h}} class="print-title">{{ .Page.Title }}</h{{$h}}>
+        <hr>
+        
+        {{ .Page.Content }}
+
+		{{ if $pages }}
+            {{ range $pages.ByWeight }}
+				{{ template "all" dict "depth" $depth "Page" . }}	
+			{{ end }}
+        {{ end }}
+        </article>
+	{{ end }}
+    
+
+    {{ partial "footer/credits.html" . }}
+
+  </body>
+</html>
