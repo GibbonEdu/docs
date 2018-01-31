@@ -13,7 +13,7 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
     *   Release - June 20th 2018
     *   GitHub Development branch - [https://github.com/GibbonEdu/core/tree/v16.0.00](https://github.com/GibbonEdu/core/tree/v16.0.00)
     *   Planning Board - [https://trello.com/b/nBoJaTyj/gibbon-v16](https://trello.com/b/nBoJaTyj/gibbon-v16)
-*   __v17.0.00__
+*   __v17.0.00__ (aka <span class="_Xbe">Apliu Gai</span>)
     *   String Freeze - December 20th 2018
     *   Release - January 20th 2019
     *   GitHub Development branch - coming soon
