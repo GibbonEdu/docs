@@ -21,9 +21,9 @@ Budgets allow the division and annual re-stocking, of financial resources, again
 
 1.  Go to **Other** > **Finance** in the main menu at the top of the page.
 2.  Select **Manage Budgets** in the module menu
-    1.  Use the **Add** button ![page_new](https://gibbonedu.org/wp-content/uploads/2012/12/page_new.gif?classes=inline) to create new budget areas.
+    1.  Use the **Add** button ![page_new](/wp/2012/12/page_new.gif?classes=inline) to create new budget areas.
     2.  Ensure that new budget areas have the correct staff, with the correct permissions, allocated to them.
 3.  Select **Manage Budget Cycles** in the module menu
-    1.  Use the **Add** button ![page_new](https://gibbonedu.org/wp-content/uploads/2012/12/page_new.gif?classes=inline) to create new budget cycles.
+    1.  Use the **Add** button ![page_new](/wp/2012/12/page_new.gif?classes=inline) to create new budget cycles.
     2.  For each new budget cycle, allocate funds to appropriate budgets.
 4.  Move on to look at the [expense Approval Process]({{< relref "approval.md" >}}).

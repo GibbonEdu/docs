@@ -25,7 +25,7 @@ After download and unzipping:
 _Note: If you want to help test and develop Gibbon, you can select the [Cutting Edge Code]({{< relref "cutting-edge-code.md" >}}) option in the installer. This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core). This is not recommended for production environments._
 
 {{% panel %}}
-Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) or [demo](https://www.softaculous.com/demos/Gibbon) Gibbon via Softaculous. [![](https://gibbonedu.org/wp-content/uploads/2014/11/softaculous.gif)](https://www.softaculous.com/apps/educational/Gibbon)
+Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) or [demo](https://www.softaculous.com/demos/Gibbon) Gibbon via Softaculous. [![](/wp/2014/11/softaculous.gif)](https://www.softaculous.com/apps/educational/Gibbon)
 {{% /panel %}}
 
 ## Softaculous Installation

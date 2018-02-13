@@ -6,8 +6,6 @@ contributors: ["rossdotparker"]
 
 # Welcome
 
-{{% alert theme="info" %}}What's this?! The gibbons are still monkeying around with this site! Be sure to check back later.{{% /alert %}}
-
 ## Manual
 
 Use the menu on the left to navigate support materials depending on your role in using Gibbon.
