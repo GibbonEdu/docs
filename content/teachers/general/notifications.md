@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-A range of events across Gibbon lead to a notification being created for the people involved (e.g. when a student comments on a lesson plan alerts teachers and students in that class). These notifications are highlighted in the Minor Links bar in the Gibbon interface: [![Notifications_1](/wp/2015/08/Notifications_1-1024x223.png)](/wp/2015/08/Notifications_1.png)
+A range of events across Gibbon lead to a notification being created for the people involved (e.g. when a student comments on a lesson plan, teachers and students in that class are sent an alert). These notifications are highlighted in the Minor Links bar in the Gibbon interface: [![Notifications_1](/wp/2015/08/Notifications_1-1024x223.png)](/wp/2015/08/Notifications_1.png)
 
 ### Notification Actions
 
