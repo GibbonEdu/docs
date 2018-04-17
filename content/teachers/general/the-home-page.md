@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-The Gibbon homepage for teachers seeks to give you all the information you need to do your job as an educater, in one place, with quick access to other data from around the system built right in.
+The Gibbon homepage for teachers seeks to give you all the information you need to do your job as an educator, in one place, with quick access to other data from around the system built right in.
 
 ### Features
 
