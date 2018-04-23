@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ## Introduction
 
-Gibbon has the ability to sound an alarm to all users currently logged in with a role whose category is Staff. Alarms can be one of three types: `general`, `lockdown`, `custom`. Staff receiving the alert are asked to click to confirm their receipt, and those users with alarm-sounding privileges are presented with a report of who has and has and has not confirmed the alarm.
+Gibbon has the ability to sound an alarm to all users currently logged in with a role whose category is Staff. Alarms can be one of three types: `general`, `lockdown`, `custom`. Staff receiving the alert are asked to click to confirm their receipt, and those users with alarm-sounding privileges are presented with a report of who has and has not confirmed the alarm.
 
 ## Sounding An Alarm
 
@@ -16,7 +16,7 @@ Gibbon has the ability to sound an alarm to all users currently logged in with a
 
 ![Sounding An Alarm_1](/wp/2016/01/Sounding-An-Alarm_1-1024x373.png) ![Sounding An Alarm_2](/wp/2016/01/Sounding-An-Alarm_2-1024x345.png)
 
-*   Or search for "Sound Alarm" or "Sound Lockdown" in Faster Finder:
+*   Or search for "Sound Alarm" or "Sound Lockdown" in Fast Finder:
 
 ![Sounding An Alarm_3](/wp/2016/01/Sounding-An-Alarm_3-1024x251.png)
 
@@ -34,8 +34,8 @@ Gibbon has the ability to sound an alarm to all users currently logged in with a
 
 ![Sounding An Alarm_6](/wp/2016/01/Sounding-An-Alarm_6-1024x556.png)
 
-*   Once a staff user has click the link, their confirmation will be confirmed to them, and they will be updated on the confirmation report for alarm sounders. The alarm will continue to sound, and will reappear even if closed: this will occur until the arm is no longer in effect.
+*   Once a staff user has clicked the link, it will be confirmed, and they will be updated on the confirmation report for alarm sounders. The alarm will continue to sound, and will reappear even if closed: this will occur until the alarm is no longer actuated.
 
 ![Sounding An Alarm_7](/wp/2016/01/Sounding-An-Alarm_7-1024x554.png)
 
-*   Once the alarm is over, the alarm sounder can disable the alarm using the "Turn Alarm Off" link at the top right of the alarm screen.
+*   Once the alarming situation is over, the alarm sounder can disable the alarm using the "Turn Alarm Off" link at the top right of the alarm screen.
