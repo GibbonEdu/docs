@@ -1,6 +1,5 @@
 ---
 title: "NotificationGateway"
-date: 2018-06-03T12:46:34+00:00
 weight: 0
 class: \Gibbon\Domain\System\NotificationGateway
 generated: true
