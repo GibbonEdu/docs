@@ -18,7 +18,6 @@ If you need help, but can't find it here, try asking members of the Gibbon commu
 
 At this time the Gibbon team are not certifying any companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
 
-*   [Rapid36](http://rapid36.com/), Hong Kong
 *   [Titus Learning](http://www.tituslearning.com/), United Kingdom
 *   [Xcobean](https://xcobean.org/), Kenya
 
