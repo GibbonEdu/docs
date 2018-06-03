@@ -1,0 +1,247 @@
+---
+title: "Table"
+date: 2018-06-03T12:46:34+00:00
+weight: 0
+class: \Gibbon\Forms\Layout\Table
+generated: true
+---
+
+## Table
+
+Column
+
+
+
+* Full name: \Gibbon\Forms\Layout\Table
+* This class implements: \Gibbon\Forms\OutputableInterface, \Gibbon\Forms\ValidatableInterface
+
+{{< api-example >}} 
+
+
+
+### Methods
+
+- [__construct](#__construct)<small> — Create an element that holds an internal collection of rows and optional header.</small>
+- [addHeaderRow](#addheaderrow)<small> — Add a header to the internal collection and return the resulting Row object.</small>
+- [addRow](#addrow)<small> — Add a row to the internal collection and return the resulting object.</small>
+- [getHeaders](#getheaders)<small> — Get all rows defined as headers.</small>
+- [getElements](#getelements)<small> — Get all rows in the table.</small>
+- [getOutput](#getoutput)<small> — Get the HTML output of the table element. Iterate over headers and rows to build a table.</small>
+- [addValidation](#addvalidation)<small> — Dead-end stub for interface: columns cannot validate.</small>
+- [getValidationOutput](#getvalidationoutput)<small> — Iterate over each element in the collection and get the combined validation output.</small>
+- [loadFrom](#loadfrom)<small> — Pass an array of $key => $value pairs into each element in the collection.</small>
+
+
+
+
+###### Inherited from BasicAttributesTrait
+- [setID]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#setid" >}})
+- [getID]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getid" >}})
+- [setTitle]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#settitle" >}})
+- [getTitle]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#gettitle" >}})
+- [setClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#setclass" >}})
+- [addClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#addclass" >}})
+- [removeClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#removeclass" >}})
+- [getClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getclass" >}})
+- [addData]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#adddata" >}})
+- [getData]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getdata" >}})
+- [getAttributeString]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getattributestring" >}})
+
+
+
+### __construct
+
+Create an element that holds an internal collection of rows and optional header.
+
+```php
+Table::__construct( \Gibbon\Forms\FormFactoryInterface $factory, string $id = '' )
+```
+
+
+
+
+
+
+
+
+
+---
+
+### addHeaderRow
+
+Add a header to the internal collection and return the resulting Row object.
+
+```php
+Table::addHeaderRow( string $id = '' ): object
+```
+
+
+
+
+
+
+**Return Value:**
+`object`  Row
+
+
+
+---
+
+### addRow
+
+Add a row to the internal collection and return the resulting object.
+
+```php
+Table::addRow( string $id = '' ): object
+```
+
+
+
+
+
+
+**Return Value:**
+`object`  Row
+
+
+
+---
+
+### getHeaders
+
+Get all rows defined as headers.
+
+```php
+Table::getHeaders( ): array
+```
+
+
+
+
+
+
+**Return Value:**
+`array`  
+
+
+
+---
+
+### getElements
+
+Get all rows in the table.
+
+```php
+Table::getElements( ): array
+```
+
+
+
+
+
+
+**Return Value:**
+`array`  
+
+
+
+---
+
+### getOutput
+
+Get the HTML output of the table element. Iterate over headers and rows to build a table.
+
+```php
+Table::getOutput( ): string
+```
+
+
+
+
+
+
+**Return Value:**
+`string`  
+
+
+
+---
+
+### getColumnCount
+
+Get the minimum columns required to render this table.
+
+```php
+Table::getColumnCount( ): integer
+```
+
+
+
+
+
+
+**Return Value:**
+`integer`  
+
+
+
+---
+
+### addValidation
+
+Dead-end stub for interface: columns cannot validate.
+
+```php
+Table::addValidation( string $name ): self
+```
+
+
+
+
+
+
+**Returns Self:** This method can be chained.
+
+
+
+---
+
+### getValidationOutput
+
+Iterate over each element in the collection and get the combined validation output.
+
+```php
+Table::getValidationOutput( ): string
+```
+
+
+
+
+
+
+**Return Value:**
+`string`  
+
+
+
+---
+
+### loadFrom
+
+Pass an array of $key => $value pairs into each element in the collection.
+
+```php
+Table::loadFrom( &$data ): self
+```
+
+
+
+
+
+
+**Returns Self:** This method can be chained.
+
+
+
+---
+
