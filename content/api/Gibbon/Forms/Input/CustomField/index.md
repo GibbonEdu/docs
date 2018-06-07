@@ -121,26 +121,6 @@ CustomField::setValue( mixed $value = '' )
 
 ---
 
-### getElement
-
-Gets the internal Input object
-
-```php
-CustomField::getElement( ): object
-```
-
-
-
-
-
-
-**Return Value:**
-`object`  Input
-
-
-
----
-
 ### getValidationOutput
 
 Get the validation output from the internal Input object.

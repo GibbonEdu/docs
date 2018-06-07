@@ -21,8 +21,9 @@ Queryable Gateway
 ### Methods
 
 - [queryCoursesBySchoolYear](#querycoursesbyschoolyear)
+- [selectClassesBySchoolYear](#selectclassesbyschoolyear)
 - [selectClassesByCourseID](#selectclassesbycourseid)
-- [selectCourseEnrolmentByRollGroup](#selectcourseenrolmentbyrollgroup)
+- [getCourseClassByID](#getcourseclassbyid)
 
 
 
@@ -59,6 +60,24 @@ CourseGateway::queryCoursesBySchoolYear( \Gibbon\Domain\QueryCriteria $criteria,
 
 ---
 
+### selectClassesBySchoolYear
+
+
+
+```php
+CourseGateway::selectClassesBySchoolYear( $gibbonSchoolYearID )
+```
+
+
+
+
+
+
+
+
+
+---
+
 ### selectClassesByCourseID
 
 
@@ -77,12 +96,12 @@ CourseGateway::selectClassesByCourseID( $gibbonCourseID )
 
 ---
 
-### selectCourseEnrolmentByRollGroup
+### getCourseClassByID
 
 
 
 ```php
-CourseGateway::selectCourseEnrolmentByRollGroup( $gibbonRollGroupID )
+CourseGateway::getCourseClassByID( $gibbonCourseClassID )
 ```
 
 

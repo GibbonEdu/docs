@@ -89,23 +89,3 @@ Heading::setRow( object $row )
 
 ---
 
-### getElement
-
-Get the content text of the element.
-
-```php
-Heading::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

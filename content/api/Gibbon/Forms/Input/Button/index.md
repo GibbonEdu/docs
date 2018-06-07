@@ -120,21 +120,3 @@ Button::onClick( $value )
 
 ---
 
-### getElement
-
-
-
-```php
-Button::getElement( )
-```
-
-
-
-
-
-
-
-
-
----
-

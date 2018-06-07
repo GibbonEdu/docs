@@ -205,24 +205,3 @@ NotificationEvent::getEventDetails( \Gibbon\Domain\System\NotificationGateway $g
 
 ---
 
-### addEventListeners
-
-Finds all listeners in the database for this event and adds them as recipients. The returned set
-of listeners are filtered by the event scopes.
-
-```php
-NotificationEvent::addEventListeners( \Gibbon\Domain\System\NotificationGateway $gateway, integer $gibbonNotificationEventID, array $scopes ): integer
-```
-
-
-
-
-
-
-**Return Value:**
-`integer`  Listener count
-
-
-
----
-

@@ -22,6 +22,7 @@ User Gateway
 
 - [queryAllUsers](#queryallusers)<small> — Queries the list of users for the Manage Users page.</small>
 - [selectFamilyDetailsByPersonID](#selectfamilydetailsbypersonid)<small> — Selects the family info for a subset of users. Primarily used to join family data to the queryAllUsers results.</small>
+- [selectUserNamesByStatus](#selectusernamesbystatus)
 
 
 
@@ -76,6 +77,24 @@ UserGateway::selectFamilyDetailsByPersonID( string|array $gibbonPersonIDList ): 
 
 **Return Value:**
 `\Gibbon\Domain\User\Result`  
+
+
+
+---
+
+### selectUserNamesByStatus
+
+
+
+```php
+UserGateway::selectUserNamesByStatus( $status = 'Full' )
+```
+
+
+
+
+
+
 
 
 

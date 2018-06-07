@@ -24,24 +24,6 @@ Provides common filter and row highlight logic for tables that deal with user ro
 
 
 
-### getSharedUserFilterRules
-
-
-
-```php
-SharedUserLogic::getSharedUserFilterRules( )
-```
-
-
-
-
-
-
-
-
-
----
-
 ### getSharedUserRowHighlighter
 
 

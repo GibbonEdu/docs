@@ -201,23 +201,3 @@ TextArea::autosize( $autosize = true ): self
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-TextArea::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

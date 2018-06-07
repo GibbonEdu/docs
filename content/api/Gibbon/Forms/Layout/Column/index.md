@@ -173,23 +173,3 @@ Column::getValidationOutput( ): string
 
 ---
 
-### getContainerClass
-
-Gets the classname for the div container inside the column.
-
-```php
-Column::getContainerClass( \Gibbon\Forms\Layout\Element $element ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

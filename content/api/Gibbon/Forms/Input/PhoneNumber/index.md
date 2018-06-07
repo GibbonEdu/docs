@@ -204,23 +204,3 @@ PhoneNumber::getValidationOutput( ): string
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-PhoneNumber::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

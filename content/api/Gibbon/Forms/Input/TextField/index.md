@@ -182,23 +182,3 @@ TextField::getLabelContext( $label ): string|boolean
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-TextField::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

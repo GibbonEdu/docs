@@ -21,20 +21,21 @@ such as the DataTable that loop over and format array data.
 
 ### Methods
 
-- [addFormatter](#addformatter)
-- [getFormatter](#getformatter)
-- [using](#using)
-- [__callStatic](#__callstatic)
+- [addFormatter](#addformatter)<small> — Add a callable as an available format during runtime. Useful for additional modules.</small>
+- [getFormatter](#getformatter)<small> — Get the callable function or method for a format by name.</small>
+- [using](#using)<small> — Returns a callable function that can be used to format a bulk array of data.</small>
+- [keyValue](#keyvalue)<small> — Formats an array of data into key => value pairs by applying a format method to each returned value.</small>
+- [__callStatic](#__callstatic)<small> — Calls a format method by name, allowing pre-defined formatters to be used.</small>
 
 
 
 
 ### addFormatter
 
-
+Add a callable as an available format during runtime. Useful for additional modules.
 
 ```php
-static FormatResolver::addFormatter( $method, callable $callable )
+static FormatResolver::addFormatter( string $method, callable $callable )
 ```
 
 
@@ -49,10 +50,10 @@ static FormatResolver::addFormatter( $method, callable $callable )
 
 ### getFormatter
 
-
+Get the callable function or method for a format by name.
 
 ```php
-static FormatResolver::getFormatter( $method )
+static FormatResolver::getFormatter( string $method ): callable
 ```
 
 
@@ -60,6 +61,8 @@ static FormatResolver::getFormatter( $method )
 * This method is **static**.
 
 
+**Return Value:**
+`callable`  
 
 
 
@@ -67,10 +70,30 @@ static FormatResolver::getFormatter( $method )
 
 ### using
 
-
+Returns a callable function that can be used to format a bulk array of data.
 
 ```php
-static FormatResolver::using( $method, $param )
+static FormatResolver::using( string $method, array $param = null ): callable
+```
+
+The callable returned takes a single array of data and returns the formatted string.
+
+* This method is **static**.
+
+
+**Return Value:**
+`callable`  
+
+
+
+---
+
+### keyValue
+
+Formats an array of data into key => value pairs by applying a format method to each returned value.
+
+```php
+static FormatResolver::keyValue( array $data, string $key, string $method, array $param = null ): array
 ```
 
 
@@ -78,6 +101,8 @@ static FormatResolver::using( $method, $param )
 * This method is **static**.
 
 
+**Return Value:**
+`array`  
 
 
 
@@ -85,10 +110,10 @@ static FormatResolver::using( $method, $param )
 
 ### __callStatic
 
-
+Calls a format method by name, allowing pre-defined formatters to be used.
 
 ```php
-static FormatResolver::__callStatic( $method, $arguments = array() )
+static FormatResolver::__callStatic( string $method, array $arguments = array() ): mixed
 ```
 
 
@@ -96,6 +121,8 @@ static FormatResolver::__callStatic( $method, $arguments = array() )
 * This method is **static**.
 
 
+**Return Value:**
+`mixed`  
 
 
 

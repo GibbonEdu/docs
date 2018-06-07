@@ -64,21 +64,3 @@ SpreadsheetRenderer::renderTable( \Gibbon\Tables\DataTable $table, \Gibbon\Domai
 
 ---
 
-### num2alpha
-
-
-
-```php
-SpreadsheetRenderer::num2alpha( $n )
-```
-
-
-
-
-
-
-
-
-
----
-

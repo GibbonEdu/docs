@@ -150,23 +150,3 @@ Date::getLabelContext( $label ): string|boolean
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-Date::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

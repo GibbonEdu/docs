@@ -26,6 +26,7 @@ Format values based on locale and system settings.
 - [dateTime](#datetime)<small> — Formats a YYYY-MM-DD H:I:S MySQL timestamp as a readable string. Optionally provide a format string to use.</small>
 - [dateReadable](#datereadable)<small> — Formats a YYYY-MM-DD date as a readable string with month names.</small>
 - [dateRange](#daterange)<small> — Formats two YYYY-MM-DD dates with the language-specific format. Optionally provide a format string to use instead.</small>
+- [dateRangeReadable](#daterangereadable)<small> — Formats two YYYY-MM-DD dates as a readable string, collapsing same months and same years.</small>
 - [dateFromTimestamp](#datefromtimestamp)<small> — Formats a Unix timestamp as the language-specific format. Optionally provide a format string to use instead.</small>
 - [timestamp](#timestamp)<small> — Converts a YYYY-MM-DD date to a Unix timestamp.</small>
 - [time](#time)<small> — Formats a time from a given MySQL time or timestamp value.</small>
@@ -50,6 +51,7 @@ Format values based on locale and system settings.
 - [addFormatter]({{< ref "api/Gibbon/Services/FormatResolver/index.md#addformatter" >}})
 - [getFormatter]({{< ref "api/Gibbon/Services/FormatResolver/index.md#getformatter" >}})
 - [using]({{< ref "api/Gibbon/Services/FormatResolver/index.md#using" >}})
+- [keyValue]({{< ref "api/Gibbon/Services/FormatResolver/index.md#keyvalue" >}})
 - [__callStatic]({{< ref "api/Gibbon/Services/FormatResolver/index.md#__callstatic" >}})
 
 
@@ -176,6 +178,26 @@ Formats two YYYY-MM-DD dates with the language-specific format. Optionally provi
 
 ```php
 static Format::dateRange( string $dateFrom, string $dateTo, $format = false ): string
+```
+
+
+
+* This method is **static**.
+
+
+**Return Value:**
+`string`  
+
+
+
+---
+
+### dateRangeReadable
+
+Formats two YYYY-MM-DD dates as a readable string, collapsing same months and same years.
+
+```php
+static Format::dateRangeReadable( string $dateFrom, string $dateTo ): string
 ```
 
 

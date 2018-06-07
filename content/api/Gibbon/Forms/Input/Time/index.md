@@ -149,23 +149,3 @@ Time::getLabelContext( $label ): string|boolean
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-Time::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

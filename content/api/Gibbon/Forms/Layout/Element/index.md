@@ -220,23 +220,3 @@ Element::getOutput( ): string
 
 ---
 
-### getElement
-
-Get the content text of the element.
-
-```php
-Element::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

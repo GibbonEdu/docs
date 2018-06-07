@@ -214,46 +214,6 @@ Connection::affectingStatement( string $query, array $bindings = array() ): inte
 
 ---
 
-### run
-
-Run a SQL statement, return the PDOStatement and handle exceptions.
-
-```php
-Connection::run( string $query, array $bindings = array() ): mixed
-```
-
-
-
-
-
-
-**Return Value:**
-`mixed`  
-
-
-
----
-
-### handleQueryException
-
-Currently downgrades fatal exceptions to user errors and returns a null statement.
-
-```php
-Connection::handleQueryException( \PDOException $e ): \PDOStatement
-```
-
-
-
-
-
-
-**Return Value:**
-`\PDOStatement`  
-
-
-
----
-
 ### executeQuery
 
 

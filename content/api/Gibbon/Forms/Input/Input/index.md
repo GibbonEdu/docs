@@ -232,23 +232,3 @@ Input::getValidationOutput( ): string
 
 ---
 
-### buildValidations
-
-Get the array of current validations for this input.
-
-```php
-Input::buildValidations( ): array
-```
-
-
-
-
-
-
-**Return Value:**
-`array`  
-
-
-
----
-

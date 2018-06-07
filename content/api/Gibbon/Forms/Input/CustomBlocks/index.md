@@ -203,23 +203,3 @@ CustomBlocks::getOutput( ): string
 
 ---
 
-### getTemplateOutput
-
-Adds the validation settings for each input as JSON data attributes so they can be added dynamically for each block.
-
-```php
-CustomBlocks::getTemplateOutput( \Gibbon\Forms\OutputableInterface $template ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

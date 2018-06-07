@@ -34,24 +34,6 @@ Export to Excel
 
 
 
-### setHeader
-
-
-
-```php
-Excel::setHeader( )
-```
-
-
-
-
-
-
-
-
-
----
-
 ### exportWithQuery
 
 Export with Query

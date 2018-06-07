@@ -221,23 +221,3 @@ Editor::initialFilter( string $value = '' ): self
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-Editor::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

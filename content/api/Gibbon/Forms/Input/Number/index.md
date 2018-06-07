@@ -168,23 +168,3 @@ Number::onlyInteger( $value )
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-Number::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-

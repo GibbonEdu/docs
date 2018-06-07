@@ -242,21 +242,3 @@ Row::loadState( string $method, array &$data, $extract = true ): self
 
 ---
 
-### getUniqueIdentifier
-
-Gets the string identifier for an element that can be used as an array key.
-
-```php
-Row::getUniqueIdentifier( object $element ): void
-```
-
-
-
-
-
-
-
-
-
----
-

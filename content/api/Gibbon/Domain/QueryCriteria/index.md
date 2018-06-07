@@ -225,27 +225,6 @@ Omitting the $text value will modify the columns for the current search.
 
 ---
 
-### applyAdvancedSearchFilters
-
-Allows filters to be added to the search string as foo:bar or foo:"bar baz"
-Removes each filter from the string and adds it to the criteria.
-
-```php
-QueryCriteria::applyAdvancedSearchFilters( string $text ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-
 ### hasSearchColumn
 
 Does the criteria have any search values set, by column or in total?

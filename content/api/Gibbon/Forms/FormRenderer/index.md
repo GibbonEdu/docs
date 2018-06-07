@@ -85,23 +85,3 @@ FormRenderer::renderForm( \Gibbon\Forms\Form $form ): string
 
 ---
 
-### getColumnCount
-
-Get the minimum columns required to render this form.
-
-```php
-FormRenderer::getColumnCount( \Gibbon\Forms\Form $form, $rows ): integer
-```
-
-
-
-
-
-
-**Return Value:**
-`integer`  
-
-
-
----
-

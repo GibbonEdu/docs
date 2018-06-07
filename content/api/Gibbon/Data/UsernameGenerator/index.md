@@ -164,23 +164,3 @@ UsernameGenerator::isUsernameUnique( string $username ): boolean
 
 ---
 
-### incrementNumericToken
-
-Increment a numeric token value and optionally invoke a callback with the value as a single parameter.
-
-```php
-UsernameGenerator::incrementNumericToken( string $name ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  The incremented value
-
-
-
----
-

@@ -166,26 +166,6 @@ Table::getOutput( ): string
 
 ---
 
-### getColumnCount
-
-Get the minimum columns required to render this table.
-
-```php
-Table::getColumnCount( ): integer
-```
-
-
-
-
-
-
-**Return Value:**
-`integer`  
-
-
-
----
-
 ### addValidation
 
 Dead-end stub for interface: columns cannot validate.

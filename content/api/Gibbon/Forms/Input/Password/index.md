@@ -149,23 +149,3 @@ Password::addConfirmation( $fieldName ): self
 
 ---
 
-### getElement
-
-Gets the HTML output for this form element.
-
-```php
-Password::getElement( ): string
-```
-
-
-
-
-
-
-**Return Value:**
-`string`  
-
-
-
----
-
