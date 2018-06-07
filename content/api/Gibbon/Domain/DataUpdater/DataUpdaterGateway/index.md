@@ -5,7 +5,7 @@ class: \Gibbon\Domain\DataUpdater\DataUpdaterGateway
 generated: true
 ---
 
-## DataUpdaterGateway
+## DataUpdaterGateway 
 
 Data Updater Gateway
 

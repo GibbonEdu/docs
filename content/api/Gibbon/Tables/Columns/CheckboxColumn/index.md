@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Columns\CheckboxColumn
 generated: true
 ---
 
-## CheckboxColumn
+## CheckboxColumn 
 
 CheckboxColumn
 

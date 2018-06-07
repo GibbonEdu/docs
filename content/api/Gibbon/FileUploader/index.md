@@ -5,7 +5,7 @@ class: \Gibbon\FileUploader
 generated: true
 ---
 
-## FileUploader
+## FileUploader 
 
 File Upload Class
 

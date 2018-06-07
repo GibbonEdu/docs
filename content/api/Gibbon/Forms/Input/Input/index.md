@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Input
 generated: true
 ---
 
-## Input
+## Input <small><i>implements <abbr title="\Gibbon\Forms\ValidatableInterface">ValidatableInterface</abbr>, <abbr title="\Gibbon\Forms\RowDependancyInterface">RowDependancyInterface</abbr></i></small>
 
 Abstract base class for form input elements.
 
@@ -13,7 +13,9 @@ Abstract base class for form input elements.
 
 * Full name: \Gibbon\Forms\Input\Input
 * Parent class: \Gibbon\Forms\Layout\Element
-* This class implements: \Gibbon\Forms\ValidatableInterface, \Gibbon\Forms\RowDependancyInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

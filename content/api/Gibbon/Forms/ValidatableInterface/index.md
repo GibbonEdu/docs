@@ -5,7 +5,7 @@ class: \Gibbon\Forms\ValidatableInterface
 generated: true
 ---
 
-## ValidatableInterface
+## ValidatableInterface 
 
 
 

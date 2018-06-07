@@ -5,7 +5,7 @@ class: \Gibbon\Domain\DataUpdater\FamilyUpdateGateway
 generated: true
 ---
 
-## FamilyUpdateGateway
+## FamilyUpdateGateway 
 
 Queryable Gateway
 
@@ -42,7 +42,7 @@ Queryable Gateway
 
 
 ```php
-FamilyUpdateGateway::queryDataUpdates( \Gibbon\Domain\QueryCriteria $criteria ): \Gibbon\Domain\DataUpdater\DataSet
+FamilyUpdateGateway::queryDataUpdates( \Gibbon\Domain\QueryCriteria $criteria, $gibbonSchoolYearID ): \Gibbon\Domain\DataUpdater\DataSet
 ```
 
 

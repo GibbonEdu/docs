@@ -5,14 +5,16 @@ class: \Gibbon\sqlConnection
 generated: true
 ---
 
-## sqlConnection
+## sqlConnection <small><i>implements <abbr title="\Gibbon\Contracts\Database\Connection">Connection</abbr></i></small>
 
 
 
 
 
 * Full name: \Gibbon\sqlConnection
-* This class implements: \Gibbon\Contracts\Database\Connection
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 * **Warning:** this class is **deprecated**. This means that this class will likely be removed in a future version.
 
 {{< api-example >}} 

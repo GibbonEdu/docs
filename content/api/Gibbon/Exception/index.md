@@ -5,7 +5,7 @@ class: \Gibbon\Exception
 generated: true
 ---
 
-## Exception
+## Exception 
 
 Gibbon Exception
 

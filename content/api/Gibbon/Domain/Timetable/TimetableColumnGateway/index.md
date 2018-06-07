@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Timetable\TimetableColumnGateway
 generated: true
 ---
 
-## TimetableColumnGateway
+## TimetableColumnGateway 
 
 Gateway
 

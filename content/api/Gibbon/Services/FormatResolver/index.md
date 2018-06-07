@@ -5,7 +5,7 @@ class: \Gibbon\Services\FormatResolver
 generated: true
 ---
 
-## FormatResolver
+## FormatResolver 
 
 The resolver allows modules to add their own formatters, which can be accessed with Format::newMethod
 I can also return a formatter as a closure with the using() method, which can be provided to classes

@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Traits\TableAware
 generated: true
 ---
 
-## TableAware
+## TableAware 
 
 Provides methods for Gateway classes that are tied to a specific database table.
 

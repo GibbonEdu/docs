@@ -5,7 +5,7 @@ class: \Gibbon\Data\UsernameGenerator
 generated: true
 ---
 
-## UsernameGenerator
+## UsernameGenerator 
 
 Helper class to generate a username based on a supplied format. Guarantees the uniqueness of the returned username.
 

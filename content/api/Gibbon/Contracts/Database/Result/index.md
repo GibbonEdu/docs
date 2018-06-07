@@ -5,7 +5,7 @@ class: \Gibbon\Contracts\Database\Result
 generated: true
 ---
 
-## Result
+## Result 
 
 
 

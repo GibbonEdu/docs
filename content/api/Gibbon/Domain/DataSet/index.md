@@ -5,14 +5,16 @@ class: \Gibbon\Domain\DataSet
 generated: true
 ---
 
-## DataSet
+## DataSet <small><i>implements <abbr title="\Countable">Countable</abbr>, <abbr title="\IteratorAggregate">IteratorAggregate</abbr></i></small>
 
 Object representing the paginated results of a Gateway query.
 
 
 
 * Full name: \Gibbon\Domain\DataSet
-* This class implements: \Countable, \IteratorAggregate
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

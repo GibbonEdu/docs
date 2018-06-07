@@ -5,7 +5,7 @@ class: \Gibbon\Forms\OutputableInterface
 generated: true
 ---
 
-## OutputableInterface
+## OutputableInterface 
 
 
 

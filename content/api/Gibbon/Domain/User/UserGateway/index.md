@@ -5,7 +5,7 @@ class: \Gibbon\Domain\User\UserGateway
 generated: true
 ---
 
-## UserGateway
+## UserGateway 
 
 User Gateway
 

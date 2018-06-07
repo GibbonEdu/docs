@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Timetable\TimetableDayGateway
 generated: true
 ---
 
-## TimetableDayGateway
+## TimetableDayGateway 
 
 Gateway
 

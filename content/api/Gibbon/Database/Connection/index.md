@@ -5,14 +5,16 @@ class: \Gibbon\Database\Connection
 generated: true
 ---
 
-## Connection
+## Connection <small><i>implements <abbr title="\Gibbon\Contracts\Database\Connection">Connection</abbr></i></small>
 
 Database Connection.
 
 
 
 * Full name: \Gibbon\Database\Connection
-* This class implements: \Gibbon\Contracts\Database\Connection
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

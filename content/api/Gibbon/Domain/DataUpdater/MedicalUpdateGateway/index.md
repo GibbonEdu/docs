@@ -5,7 +5,7 @@ class: \Gibbon\Domain\DataUpdater\MedicalUpdateGateway
 generated: true
 ---
 
-## MedicalUpdateGateway
+## MedicalUpdateGateway 
 
 Queryable Gateway
 
@@ -42,7 +42,7 @@ Queryable Gateway
 
 
 ```php
-MedicalUpdateGateway::queryDataUpdates( \Gibbon\Domain\QueryCriteria $criteria ): \Gibbon\Domain\DataUpdater\DataSet
+MedicalUpdateGateway::queryDataUpdates( \Gibbon\Domain\QueryCriteria $criteria, $gibbonSchoolYearID ): \Gibbon\Domain\DataUpdater\DataSet
 ```
 
 

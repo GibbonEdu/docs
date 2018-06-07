@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Traits\InputAttributesTrait
 generated: true
 ---
 
-## InputAttributesTrait
+## InputAttributesTrait 
 
 Basic HTML Input Attributes (name, type, value, required)
 

@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Radio
 generated: true
 ---
 
-## Radio
+## Radio 
 
 Checkbox
 

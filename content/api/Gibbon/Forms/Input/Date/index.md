@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Date
 generated: true
 ---
 
-## Date
+## Date 
 
 Date
 

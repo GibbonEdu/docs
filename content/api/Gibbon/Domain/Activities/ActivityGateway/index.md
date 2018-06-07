@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Activities\ActivityGateway
 generated: true
 ---
 
-## ActivityGateway
+## ActivityGateway 
 
 Activity Gateway
 

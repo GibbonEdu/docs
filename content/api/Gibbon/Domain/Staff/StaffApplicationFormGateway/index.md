@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Staff\StaffApplicationFormGateway
 generated: true
 ---
 
-## StaffApplicationFormGateway
+## StaffApplicationFormGateway 
 
 StaffApplicationForm Gateway
 

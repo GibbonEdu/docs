@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Students\MedicalGateway
 generated: true
 ---
 
-## MedicalGateway
+## MedicalGateway 
 
 Queryable Gateway
 

@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Layout\Label
 generated: true
 ---
 
-## Label
+## Label <small><i>implements <abbr title="\Gibbon\Forms\RowDependancyInterface">RowDependancyInterface</abbr></i></small>
 
 Label
 
@@ -13,7 +13,9 @@ Label
 
 * Full name: \Gibbon\Forms\Layout\Label
 * Parent class: \Gibbon\Forms\Layout\Element
-* This class implements: \Gibbon\Forms\RowDependancyInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

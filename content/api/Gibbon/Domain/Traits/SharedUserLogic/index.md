@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Traits\SharedUserLogic
 generated: true
 ---
 
-## SharedUserLogic
+## SharedUserLogic 
 
 Provides common filter and row highlight logic for tables that deal with user role and status.
 

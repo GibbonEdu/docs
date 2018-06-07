@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Finder
 generated: true
 ---
 
-## Finder
+## Finder 
 
 Finder - tokenized search
 

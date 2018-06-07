@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Number
 generated: true
 ---
 
-## Number
+## Number 
 
 TextField
 

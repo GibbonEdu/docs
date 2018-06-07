@@ -5,7 +5,7 @@ class: \Gibbon\Forms\DatabaseFormFactory
 generated: true
 ---
 
-## DatabaseFormFactory
+## DatabaseFormFactory 
 
 DatabaseFormFactory
 

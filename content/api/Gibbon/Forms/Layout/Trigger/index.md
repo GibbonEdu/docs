@@ -5,14 +5,16 @@ class: \Gibbon\Forms\Layout\Trigger
 generated: true
 ---
 
-## Trigger
+## Trigger <small><i>implements <abbr title="\Gibbon\Forms\OutputableInterface">OutputableInterface</abbr></i></small>
 
 Trigger
 
 
 
 * Full name: \Gibbon\Forms\Layout\Trigger
-* This class implements: \Gibbon\Forms\OutputableInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

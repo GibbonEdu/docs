@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Layout\Heading
 generated: true
 ---
 
-## Heading
+## Heading <small><i>implements <abbr title="\Gibbon\Forms\OutputableInterface">OutputableInterface</abbr>, <abbr title="\Gibbon\Forms\RowDependancyInterface">RowDependancyInterface</abbr></i></small>
 
 Content
 
@@ -13,7 +13,9 @@ Content
 
 * Full name: \Gibbon\Forms\Layout\Heading
 * Parent class: \Gibbon\Forms\Layout\Element
-* This class implements: \Gibbon\Forms\OutputableInterface, \Gibbon\Forms\RowDependancyInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Columns\ExpandableColumn
 generated: true
 ---
 
-## ExpandableColumn
+## ExpandableColumn 
 
 ExpandableColumn
 

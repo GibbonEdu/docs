@@ -5,7 +5,7 @@ class: \Gibbon\Contracts\Database\Connection
 generated: true
 ---
 
-## Connection
+## Connection 
 
 Database Connection Interface
 Borrowed in part from Illuminate\Database\ConnectionInterface

@@ -5,7 +5,7 @@ class: \Gibbon\Domain\User\UsernameFormatGateway
 generated: true
 ---
 
-## UsernameFormatGateway
+## UsernameFormatGateway 
 
 Gateway
 

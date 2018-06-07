@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Layout\WebLink
 generated: true
 ---
 
-## WebLink
+## WebLink 
 
 Element
 

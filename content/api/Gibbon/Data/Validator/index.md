@@ -5,7 +5,7 @@ class: \Gibbon\Data\Validator
 generated: true
 ---
 
-## Validator
+## Validator 
 
 Validaton & Sanitization Class
 

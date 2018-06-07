@@ -5,7 +5,7 @@ class: \Gibbon\Domain\School\FacilityGateway
 generated: true
 ---
 
-## FacilityGateway
+## FacilityGateway 
 
 Queryable Gateway
 

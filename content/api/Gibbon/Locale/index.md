@@ -5,7 +5,7 @@ class: \Gibbon\Locale
 generated: true
 ---
 
-## Locale
+## Locale 
 
 Localization & Internationalization Class
 

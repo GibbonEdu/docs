@@ -5,7 +5,7 @@ class: \Gibbon\Comms\NotificationSender
 generated: true
 ---
 
-## NotificationSender
+## NotificationSender 
 
 Notification Sender
 
@@ -26,6 +26,7 @@ TODO: Add background processing for notification emails.
 - [addNotification](#addnotification)<small> — Adds a notification to the collection as an array.</small>
 - [getNotificationCount](#getnotificationcount)<small> — Gets the current notification count.</small>
 - [sendNotifications](#sendnotifications)<small> — Delivers all notifications by inserting/updating in database, and optionally by sends by email.</small>
+- [sendNotificationsAsBcc](#sendnotificationsasbcc)<small> — Delivers all notifications. Helper method to clarify the intent of the Bcc sending option.</small>
 
 
 
@@ -53,7 +54,7 @@ NotificationSender::__construct( \Gibbon\Domain\System\NotificationGateway $gate
 Adds a notification to the collection as an array.
 
 ```php
-NotificationSender::addNotification( integer|string $gibbonPersonID, string $text, string $moduleName, string $actionLink )
+NotificationSender::addNotification( integer|string $gibbonPersonID, string $text, string $moduleName, string $actionLink ): self
 ```
 
 
@@ -61,6 +62,7 @@ NotificationSender::addNotification( integer|string $gibbonPersonID, string $tex
 
 
 
+**Returns Self:** This method can be chained.
 
 
 
@@ -91,7 +93,27 @@ NotificationSender::getNotificationCount( ): integer
 Delivers all notifications by inserting/updating in database, and optionally by sends by email.
 
 ```php
-NotificationSender::sendNotifications( ): array
+NotificationSender::sendNotifications( $bccMode = false ): array
+```
+
+
+
+
+
+
+**Return Value:**
+`array`  Send report with success/fail counts.
+
+
+
+---
+
+### sendNotificationsAsBcc
+
+Delivers all notifications. Helper method to clarify the intent of the Bcc sending option.
+
+```php
+NotificationSender::sendNotificationsAsBcc( ): array
 ```
 
 

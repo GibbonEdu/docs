@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Gateway
 generated: true
 ---
 
-## Gateway
+## Gateway 
 
 Gateway
 

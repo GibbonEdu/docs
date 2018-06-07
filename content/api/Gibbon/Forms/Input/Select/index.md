@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Select
 generated: true
 ---
 
-## Select
+## Select 
 
 Select
 

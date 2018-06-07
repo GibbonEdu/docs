@@ -5,7 +5,7 @@ class: \Gibbon\Database\MySqlConnector
 generated: true
 ---
 
-## MySqlConnector
+## MySqlConnector 
 
 Establish a Database Connection.
 

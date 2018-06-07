@@ -5,7 +5,7 @@ class: \Gibbon\Domain\System\StringGateway
 generated: true
 ---
 
-## StringGateway
+## StringGateway 
 
 String Repalcement Gateway
 

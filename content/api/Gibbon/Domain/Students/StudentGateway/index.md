@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Students\StudentGateway
 generated: true
 ---
 
-## StudentGateway
+## StudentGateway 
 
 Queryable Gateway
 

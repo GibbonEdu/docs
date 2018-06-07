@@ -5,7 +5,7 @@ class: \Gibbon\Forms\RowDependancyInterface
 generated: true
 ---
 
-## RowDependancyInterface
+## RowDependancyInterface 
 
 
 

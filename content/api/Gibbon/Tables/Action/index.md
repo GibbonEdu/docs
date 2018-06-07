@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Action
 generated: true
 ---
 
-## Action
+## Action 
 
 Action
 

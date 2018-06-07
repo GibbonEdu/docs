@@ -5,14 +5,16 @@ class: \Gibbon\Tables\DataTable
 generated: true
 ---
 
-## DataTable
+## DataTable <small><i>implements <abbr title="\Gibbon\Forms\OutputableInterface">OutputableInterface</abbr></i></small>
 
 DataTable
 
 
 
 * Full name: \Gibbon\Tables\DataTable
-* This class implements: \Gibbon\Forms\OutputableInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

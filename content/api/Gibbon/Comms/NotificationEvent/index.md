@@ -5,7 +5,7 @@ class: \Gibbon\Comms\NotificationEvent
 generated: true
 ---
 
-## NotificationEvent
+## NotificationEvent 
 
 Notification Event
 
@@ -26,6 +26,7 @@ Raises an event and collects recipients. Looks for matching event listeners, the
 - [addRecipient](#addrecipient)<small> — Adds a recipient to the list. Avoids duplicates by checking presence in the the array.</small>
 - [getRecipientCount](#getrecipientcount)<small> — Gets the current recipient count for this event. If called after pushNotifications() it will all include listener count.</small>
 - [sendNotifications](#sendnotifications)<small> — Collects and sends all notifications for this event, returning a send report array.</small>
+- [sendNotificationsAsBcc](#sendnotificationsasbcc)<small> — Send notifications for this event as BCC. Helper method to clarify the intent of the sending option.</small>
 - [pushNotifications](#pushnotifications)<small> — Adds event listeners to the recipients list, then pushes a notification for each recipient to the notification sender.</small>
 - [getEventDetails](#geteventdetails)<small> — Get the event row from the database (lazy-load)</small>
 
@@ -150,7 +151,27 @@ NotificationEvent::getRecipientCount( ): integer
 Collects and sends all notifications for this event, returning a send report array.
 
 ```php
-NotificationEvent::sendNotifications( \Gibbon\Contracts\Database\Connection $pdo, \Gibbon\session $session ): array
+NotificationEvent::sendNotifications( \Gibbon\Contracts\Database\Connection $pdo, \Gibbon\session $session, boolean $bccMode = false ): array
+```
+
+
+
+
+
+
+**Return Value:**
+`array`  Send report with success/fail counts.
+
+
+
+---
+
+### sendNotificationsAsBcc
+
+Send notifications for this event as BCC. Helper method to clarify the intent of the sending option.
+
+```php
+NotificationEvent::sendNotificationsAsBcc( \Gibbon\Contracts\Database\Connection $pdo, \Gibbon\session $session ): array
 ```
 
 

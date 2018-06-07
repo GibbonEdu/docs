@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Password
 generated: true
 ---
 
-## Password
+## Password 
 
 Password
 

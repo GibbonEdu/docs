@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Renderer\PaginatedRenderer
 generated: true
 ---
 
-## PaginatedRenderer
+## PaginatedRenderer <small><i>implements <abbr title="\Gibbon\Tables\Renderer\RendererInterface">RendererInterface</abbr></i></small>
 
 PaginatedRenderer
 
@@ -13,7 +13,9 @@ PaginatedRenderer
 
 * Full name: \Gibbon\Tables\Renderer\PaginatedRenderer
 * Parent class: \Gibbon\Tables\Renderer\SimpleRenderer
-* This class implements: \Gibbon\Tables\Renderer\RendererInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 
@@ -30,6 +32,19 @@ PaginatedRenderer
 ###### Inherited from SimpleRenderer
 - [__construct]({{< ref "api/Gibbon/Tables/Renderer/SimpleRenderer/index.md#__construct" >}})
 - [renderTable]({{< ref "api/Gibbon/Tables/Renderer/SimpleRenderer/index.md#rendertable" >}})
+
+###### Inherited from BasicAttributesTrait
+- [setID]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#setid" >}})
+- [getID]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getid" >}})
+- [setTitle]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#settitle" >}})
+- [getTitle]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#gettitle" >}})
+- [setClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#setclass" >}})
+- [addClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#addclass" >}})
+- [removeClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#removeclass" >}})
+- [getClass]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getclass" >}})
+- [addData]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#adddata" >}})
+- [getData]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getdata" >}})
+- [getAttributeString]({{< ref "api/Gibbon/Forms/Traits/BasicAttributesTrait/index.md#getattributestring" >}})
 
 
 

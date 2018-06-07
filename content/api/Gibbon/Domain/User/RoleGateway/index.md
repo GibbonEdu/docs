@@ -5,7 +5,7 @@ class: \Gibbon\Domain\User\RoleGateway
 generated: true
 ---
 
-## RoleGateway
+## RoleGateway 
 
 Queryable Gateway
 

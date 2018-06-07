@@ -5,7 +5,7 @@ class: \Gibbon\Comms\GibbonMailer
 generated: true
 ---
 
-## GibbonMailer
+## GibbonMailer 
 
 Mailer class
 

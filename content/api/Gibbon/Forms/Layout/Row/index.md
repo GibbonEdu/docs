@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Layout\Row
 generated: true
 ---
 
-## Row
+## Row 
 
 Holds a collection of form elements to be output horizontally.
 

@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Editor
 generated: true
 ---
 
-## Editor
+## Editor 
 
 Editor - Rich text
 

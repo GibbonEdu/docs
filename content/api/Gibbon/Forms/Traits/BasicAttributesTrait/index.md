@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Traits\BasicAttributesTrait
 generated: true
 ---
 
-## BasicAttributesTrait
+## BasicAttributesTrait 
 
 Basic HTML Attributes (id, class)
 

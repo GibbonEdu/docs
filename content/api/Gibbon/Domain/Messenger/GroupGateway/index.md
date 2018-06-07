@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Messenger\GroupGateway
 generated: true
 ---
 
-## GroupGateway
+## GroupGateway 
 
 Group Gateway
 

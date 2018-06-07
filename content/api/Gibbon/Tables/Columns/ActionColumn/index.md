@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Columns\ActionColumn
 generated: true
 ---
 
-## ActionColumn
+## ActionColumn 
 
 ActionColumn
 

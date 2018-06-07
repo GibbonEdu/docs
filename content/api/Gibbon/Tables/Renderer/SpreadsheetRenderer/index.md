@@ -5,14 +5,16 @@ class: \Gibbon\Tables\Renderer\SpreadsheetRenderer
 generated: true
 ---
 
-## SpreadsheetRenderer
+## SpreadsheetRenderer <small><i>implements <abbr title="\Gibbon\Tables\Renderer\RendererInterface">RendererInterface</abbr></i></small>
 
 SpreadsheetRenderer
 
 
 
 * Full name: \Gibbon\Tables\Renderer\SpreadsheetRenderer
-* This class implements: \Gibbon\Tables\Renderer\RendererInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

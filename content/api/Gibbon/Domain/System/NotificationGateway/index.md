@@ -5,7 +5,7 @@ class: \Gibbon\Domain\System\NotificationGateway
 generated: true
 ---
 
-## NotificationGateway
+## NotificationGateway 
 
 Notification Gateway
 

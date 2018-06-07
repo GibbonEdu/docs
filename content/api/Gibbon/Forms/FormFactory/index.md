@@ -5,14 +5,16 @@ class: \Gibbon\Forms\FormFactory
 generated: true
 ---
 
-## FormFactory
+## FormFactory <small><i>implements <abbr title="\Gibbon\Forms\FormFactoryInterface">FormFactoryInterface</abbr></i></small>
 
 FormFactory
 
 Handles Form object creation, including pre-defined elements. Replaceable component. Default factory can be extended to add types.
 
 * Full name: \Gibbon\Forms\FormFactory
-* This class implements: \Gibbon\Forms\FormFactoryInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

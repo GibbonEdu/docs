@@ -5,7 +5,7 @@ class: \Gibbon\Core
 generated: true
 ---
 
-## Core
+## Core 
 
 Gibbon Core
 

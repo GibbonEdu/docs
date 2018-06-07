@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Columns\Column
 generated: true
 ---
 
-## Column
+## Column 
 
 Column
 

@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Prefab\DeleteForm
 generated: true
 ---
 
-## DeleteForm
+## DeleteForm 
 
 DeleteForm
 

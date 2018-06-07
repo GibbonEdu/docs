@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Traits\MultipleOptionsTrait
 generated: true
 ---
 
-## MultipleOptionsTrait
+## MultipleOptionsTrait 
 
 MultipleOptions
 

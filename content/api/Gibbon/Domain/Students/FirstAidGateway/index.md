@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Students\FirstAidGateway
 generated: true
 ---
 
-## FirstAidGateway
+## FirstAidGateway 
 
 Queryable Gateway
 

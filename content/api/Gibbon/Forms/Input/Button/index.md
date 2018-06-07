@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Button
 generated: true
 ---
 
-## Button
+## Button 
 
 Button
 

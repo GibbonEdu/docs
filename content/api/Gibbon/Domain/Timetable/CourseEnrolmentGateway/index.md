@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Timetable\CourseEnrolmentGateway
 generated: true
 ---
 
-## CourseEnrolmentGateway
+## CourseEnrolmentGateway 
 
 Queryable Gateway
 

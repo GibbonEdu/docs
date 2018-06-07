@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Currency
 generated: true
 ---
 
-## Currency
+## Currency 
 
 Date
 

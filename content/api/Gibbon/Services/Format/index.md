@@ -5,7 +5,7 @@ class: \Gibbon\Services\Format
 generated: true
 ---
 
-## Format
+## Format 
 
 Format values based on locale and system settings.
 

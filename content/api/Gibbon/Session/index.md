@@ -5,7 +5,7 @@ class: \Gibbon\Session
 generated: true
 ---
 
-## Session
+## Session 
 
 Session Class
 

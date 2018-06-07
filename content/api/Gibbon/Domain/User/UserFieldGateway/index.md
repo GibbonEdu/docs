@@ -5,7 +5,7 @@ class: \Gibbon\Domain\User\UserFieldGateway
 generated: true
 ---
 
-## UserFieldGateway
+## UserFieldGateway 
 
 Queryable Gateway
 

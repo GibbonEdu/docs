@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Timetable\FacilityChangeGateway
 generated: true
 ---
 
-## FacilityChangeGateway
+## FacilityChangeGateway 
 
 Queryable Gateway
 

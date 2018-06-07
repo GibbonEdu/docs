@@ -5,7 +5,7 @@ class: \Gibbon\MenuModule
 generated: true
 ---
 
-## MenuModule
+## MenuModule 
 
 Main menu building Class
 

@@ -5,7 +5,7 @@ class: \Gibbon\Excel
 generated: true
 ---
 
-## Excel
+## Excel 
 
 Export to Excel
 

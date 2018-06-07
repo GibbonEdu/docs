@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\PhoneNumber
 generated: true
 ---
 
-## PhoneNumber
+## PhoneNumber 
 
 PhoneNumber
 

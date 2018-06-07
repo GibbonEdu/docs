@@ -5,7 +5,7 @@ class: \Gibbon\Domain\School\RollGroupGateway
 generated: true
 ---
 
-## RollGroupGateway
+## RollGroupGateway 
 
 RollGroup Gateway
 

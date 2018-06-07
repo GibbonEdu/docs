@@ -5,7 +5,7 @@ class: \Gibbon\Tables\Renderer\RendererInterface
 generated: true
 ---
 
-## RendererInterface
+## RendererInterface 
 
 
 

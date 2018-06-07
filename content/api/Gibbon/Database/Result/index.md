@@ -5,7 +5,7 @@ class: \Gibbon\Database\Result
 generated: true
 ---
 
-## Result
+## Result <small><i>implements <abbr title="\Gibbon\Contracts\Database\Result">Result</abbr></i></small>
 
 Methods to improve the intent and readability of database code.
 
@@ -13,7 +13,9 @@ Methods to improve the intent and readability of database code.
 
 * Full name: \Gibbon\Database\Result
 * Parent class: 
-* This class implements: \Gibbon\Contracts\Database\Result
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

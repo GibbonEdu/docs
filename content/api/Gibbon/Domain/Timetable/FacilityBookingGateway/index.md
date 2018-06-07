@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Timetable\FacilityBookingGateway
 generated: true
 ---
 
-## FacilityBookingGateway
+## FacilityBookingGateway 
 
 Queryable Gateway
 

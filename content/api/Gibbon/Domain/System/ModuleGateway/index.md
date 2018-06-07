@@ -5,7 +5,7 @@ class: \Gibbon\Domain\System\ModuleGateway
 generated: true
 ---
 
-## ModuleGateway
+## ModuleGateway 
 
 Module Gateway
 

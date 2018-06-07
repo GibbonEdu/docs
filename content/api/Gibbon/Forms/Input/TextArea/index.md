@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\TextArea
 generated: true
 ---
 
-## TextArea
+## TextArea 
 
 TextArea
 

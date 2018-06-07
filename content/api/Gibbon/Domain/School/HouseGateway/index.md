@@ -5,7 +5,7 @@ class: \Gibbon\Domain\School\HouseGateway
 generated: true
 ---
 
-## HouseGateway
+## HouseGateway 
 
 Queryable Gateway
 

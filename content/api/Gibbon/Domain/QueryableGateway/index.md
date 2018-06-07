@@ -5,7 +5,7 @@ class: \Gibbon\Domain\QueryableGateway
 generated: true
 ---
 
-## QueryableGateway
+## QueryableGateway 
 
 Queryable Gateway
 

@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Time
 generated: true
 ---
 
-## Time
+## Time 
 
 Time
 

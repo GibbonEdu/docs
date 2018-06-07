@@ -5,14 +5,16 @@ class: \Gibbon\Forms\Layout\Grid
 generated: true
 ---
 
-## Grid
+## Grid <small><i>implements <abbr title="\Gibbon\Forms\OutputableInterface">OutputableInterface</abbr>, <abbr title="\Gibbon\Forms\ValidatableInterface">ValidatableInterface</abbr></i></small>
 
 Grid
 
 
 
 * Full name: \Gibbon\Forms\Layout\Grid
-* This class implements: \Gibbon\Forms\OutputableInterface, \Gibbon\Forms\ValidatableInterface
+* This class implements: 
+Warning: strrchr() expects parameter 1 to be string, object given in /Users/sankuipe/Desktop/Localhost/documentor/src/Extension/TwigMarkdownAnchorLink.php on line 108
+
 
 {{< api-example >}} 
 

@@ -5,7 +5,7 @@ class: \Gibbon\Domain\Finance\InvoiceGateway
 generated: true
 ---
 
-## InvoiceGateway
+## InvoiceGateway 
 
 Invoice Gateway
 

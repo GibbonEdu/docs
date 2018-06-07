@@ -5,7 +5,7 @@ class: \Gibbon\Domain\IndividualNeeds\INGateway
 generated: true
 ---
 
-## INGateway
+## INGateway 
 
 Queryable Gateway
 

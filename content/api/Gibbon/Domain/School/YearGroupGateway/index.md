@@ -5,7 +5,7 @@ class: \Gibbon\Domain\School\YearGroupGateway
 generated: true
 ---
 
-## YearGroupGateway
+## YearGroupGateway 
 
 YearGroup Gateway
 

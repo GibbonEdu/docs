@@ -5,7 +5,7 @@ class: \Gibbon\Domain\QueryCriteria
 generated: true
 ---
 
-## QueryCriteria
+## QueryCriteria 
 
 Object describing the filters applied to a Gateway query.
 

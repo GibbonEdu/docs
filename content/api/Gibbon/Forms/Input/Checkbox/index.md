@@ -5,7 +5,7 @@ class: \Gibbon\Forms\Input\Checkbox
 generated: true
 ---
 
-## Checkbox
+## Checkbox 
 
 Checkbox
 

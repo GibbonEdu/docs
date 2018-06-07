@@ -5,7 +5,7 @@ class: \Gibbon\Domain\User\DistrictGateway
 generated: true
 ---
 
-## DistrictGateway
+## DistrictGateway 
 
 Queryable Gateway
 

@@ -5,7 +5,7 @@ class: \Gibbon\Domain\User\FamilyGateway
 generated: true
 ---
 
-## FamilyGateway
+## FamilyGateway 
 
 Queryable Gateway
 
