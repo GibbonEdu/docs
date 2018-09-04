@@ -43,10 +43,10 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 
 *   Choose Web Application.
 *   Set Authorised Javascript origins to the url of gibbon on your server.
-*   Set Authorised Redirect URI to http://www.your-gibbon-intall/lib/google/index.php. The googleOAuth folder is in the in the lib folder of Gibbon v14.0.00 and above on your server.
+*   Set Authorised Redirect URI to http://www.your-gibbon-install/lib/google/index.php. The googleOAuth folder is in the in the lib folder of Gibbon v14.0.00 and above on your server.
 *   Click create client ID:
 
-[![](/wp/2014/02/07c-create-client-id-274x300.png)](/wp/2014/02/07c-create-client-id.png) 10\. After this is complete, the client id details will be given to you: [![](/wp/2014/02/07d-client-id-details-300x140.png)](/wp/2014/02/07d-client-id-details.png) (Save the client ID and client secret for step 14.) 11\. Create an API key: [![](/wp/2014/02/08a-API-key-300x268.png)](/wp/2014/02/08a-API-key.png) 12\. Save the API Key for step 14: [![](/wp/2014/02/08b-API-key-created-300x158.png)](/wp/2014/02/08b-API-key-created.png) 13\. Leave the Key Restriction blank: [![](/wp/2014/02/10-key-restriction-300x281.png)](/wp/2014/02/10-key-restriction.png) 14\. Everything is now set up on the Google side, so you can enter your details into Gibbon by going to ___Home___ > ___System Admin___ > **<span style="text-decoration: underline;">Third Party Settings</span>**. The details you need to enter into are as follows.
+[![](/wp/2014/02/07c-create-client-id-274x300.png)](/wp/2014/02/07c-create-client-id.png) 10\. After this is complete, the client ID details will be given to you: [![](/wp/2014/02/07d-client-id-details-300x140.png)](/wp/2014/02/07d-client-id-details.png) (Save the client ID and client secret for step 14.) 11\. Create an API key: [![](/wp/2014/02/08a-API-key-300x268.png)](/wp/2014/02/08a-API-key.png) 12\. Save the API Key for step 14: [![](/wp/2014/02/08b-API-key-created-300x158.png)](/wp/2014/02/08b-API-key-created.png) 13\. Leave the Key Restriction blank: [![](/wp/2014/02/10-key-restriction-300x281.png)](/wp/2014/02/10-key-restriction.png) 14\. Everything is now set up on the Google side, so you can enter your details into Gibbon by going to ___Home___ > ___System Admin___ > **<span style="text-decoration: underline;">Third Party Settings</span>**. The details you need to enter into are as follows.
 
 *   Google Developers Client Name
 *   Google Developers Redirect URI (See step 9 above)
