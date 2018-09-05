@@ -2,7 +2,7 @@
 title: "Automated Testing"
 categories: ["testing"]
 tags: []
-weight:40
+weight: 40
 contributors: ["skuipers"]
 ---
 
