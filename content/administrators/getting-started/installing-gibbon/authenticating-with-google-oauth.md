@@ -43,7 +43,7 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 
 *   Choose Web Application.
 *   Set Authorised Javascript origins to the url of gibbon on your server.
-*   Set Authorised Redirect URI to http://www.your-gibbon-intall/lib/google/index.php. The googleOAuth folder is in the in the lib folder of Gibbon v14.0.00 and above on your server.
+*   Set Authorised Redirect URI to http://www.your-gibbon-install/lib/google/index.php. The googleOAuth folder is in the in the lib folder of Gibbon v14.0.00 and above on your server.
 *   Click create client ID:
 
 [![](/wp/2014/02/07c-create-client-id-274x300.png)](/wp/2014/02/07c-create-client-id.png)
