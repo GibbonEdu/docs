@@ -1,6 +1,6 @@
 ---
 title: "About the Docs"
-weight: 100
+weight: 110
 head: "<hr>"
 contributors: ["skuipers"]
 ---
