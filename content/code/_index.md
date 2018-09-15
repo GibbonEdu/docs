@@ -5,3 +5,4 @@ weight: 100
 head: "<hr><li><small><strong>Reference</strong></small></li>"
 generated: true
 ---
+These docs have been automatically generated from DocBlocks in the Gibbon source code using [PHPDoc](https://www.phpdoc.org/).
