@@ -1,5 +1,6 @@
 ---
 title: "Installing Gibbon"
+short: "Installation"
 categories: ["support"]
 tags: []
 weight: 10
