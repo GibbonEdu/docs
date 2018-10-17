@@ -1,8 +1,8 @@
 ---
-title: "Tables"
+title: "Pages"
 categories: []
 tags: []
-weight: 60
+weight: 40
 draft: true
 contributors: ["skuipers"]
 ---

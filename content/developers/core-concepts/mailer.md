@@ -1,8 +1,8 @@
 ---
-title: "Tables"
+title: "Mailer"
 categories: []
 tags: []
-weight: 60
+weight: 80
 draft: true
 contributors: ["skuipers"]
 ---

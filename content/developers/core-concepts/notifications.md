@@ -1,8 +1,8 @@
 ---
-title: "Tables"
+title: "Notifications"
 categories: []
 tags: []
-weight: 60
+weight: 70
 draft: true
 contributors: ["skuipers"]
 ---
