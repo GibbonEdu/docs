@@ -45,3 +45,4 @@ If you are using a web hosting company that provides Softaculous via CPanel, you
 8.  Set PHP's error to be `error_reporting = E_ALL & ~E_NOTICE` or less aggressive
 9.  Set PHP to allow URLs as files (otherwise Calendar overlay in TT will not work). `allow_url_fopen=On`
 10.  Set PHP's `max_input_vars` setting to 5,000 (otherwise Manage Permissions breaks)
+11. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.
