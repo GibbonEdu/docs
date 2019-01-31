@@ -31,7 +31,7 @@ contributors: ["rossdotparker"]
         rm -rf core-17.0.00
         </plaintext>
     
-    The above commands are for upgrading to v17. You will need to chnage the URl for the version to which you are upgrading. Also, your Gibbon install may use a different directory than "c" in the rsync command.
+    The above commands are for upgrading to v17. You will need to get the URL for the version to which you are upgrading. Also, your Gibbon install may use a different directory than "c" in the rsync command.
     5.  Refresh the Update page, and it should show there are some database updates to be run. Run these by pressing the Submit button.
     6.  If the new version includes a lot of theme changes, you may need to refresh your page a few times to see things correctly.
     7.  In some cases you might need to log out and back in for all changes to be effective.
