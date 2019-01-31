@@ -16,13 +16,20 @@ contributors: ["rossdotparker"]
     3.  Login to your Gibbon installation and got to Admin > System Admin > Update.
     4.  Update your install base with the newly downloaded files, taking care not to overwrite any additional modules and themes you have installed.
     Supposing you have installed Gibbon in <code>/var/www/html/c/</code> you could run the following commands on your system:
+   
    <code>
         cd /var/www/html
+   
         wget https://github.com/GibbonEdu/core/archive/v17.0.00.zip
+        
         unzip v17.0.00.zip
+        
         rm -rf v17.0.00.zip
+        
         chown apache:apache -R core-17.0.00
+        
         rsync -vua core-17.0.00/ c/
+        
         rm -rf core-17.0.00
     </code>
     The above commands are for upgrading to v17. You will need to get the URL for the version to which you are upgrading. Also, your Gibbon install may use a different directory than "c" in the rsync command.
