@@ -15,7 +15,7 @@ contributors: ["rossdotparker"]
     2.  Download and unzip the latest version of Gibbon.
     3.  Login to your Gibbon installation and got to Admin > System Admin > Update.
     4.  Update your install base with the newly downloaded files, taking care not to overwrite any additional modules and themes you have installed.
-    Supposing you have installed Gibbon in <plaintext>/var/www/html/c/</plaintext> you could run the following commands on your system:
+    Supposing you have installed Gibbon in <code>/var/www/html/c/</code> you could run the following commands on your system:
 
         *   cd /var/www/html
         *   wget https://github.com/GibbonEdu/core/archive/v17.0.00.zip
