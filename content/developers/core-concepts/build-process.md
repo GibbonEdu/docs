@@ -1,6 +1,6 @@
 ---
 title: "Build Process"
-categories: ["development"]
+categories: ["core"]
 tags: []
 weight: 20
 contributors: ["skuipers"]
