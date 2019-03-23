@@ -19,15 +19,13 @@ If you're unsure where to begin with GitHub feel free to reach out on the [Suppo
 
 ### Release Schedule
 
-We aim to release a new version every 6 months. There is a string freeze one month before each release, where all interface strings fixed and shared with translators via POEditor.
+We aim to release a new version every 6 months, usually every January and June. There is a string freeze one month before each release, where all interface strings fixed and shared with translators via POEditor.
 
 Each version, stable or development, is denoted with a major semantic version (e.g., v16.0.0). Updates to a stable version are only released in the case of a security concern, and are tagged as a patch version (e.g., v16.0.1). 
 
-Development branches are setup after each release and increment to the next major version (e.g., v16 to v17.0.00).
-
 ### Branching Strategy
 
-Gibbon uses a simple branching strategy. The current stable version is released and tagged on the `Master` branch. Development branches are setup after each release and increment to the next major version (e.g., v16 to `v17.0.00`). The dev branch does not track semantic versioning, and a built-in updater handles database changes for [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/).
+Gibbon uses a simple branching strategy. The current stable version is released and tagged on the `Master` branch. Development branches are setup after each release and increment to the next major version (e.g., v16.0.00 to v17.0.00). The dev branch does not currently track semantic versioning, and a built-in updater handles database changes for [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/).
 
 ### Development Philosophy
 
