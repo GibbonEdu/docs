@@ -28,8 +28,8 @@ We welcome community contribution and aim to ensure Gibbon is an open and friend
 
 At this time the Gibbon team are not certifying any companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
 
-[Gibbon Education Limited](https://gibbonedu.org/com/), Hong Kong
-[Xcobean](https://xcobean.org/), Kenya
+- [Gibbon Education Limited](https://gibbonedu.org/com/), Hong Kong
+- [Xcobean](https://xcobean.org/), Kenya
 
 
 ## Mailing List
