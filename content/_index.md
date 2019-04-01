@@ -24,11 +24,14 @@ We welcome community contribution and aim to ensure Gibbon is an open and friend
 
 - [**Developer Workflow**](/developers/getting-started/developer-workflow) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map]({{< relref "gibbon-road-map.md" >}}).
 
-## Commercial Support
-
-At this time the Gibbon team are not certifying any companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
+## Official Commercial Support
 
 - [Gibbon Education Limited](https://gibbonedu.org/com/), Hong Kong
+
+## Unofficial Commercial Support
+
+At this time the Gibbon team are not certifying external companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
+
 - [Xcobean](https://xcobean.org/), Kenya
 
 
