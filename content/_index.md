@@ -16,18 +16,19 @@ If you need help, but can't find it here, try asking members of the Gibbon commu
 
 ## Contributing
 
-We welcome community contribution and aim to ensure Gibbon is an open and friendly environment. 
+We welcome community contribution and aim to ensure Gibbon is an open and friendly environment.
 
 - [**Contributor Guide**](https://github.com/GibbonEdu/core/blob/master/.github/CONTRIBUTING.md) - Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.
 
 - [**Code of Conduct**](https://github.com/GibbonEdu/core/blob/master/.github/CODE_OF_CONDUCT.md) - Our pledge to foster a welcoming community and a positive environment for anyone to participate in.
 
 - [**Developer Workflow**](/developers/getting-started/developer-workflow) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map]({{< relref "gibbon-road-map.md" >}}).
- 
+
 ## Commercial Support
 
 At this time the Gibbon team are not certifying any companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
 
+[Gibbon Education Limited](https://gibbonedu.org/com/), Hong Kong
 [Xcobean](https://xcobean.org/), Kenya
 
 
