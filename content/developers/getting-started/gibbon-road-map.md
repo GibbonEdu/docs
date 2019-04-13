@@ -13,7 +13,7 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
     *   Release - June 20th 2019
     *   GitHub Development branch - [https://github.com/GibbonEdu/core/tree/v18.0.00](https://github.com/GibbonEdu/core/tree/v18.0.00)
     *   Project Board - [https://github.com/GibbonEdu/core/projects/3](https://github.com/GibbonEdu/core/projects/3)
- *   __v19.0.00__ (aka Cha Chaan Teng)
+*   __v19.0.00__ (aka Cha Chaan Teng)
     *   String Freeze - December 20th 2019
     *   Release - January 20th 2020
     *   GitHub Development branch - to be announced
