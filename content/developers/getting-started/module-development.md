@@ -14,7 +14,7 @@ Modules are the easiest way to extend Gibbon without having to hack the core, an
 
 ## Starter Module
 
-Download the [starter module](/wp/2012/11/Starter-Module-v12.0.00.zip) and use it to begin coding up a module. Remove or replace the GNU GPL statement depending on your needs. The starter module consists of:
+Download the [starter module](/files/Starter-Module-v18.0.00.zip) and use it to begin coding up a module. Remove or replace the GNU GPL statement depending on your needs. The starter module consists of:
 
 *   **CHANGEDB.php** - stores database changes for each version of the module, used in upgrades.
 *   **CHANGELOG.txt** - list of changes per version
