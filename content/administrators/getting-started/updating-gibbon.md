@@ -25,14 +25,14 @@ contributors: ["rossdotparker", "fvlasie"]
     For step 4: Supposing you have installed Gibbon in <code>/var/www/html/c/</code> you could run the following commands on your system:
    
       *  cd /var/www/html
-      *  wget https://github.com/GibbonEdu/core/archive/v17.0.00.zip
-      *  unzip v17.0.00.zip
-      *  rm -rf v17.0.00.zip
-      *  chown apache:apache -R core-17.0.00
-      *  rsync -vua core-17.0.00/ c/
-      *  rm -rf core-17.0.00
+      *  wget https://github.com/GibbonEdu/core/archive/v18.0.01.zip
+      *  unzip v18.0.01.zip
+      *  rm -rf v18.0.01.zip
+      *  chown apache:apache -R core-18.0.01
+      *  rsync -vua core-18.0.01/ c/
+      *  rm -rf core-18.0.01
 
-    The above commands are for upgrading to v17. You will need to get the URL for the version to which you are upgrading. Also, your Gibbon install may use a different directory than "c" in the rsync command.
+    The above commands are for upgrading to v18. You will need to get the URL for the version to which you are upgrading here: https://github.com/GibbonEdu/core . Also, your Gibbon install may use a different directory than "c" in the rsync command. Remember to run the database update from Gibbon's Home > System Admin > Update page. 
 
 ## Module Updates
 
