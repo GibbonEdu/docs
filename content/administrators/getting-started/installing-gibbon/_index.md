@@ -9,7 +9,7 @@ contributors: ["rossdotparker"]
 
 ## Server Requirements
 
-1.  Apache 2
+1.  Apache 2 (with mod_rewrite)
 2.  PHP 7.0 or above (with PDO, gettext, CURL, GD, ZIP. Recommended to turn display_errors off.)
 3.  MySQL 5 (collation set to utf8_general_ci)
 
