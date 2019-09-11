@@ -38,12 +38,10 @@ ln -s ../sites-available/gibbon.local.conf /etc/apache2/sites-enabled/gibbon.loc
 3. Go to the document root and copy the Gibbon files in. The download link can be found at https://gibbonedu.org/download/ . Copy the download URL then `wget` the URL. Unzip the file (You may need to `apt install unzip` to do so)
 
 4. In your `/etc/apache2/envvars` file, you'll find the apache user/group. Allow the extracted files to be accessible to this user. In my case, I amended these to be apache and www respectively, therefore:
-
 ```
 chown apache:www -R /var/www/gibbon.local/
 chmod 755 -R /var/www/gibbon.local/
 ```
-
 There's no need to set uploads to anything else in this case.
 
 5. Next, we need to setup mysql:
