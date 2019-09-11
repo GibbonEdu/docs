@@ -1,5 +1,6 @@
 ---
 title: "Installing Gibbon on Ubuntu/Debian"
+linktitle: "Installing on Ubuntu/Debian"
 short: "Installation"
 categories: ["support"]
 tags: []
