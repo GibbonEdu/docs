@@ -9,6 +9,7 @@ https://docs.gibbonedu.org/
 These installation steps were followed on a CentOS 7 laptop although the steps will be similar for other OSs.
 
 ```
+yum install hugo
 mkdir ~/docs/
 cd ~/docs/
 git clone https://github.com/GibbonEdu/docs.git ./
