@@ -16,7 +16,7 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
 *   __v20.0.00__ (aka Ding Ding Che)
     *   String Freeze - May 20th 2020
     *   Release - June 20th 2020
-    *   GitHub Development branch - TBD
+    *   GitHub Development branch - [https://github.com/GibbonEdu/core/tree/v20.0.00](https://github.com/GibbonEdu/core/tree/v20.0.00)
     *   Project Board - [https://github.com/GibbonEdu/core/projects/5](https://github.com/GibbonEdu/core/projects/5)
 
 A record of all Gibbon releases since v7.0.00 can be found on the [GitHub Repository](https://github.com/GibbonEdu/core/releases).
