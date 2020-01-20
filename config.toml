@@ -14,7 +14,7 @@ pygmentsOptions = "startinline=true"
 
 [params]
 logo = "/images/gibbon-logo.png"
-version = "v18.0.00"
+version = "v19.0.00"
 ghRepo = "https://github.com/GibbonEdu/docs/"
 newURL = "https://github.com/GibbonEdu/docs/new/master/content/"
 editURL = "https://github.com/GibbonEdu/docs/edit/master/content/"
