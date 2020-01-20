@@ -9,8 +9,8 @@ contributors: ["rossdotparker"]
 
 ## Server Requirements
 
-1.  Apache 2
-2.  PHP 5.5 or above (with PDO, gettext, CURL. Recommended to turn display_errors off.)
+1.  Apache 2 (with mod_rewrite)
+2.  PHP 7.0 or above (with PDO, gettext, CURL, GD, ZIP. Recommended to turn display_errors off.)
 3.  MySQL 5 (collation set to utf8_general_ci)
 
 
@@ -26,7 +26,7 @@ After download and unzipping:
 _Note: If you want to help test and develop Gibbon, you can select the [Cutting Edge Code]({{< relref "cutting-edge-code.md" >}}) option in the installer. This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core). This is not recommended for production environments._
 
 {{% panel %}}
-Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) or [demo](https://www.softaculous.com/demos/Gibbon) Gibbon via Softaculous. [![](/wp/2014/11/softaculous.gif)](https://www.softaculous.com/apps/educational/Gibbon)
+Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) Gibbon via Softaculous. [![](/wp/2014/11/softaculous.gif)](https://www.softaculous.com/apps/educational/Gibbon)
 {{% /panel %}}
 
 ## Softaculous Installation
@@ -45,3 +45,4 @@ If you are using a web hosting company that provides Softaculous via CPanel, you
 8.  Set PHP's error to be `error_reporting = E_ALL & ~E_NOTICE` or less aggressive
 9.  Set PHP to allow URLs as files (otherwise Calendar overlay in TT will not work). `allow_url_fopen=On`
 10.  Set PHP's `max_input_vars` setting to 5,000 (otherwise Manage Permissions breaks)
+11. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.

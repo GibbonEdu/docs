@@ -14,7 +14,7 @@ Modules are the easiest way to extend Gibbon without having to hack the core, an
 
 ## Starter Module
 
-Download the [starter module](/wp/2012/11/Starter-Module-v12.0.00.zip) and use it to begin coding up a module. Remove or replace the GNU GPL statement depending on your needs. The starter module consists of:
+Download the [starter module](/files/Starter-Module-v18.0.00.zip) and use it to begin coding up a module. Remove or replace the GNU GPL statement depending on your needs. The starter module consists of:
 
 *   **CHANGEDB.php** - stores database changes for each version of the module, used in upgrades.
 *   **CHANGELOG.txt** - list of changes per version
@@ -52,11 +52,10 @@ The Gibbon Core provides three hooks, which allow additional modules to insert d
 1.  **name** - The name of the hook will be displayed in the interface: for example, a Unit hook called "IB MYP" will result in such units being labelled as "IB MYP Unit" through the system.
 2.  **type**- The system currently provides the following hook types
     1.  Parent Dashboard
-    2.  Student Dashboard (v12+ only)
-    3.  Staff Dashboard (v12+ only)
+    2.  Student Dashboard
+    3.  Staff Dashboard
     4.  Public Homepage
     5.  Student Profile
-    6.  Unit
 3.  **options**- This field consists of a serialized array of options for the hook. The exact options depend on the hook, as described below:
     1.  Parent/Student/Staff Dashboard
         1.  sourceModuleName - the name of the source module that data is being drawn from (e.g. IB Diploma)
@@ -72,37 +71,6 @@ The Gibbon Core provides three hooks, which allow additional modules to insert d
         1.  sourceModuleName - the name of the source module that data is being drawn from (e.g. IB Diploma)
         2.  sourceModuleAction - the name of the action in the source module that the user needs to have access to in order to see this data
         3.  sourceModuleInclude - the php file to include, which spits out the data into the Student Profile page
-    4.  Unit
-        1.  unitTable - The name of the table containing units to be hooked in
-        2.  unitIDField - The unique id field for unitTable
-        3.  unitCourseIDField - The foreign key field to link unitTable to gibbonCourse (ties unit to a course)
-        4.  unitNameField - The field in unitTable which holds the name of the unit
-        5.  unitDescriptionField - The field in unitTable which holds the description of the unit
-        6.  unitSmartBlockTable - The name of the table where a unit's smart blocks are stored
-        7.  unitSmartBlockIDField - The unique id field for unitSmartBlockIDField
-        8.  unitSmartBlockJoinField - The name of the field used to join unitTable and unitSmartBlockJoinField in mySQL
-        9.  unitSmartBlockTitleField - The field for storing title
-        10.  unitSmartBlockTypeField - The field for storing type
-        11.  unitSmartBlockLengthField - The field for storing length
-        12.  unitSmartBlockContentsField - The field for storing contents
-        13.  unitSmartBlockTeachersNotesField - The field for storing teachersNotes
-        14.  unitSmartBlockSequenceNumberField - The field for storing sequenceNumber
-        15.  classLinkTable - The name of the table which links a hooked unit to a particular class
-        16.  classLinkIDField - The unique id field for classLinkTable
-        17.  classLinkJoinFieldUnit - The name of the field used to join unitTable and classLinkTable in mySQL
-        18.  classLinkJoinFieldClass - The name of the field used to join classLinkTable to gibbonCourseClass in mySQL
-        19.  classSmartBlockTable - The name of the table where a unit's smart blocks are stored
-        20.  classSmartBlockIDField - The unique id field for classSmartBlockTable
-        21.  classSmartBlockJoinField - The name of the field used to join classLinkTable and classSmartBlockTable in mySQL
-        22.  classSmartBlockPlannerJoin - the name of the field which links to a Gibbon Planner entry (e.g. gibbonPlannerEntryID)
-        23.  classSmartBlockUnitBlockJoinField - the name of the field which links to the master block that this block was made from (e.g. the unique ID field f
-        24.  classSmartBlockTitleField - The field for storing title
-        25.  classSmartBlockTypeField - The field for storing type
-        26.  classSmartBlockLengthField - The field for storing length
-        27.  classSmartBlockContentsField - The field for storing contents
-        28.  classSmartBlockTeachersNotesField - The field for storing teachersNotes
-        29.  classSmartBlockSequenceNumberField - The field for storing sequenceNumber
-        30.  classSmartBlockCompleteField - The field for storing complete
 4.  **gibbonModuleID** - This is needed to remove hooks when a module is uninstalled.
     1.  Because the module ID is generated on install, you cannot hard code it into your module. You can use the following sql as a subquery when you create your hook insertion query: `SELECT gibbonModuleID FROM gibbonModule WHERE name='$name'`
 

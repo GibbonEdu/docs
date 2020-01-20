@@ -14,16 +14,26 @@ Use the menu on the left to navigate support materials depending on your role in
 
 If you need help, but can't find it here, try asking members of the Gibbon community on the [Gibbon Support Forums](http://ask.gibbonedu.org/). Similarly, issues and bugs can be reported to the forum as well.
 
-## Commercial Support
+## Contributing
 
-At this time the Gibbon team are not certifying any companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
+We welcome community contribution and aim to ensure Gibbon is an open and friendly environment.
 
-*   [Titus Learning](http://www.tituslearning.com/), United Kingdom
-*   [Xcobean](https://xcobean.org/), Kenya
+- [**Contributor Guide**](https://github.com/GibbonEdu/core/blob/master/.github/CONTRIBUTING.md) - Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.
 
-## GitHub Repos
+- [**Code of Conduct**](https://github.com/GibbonEdu/core/blob/master/.github/CODE_OF_CONDUCT.md) - Our pledge to foster a welcoming community and a positive environment for anyone to participate in.
 
-If you want to get involved in the development process, check out our [GitHub repository](https://github.com/GibbonEdu/core/issues?state=open). Generally there will be a development branch with the latest code, as per our [Development Road Map]({{< relref "gibbon-road-map.md" >}}).
+- [**Developer Workflow**](/developers/getting-started/developer-workflow) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map]({{< relref "gibbon-road-map.md" >}}).
+
+## Official Commercial Support
+
+- [Gibbon Education Limited](https://gibbonedu.org/com/), Hong Kong
+
+## Unofficial Commercial Support
+
+At this time the Gibbon team are not certifying external companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
+
+- [Xcobean](https://xcobean.org/), Kenya
+
 
 ## Mailing List
 

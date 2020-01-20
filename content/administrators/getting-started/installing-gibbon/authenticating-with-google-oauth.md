@@ -63,13 +63,7 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 
 [![](/wp/2014/02/11a-Authentication-Gibbon-300x181.png)](/wp/2014/02/11a-Authentication-Gibbon.png) Use details from steps 7-8 or click on the Credentials tab: For the following use: Google Developers Client ID = Yellow Google Developers Client Secret = Red Google Developers Client Name = Blue Google Developers Redirect Url = Green [![](/wp/2014/02/11b-Client-id-285x300.png)](/wp/2014/02/11b-Client-id.png) API Key: [![](/wp/2014/02/11c-API-key-300x119.png)](/wp/2014/02/11c-API-key.png)
 
-15\. To turn the required APIs, click on Library tab for APIs: [![](/wp/2014/02/12a-Library-APIs-300x148.png)](/wp/2014/02/12a-Library-APIs.png) Enable:
-
-*   Google+ API
-*   Google+ Domains API
-*   Calendar API
-
-For example: [![](/wp/2014/02/12b-Google-300x228.png)](/wp/2014/02/12b-Google.png)
+15\. Gibbon requires a single Google API, the Calendar API, which can be turned on via the Google Developer Console.
 
 16\. On the Gibbon home page, you should now see a ___Sign In With Google___ button, which allows users to enter the system without their Gibbon username and password.
 

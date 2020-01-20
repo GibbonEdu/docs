@@ -3,7 +3,7 @@ title: "Updating Gibbon"
 categories: ["support"]
 tags: ["getting started"]
 weight: 50
-contributors: ["rossdotparker"]
+contributors: ["rossdotparker", "fvlasie"]
 ---
 
 ## Core Updates
@@ -18,6 +18,21 @@ contributors: ["rossdotparker"]
     5.  Refresh the Update page, and it should show there are some database updates to be run. Run these by pressing the Submit button.
     6.  If the new version includes a lot of theme changes, you may need to refresh your page a few times to see things correctly.
     7.  In some cases you might need to log out and back in for all changes to be effective.
+    
+    
+    **Tips for updating via the command line**
+    
+    For step 4: Supposing you have installed Gibbon in <code>/var/www/html/c/</code> you could run the following commands on your system:
+   
+      *  cd /var/www/html
+      *  wget https://github.com/GibbonEdu/core/archive/v18.0.01.zip
+      *  unzip v18.0.01.zip
+      *  rm -rf v18.0.01.zip
+      *  chown apache:apache -R core-18.0.01
+      *  rsync -vua core-18.0.01/ c/
+      *  rm -rf core-18.0.01
+
+    The above commands are for upgrading to v18. You will need to get the URL for the version to which you are upgrading here: https://github.com/GibbonEdu/core . Also, your Gibbon install may use a different directory than "c" in the rsync command. Remember to run the database update from Gibbon's Home > System Admin > Update page. 
 
 ## Module Updates
 
