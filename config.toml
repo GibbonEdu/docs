@@ -5,7 +5,7 @@ DefaultContentLanguage = "en"
 title = "Gibbon Documentation"
 theme = "gibbon"
 themesdir = "themes"
-enableGitInfo = true
+#enableGitInfo = true
 
 ## Syntax Highlighting
 pygmentsCodefences = true
