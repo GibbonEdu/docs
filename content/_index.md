@@ -24,9 +24,8 @@ We welcome community contribution and aim to ensure Gibbon is an open and friend
 
 - [**Developer Workflow**](/developers/getting-started/developer-workflow) - If you want to get involved in the development process, check out our workflow and [GitHub repository](https://github.com/GibbonEdu/core). Generally there will be a development branch with the latest code, as per our [Development Road Map]({{< relref "gibbon-road-map.md" >}}).
 
-## Official Commercial Support
-
-- [Gibbon Education Limited](https://gibbonedu.org/com/), Hong Kong
+## Expert Support
+Members of the Gibbon team are available to help you with your Gibbon needs, via our gibbonedu.com Expert Support program. Please visit [Gibbon Education Limited](https://gibbonedu.org/com/) to learn more.
 
 ## Unofficial Commercial Support
 
