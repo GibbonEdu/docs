@@ -40,4 +40,4 @@ To receive emails on our Release & Security mailing list, please use the form on
 
 ## Email
 
-For additional support, comments and questions, please email [support@gibbonedu.org](mailto:support@gibbonedu.org). _Please note that this email address is manned by volunteers. Responses may not be immediate. Try not to abuse this address, and make use of the channels above first._
+For additional support, comments and questions, please email [support@gibbonedu.org](mailto:support@gibbonedu.org). _Please note that this email address is staffed by volunteers. Responses may not be immediate. Try not to abuse this address, and make use of the channels above first._
