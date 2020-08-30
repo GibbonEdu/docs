@@ -32,7 +32,7 @@ Members of the Gibbon team are available to help you with your Gibbon needs, via
 At this time the Gibbon team are not certifying external companies for official commercial support. However, the following list contains those companies that we know are offering commercial support, and that we have a positive working relationship with. These details are offered without warranty or quality assurance.
 
 
-- [High Point](mailto:info@highpointedu.com), United Status & Ghana
+- [High Point](mailto:info@highpointedu.com), United Status & Africa (English/French)
 - [Xcobean](https://xcobean.org/), Kenya
 
 
