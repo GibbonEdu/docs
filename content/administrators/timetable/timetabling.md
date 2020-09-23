@@ -20,7 +20,7 @@ Gibbon supports storing and rendering of timetables using a non-grid-restrained 
 3.  Use **Course Enrollment** to assign teachers and students to classes.
 4.  Use **Manage Columns** to create time structures for distinct day structure you have in your timetable cycle (e.g. if Monday, Wednesday and Friday follow one set of times, and Tuesday and Thursday follow one set of times, you will need two columns).
 5.  Use **Manage Timetables** to create as many timetables as you need in a given school year. Most schools will require one timetable, but some schools (e.g. through schools) may require more. Each timetable in each school year can only be connected to one year group (e.g. you can have a timetable for Years 7-11 and a separate one for Years 12-13). In each timetable you can specify an entry for each day in your cycle. Each of these days is tied to a column (see step 4.), which gives it timing structure. Once the column is assigned, you can associate classes with a period in a day.
-6.  The final step is to assign timetable days to calendar days, which is done using **Tie Days To Dates**.
+6.  The final step is to assign timetable days to calendar days, which is done using **Tie Days To Dates**. If no records show under **Tie Days to Dates** make sure you have set up school terms under School Admin > **Manage Terms** .
 
 ## Notes
 
