@@ -25,7 +25,7 @@ Download or fork the [starter module](https://github.com/GibbonEdu/module-gibbon
 *   **manifest.php** - used to install the software, creates all actions, permissions, tables, settings, etc
 *   **moduleFunctions.php** - a place for any module-specific PHP functions
 *   **version.php** - the version number for the code (as opposed to the database version number, the difference between is used in the upgrade progress).
-*   **src/Domain/** - a directory containing any module-specific gateways you may have. These are auto-loaded and so can be referenced simply through their namespace. The namespace format used should be "Gibbon\Module\<modulename>\Domain" where the <modulename> is the manifest.php file's $name value without spaces.
+*   **src/Domain/** - a directory containing any module-specific [QueryableGateways](https://docs.gibbonedu.org/code/gibbon/domain/queryablegateway/) you may have. These are auto-loaded and so can be referenced simply through their namespace. The namespace format used should be "Gibbon\Module\<modulename>\Domain" where the <modulename> is the manifest.php file's $name value without spaces.
 
 ## Module Translation
 
