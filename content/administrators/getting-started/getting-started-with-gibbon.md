@@ -21,7 +21,7 @@ Before setting up the structure of your school, complete as many of the settings
 
 ## School Structure
 
-Use the following options in the right-hand menu under **Admin** > **School Admin** to set up basic structures in your school.
+Use the following options in the main menu under **Admin** > **School Admin** to set up basic structures in your school.
 
 #### Years, Days & Times
 
@@ -44,7 +44,7 @@ The other settings in School Admin are not so fundamental to the running of a sc
 
 ## Users
 
-Most users of Gibbon will fit into three main categories: staff, student, parents. Gibbon uses roles, actions and permissions to control access to various parts of the system. Use the following options in the right-hand menu under **Admin** > **User Admin** to set up users and access.
+Most users of Gibbon will fit into three main categories: staff, student, parents. Gibbon uses roles, actions and permissions to control access to various parts of the system. Use the following options in the main menu under **Admin** > **User Admin** to set up users and access.
 
 #### User Management - Access
 
