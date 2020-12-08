@@ -18,7 +18,7 @@ The built-in [User Custom Fields]({{< relref "custom-fields.md" >}}) feature und
 
 ### 3) Module System
 
-Beyond the built-in tools, Gibbon's Module system allows you to extend the system quite considerably. A module can be anything from a few pages to a whole new set of tools and table data (the Free Learning module is a great example of a single module that can transform how Gibbon is used). There are also a few hooks that can be used by modules to insert content in specific places such as the dashboard: for more info view our [Module Development page](). Check out available modules on [our Extend page](https://gibbonedu.org/extend).
+Beyond the built-in tools, Gibbon's Module system allows you to extend the system quite considerably. A module can be anything from a few pages to a whole new set of tools and table data (the Free Learning module is a great example of a single module that can transform how Gibbon is used). There are also a few hooks that can be used by modules to insert content in specific places such as the dashboard: for more info view our [Module Development page](https://docs.gibbonedu.org/developers/getting-started/module-development/). Check out available modules on [our Extend page](https://gibbonedu.org/extend).
 
 ### 4) Fork Gibbon Source Code
 
