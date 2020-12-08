@@ -29,6 +29,15 @@ To install a Gibbon module:
 5. Click the plus icon in the table row for the new module.
 6. The new module will appear in Gibbon's main menu.
 
+To update a module:
+
+1. Download and unzip the module file.
+2. Copy the first-level sub-folder with the same name as the module (e.g. "Free Learning") over the old version of the module in /modules in your Gibbon installation.
+3. Browse to Admin > System Admin > Manage Modules in your Gibbon interface.
+4. Scroll down to find the relevant module in the list of installed module: it will be highlighted in green.
+5. Click the package icon in the table row for the upgraded module and follow on screen instructions.
+
+
 ### 4) Fork Gibbon Source Code
 
 With Gibbon being open-source and [available through Github](https://github.com/GibbonEdu/core) it's also possible to make modifications to a forked copy and merge new versions back into it. With each new version (generally twice a year) one would merge the new version back into their Github fork and manually handle any conflicts between the two. This direction likely requires the most programming knowledge, but is certainly one option to maintain a set of changes from one version to another. As with anything open-source, if it's a change that the developer feels could benefit other schools they can try contributing it back to the core as a pull request.
