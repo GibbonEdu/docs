@@ -25,6 +25,7 @@ Gibbon supports storing and rendering of timetables using a non-grid-restrained 
 ## Example Columns, Rows, Timetables, and Days
 
 Let's say your school runs Monday to Friday using one set of time periods on Monday-Wednesday-Friday and another set of time periods on Tuesday-Thursday. Furthermore, the school uses different times for Year 7-11 (5 periods per day) than for Year 12-13 (a longer day with 6 periods). To set this up, you could do the following:
+
 1.  Manage Columns - Add four columns: Upper MWF, Upper TuTh, Lower MWF, and Lower TuTh -- one for each combination of year group and daily time pattern.
 2.  Add Rows - Add to each of the four columns the rows needed to define the 5 Lesson periods and 4 Break periods for the lower year columns, and the 6 Lesson periods and 5 Break periods for the upper year columns.
 3.  Manage Timetables - Add two timetables: Upper, and Lower -- for each one, select the appropriate Year Groups (Upper = 12, 13; Lower = 7, 8, 9, 10, 11)
