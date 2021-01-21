@@ -37,12 +37,10 @@ If you are using a web hosting company that provides Softaculous via CPanel, you
 
 1.  Set permissions of all Gibbon files so they are not publicly writeable (e.g. `chmod -Rv 755`).
 2.  Create folder `/uploads` and set file permissions for to allow writing by web server (avoid chmod 777 for security reasons).
-3.  To improve security and reliability, `magic_quotes_gpc` should be turned off in php.ini. This is supposed to be deprecated in PHP 5.3, but experience shows sometimes it is better to turn it off anyway.
-4.  Turn PHP `register_globals` off. On shared host, use .htaccess `php_flag register_globals off` to do this
-5.  Set PHP to allow `<?` as well as `<?php`. Turn `short_open_tag` on. (This is not required for running the Core as of v8.0.00 or greater. Update your additional modules to the latest version.)
-6.  Turn folder browsing off. On shared host, use .htaccess `Options -Indexes`
-7.  Set PHP's `max_file_uploads` to at least the number of students in a class.
-8.  Set PHP's error to be `error_reporting = E_ALL & ~E_NOTICE` or less aggressive
-9.  Set PHP to allow URLs as files (otherwise Calendar overlay in TT will not work). `allow_url_fopen=On`
-10.  Set PHP's `max_input_vars` setting to 5,000 (otherwise Manage Permissions breaks)
-11. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.
+3.  Turn PHP `register_globals` off. On shared host, use .htaccess `php_flag register_globals off` to do this.
+4.  Turn folder browsing off. On shared host, use .htaccess `Options -Indexes`
+5.  Set PHP's `max_file_uploads` to at least the number of students in a class.
+6.  Set PHP's `max_input_vars` setting to 5,000 (otherwise Manage Permissions breaks).
+7.  Set PHP's error to be `error_reporting = E_ALL & ~E_NOTICE` or less aggressive.
+8.  Set PHP to allow URLs as files with `allow_url_fopen=On` (otherwise Calendar overlay in TT will not work). 
+9. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.
