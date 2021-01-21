@@ -12,7 +12,7 @@ contributors: ["skuipers"]
 2. Write some code and push your changes to your repo using the command line or your [favourite](https://www.sourcetreeapp.com/) Git GUI.
 3. Create a [new pull request](https://github.com/GibbonEdu/core/pulls) and fill in the template provided to tell us about your change.
 4. Be sure you're submitting your pull request to the development branch _(and not master)_.
-5. Submissions should have a [changelog entry](https://github.com/GibbonEdu/core/blob/master/CHANGELOG.txt) noting what was added, changed or fixed.
+5. Submissions should have a [changelog entry](https://github.com/GibbonEdu/core/blob/main/CHANGELOG.txt) noting what was added, changed or fixed.
 
 If you're unsure where to begin with GitHub feel free to reach out on the [Support forum](https://ask.gibbonedu.org) or check out these great guides: [makeapullrequest.com](http://makeapullrequest.com/) and [opensource.guide](https://opensource.guide/how-to-contribute/)
 

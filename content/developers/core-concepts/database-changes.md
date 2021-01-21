@@ -6,7 +6,7 @@ weight: 30
 contributors: ["skuipers"]
 ---
 
-Gibbon tracks database migrations through the [CHANGEDB.php](https://github.com/GibbonEdu/core/blob/master/CHANGEDB.php) file. 
+Gibbon tracks database migrations through the [CHANGEDB.php](https://github.com/GibbonEdu/core/blob/main/CHANGEDB.php) file. 
 
 The SQL lines in the CHANGEDB.php file are run automatically by the Update process in  	__System Admin > Update__. For standard installs, these changes are run once per version. For cutting edge installs, the updater tracks which lines have been already run, and only runs new lines. Internally this is saved in the `gibbonSetting` table under `cuttingEdgeCodeLine`;
 

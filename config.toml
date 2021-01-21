@@ -16,8 +16,8 @@ pygmentsOptions = "startinline=true"
 logo = "/images/gibbon-logo.png"
 version = "v21.0.00"
 ghRepo = "https://github.com/GibbonEdu/docs/"
-newURL = "https://github.com/GibbonEdu/docs/new/master/content/"
-editURL = "https://github.com/GibbonEdu/docs/edit/master/content/"
+newURL = "https://github.com/GibbonEdu/docs/new/main/content/"
+editURL = "https://github.com/GibbonEdu/docs/edit/main/content/"
 noHomeIcon = false # default is false
 noSearch = false # default is false
 showVisitedLinks = false # default is false
