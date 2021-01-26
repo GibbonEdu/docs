@@ -44,3 +44,21 @@ If you are using a web hosting company that provides Softaculous via CPanel, you
 7.  Set PHP's error to be `error_reporting = E_ALL & ~E_NOTICE` or less aggressive.
 8.  Set PHP to allow URLs as files with `allow_url_fopen=On` (otherwise Calendar overlay in TT will not work). 
 9. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.
+
+## MySQL Database Privileges
+
+For additional security, it's recommended to setup a MySQL user that has the minimum required database privileges. This is a common practice for web-based apps, to ensure that, should the credentials be compromised, the MySQL user cannot escalate their access in the system.
+
+The minimum GRANTS required for Gibbon are: 
+```
+SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, LOCK TABLES
+```
+
+You can view your current grants with the command:
+`SHOW GRANTS FOR yourusername`
+
+You can reset the grants for a user with the following commands. See the [MySQL docs](https://dev.mysql.com/doc/refman/8.0/en/show-grants.html) for more info.
+```
+REVOKE ALL PRIVILEGES ON *.* FROM 'yourusername'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, LOCK TABLES ON `yourdatabase`.* TO 'yourusername'@'%';
+```
