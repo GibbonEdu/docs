@@ -27,7 +27,7 @@ Use the following options in the main menu under **Admin** > **School Admin** to
 
 1.  ___Manage School Years___ - almost all of Gibbon's functionality is reliant on the concept of a school or academic year: this helps you see only the information that is relevant in many views. To function your system needs a "Current" school year, and can have any number of "Past" and "Upcoming" years. Each school year has a unique "sequence number", which shows how it is ordered in relation to other years.
 2.  ___Manage Days of the Week___ - here you can turn on or off individual days in the week, as well as setting start and end times for your various school days.
-3.  ___Manage Terms___ - if your school year is divided into terms of semesters, you should create one entry here for each term. Otherwise, just create a single term the same length as your school year.
+3.  ___Manage Terms___ - if your school year is divided into terms or semesters, you should create one entry here for each term. Otherwise, just create a single term the same length as your school year.
 4.  ___Manage Special Days___ - here you can specify public holidays, mid-term breaks and other school closures. This is important as it helps determine whether things like school attendance should be enabled on any given day.
 
 #### Groupings
@@ -44,7 +44,7 @@ The other settings in School Admin are not so fundamental to the running of a sc
 
 ## Users
 
-Most users of Gibbon will fit into three main categories: staff, student, parents. Gibbon uses roles, actions and permissions to control access to various parts of the system. Use the following options in the main menu under **Admin** > **User Admin** to set up users and access.
+Most users of Gibbon will fit into three main categories: staff, students, and parents. Gibbon uses roles, actions and permissions to control access to various parts of the system. Use the following options in the main menu under **Admin** > **User Admin** to set up users and access.
 
 #### User Management - Access
 
