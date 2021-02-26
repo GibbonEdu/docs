@@ -13,6 +13,10 @@ Gibbon supports storing and rendering of timetables using a non-grid-restrained 
 3.  You should have a list of all the activities the school does in all days the school is on.
 4.  This should be in terms of the periods, the times and the activities of a particular time set.
 
+Here is what the timetable menu interface should look like by default.
+
+[](static/img/Screen Shot 2021-02-25 at 6.46.06 PM.png)
+
 ## Creating A Timetable
 
 1.  Go to Admin > Timetable Admin
