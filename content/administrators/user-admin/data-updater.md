@@ -2,7 +2,7 @@
 
 The following page explains how to use the Data Updater module to keep your school's data for students and families up to date. There are four types of data that can be updated: Family, Finance, Medical and Personal.
 
-Be warned: depending on the size of your school, working through data updates can be a long process!
+Be warned: depending on the size of your school, working through data updates can be a time-consuming process at the beginning of a new school year.
 
 ## Family Data
 
