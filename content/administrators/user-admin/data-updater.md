@@ -20,4 +20,4 @@ At the bottom of the Medical section is a checkbox that allows a medical conditi
 
 ## Personal Data
 
-Personal data updates keep track of personal information about students and parents. This data update type has the most fields, and contains many important elements such as emergency contact numbers for students.
+Personal data updates keep track of personal information about students and parents. This data update type has the most fields, and contains many important elements such as emergency contacts for students.
