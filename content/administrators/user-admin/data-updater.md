@@ -21,3 +21,7 @@ At the bottom of the Medical section is a checkbox that allows a medical conditi
 ## Personal Data
 
 Personal data updates keep track of personal information about students and parents. This data update type has the most fields, and contains many important elements such as emergency contacts for students.
+
+## Data Updater Settings
+
+In User Admin, the Data Updater Settings menu allows you to modify the requirements that parents are held to when they update their data. You can make certain data updates required, and set a cutoff date by which data updates must be completed. You can also force users who have not yet submitted their data updates to be redirected to the data updater on login.
