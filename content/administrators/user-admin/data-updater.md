@@ -33,3 +33,7 @@ Personal data updates keep track of personal information about students and pare
 ## Data Updater Settings
 
 In User Admin, the Data Updater Settings menu allows you to modify the requirements that parents are held to when they update their data. You can make certain data updates required, and set a cutoff date by which data updates must be completed. You can also force users who have not yet submitted their data updates to be redirected to the data updater on login.
+
+## Workflow
+
+A good practice for data updates is to establish the workflow of checking them. When a new data update arrives, you will receive a notification based on your notification settings. This will allow you to navigate to the data update. Click on the Edit button, and check the two columns - Old on the left, and New on the right - to make sure there are no discrepancies. Common issues include parents changing student email addresses from the school email to something else, and the occasional instance of a parent changing a student's name on accident. Once you have verified that the update is correct, scroll to the bottom and hit Submit.
