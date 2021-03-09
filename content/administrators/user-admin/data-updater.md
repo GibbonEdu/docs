@@ -18,7 +18,7 @@ Medical data updates keep track of student medical data. Some fields are mandato
 
 At the bottom of the Medical section is a checkbox that allows a medical condition to be added to a student.
 
-![Medical Checkbox](/static/img/medical-checkbox.png)
+<img src="https://static/img/medical-checkbox.png" width="200">
 
 This will open an additional form that shows a parent a list of elements of a medical condition.
 
