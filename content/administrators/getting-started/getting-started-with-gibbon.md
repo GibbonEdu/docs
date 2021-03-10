@@ -7,9 +7,13 @@ weight: 20
 contributors: ["rossdotparker"]
 ---
 
-Gibbon aims to cater to all sorts of schools, and the back end has a correspondingly large assortment of options. This can be overwhelming to start with, so this page aims to highlight the most important options when first setting up a school. The video below gives a quick start guide, with the following text going into more detail:
+Gibbon aims to cater to all sorts of schools, and the back end has a correspondingly large assortment of options. This can be overwhelming to start with, so this page aims to highlight the most important options when first setting up a school. The video below gives an overview of the installation process, with the following text going into more detail:
 
 <div style="width: 100%; text-align: center; margin-bottom: 20px;"><iframe src="https://www.youtube.com/embed/jTj4KLEB-w8?start=133&end=1179" allowfullscreen="allowfullscreen" width="640" height="480" frameborder="0"></iframe></div>
+
+#### Additional Videos
+
+In March 2021 we ran a training day with a number of sessions to help administrators setup their system. You can find the full playlist of sessions here: [Gibbon Training Day 2021](https://www.youtube.com/watch?v=jTj4KLEB-w8&list=PLomK0srSl6WLUpLCWXAPNx7pc5uxbHt4A)
 
 ## Demo Data
 
