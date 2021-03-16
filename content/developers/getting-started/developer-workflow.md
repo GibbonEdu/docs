@@ -9,10 +9,11 @@ contributors: ["skuipers"]
 
 
 1. Fork the [GibbonEdu/core](https://github.com/GibbonEdu/core) repository on GitHub and [clone a copy](https://help.github.com/articles/cloning-a-repository/) on your local machine.
-2. Write some code and push your changes to your repo using the command line or your [favourite](https://www.sourcetreeapp.com/) Git GUI.
-3. Create a [new pull request](https://github.com/GibbonEdu/core/pulls) and fill in the template provided to tell us about your change.
-4. Be sure you're submitting your pull request to the development branch _(and not master)_.
-5. Submissions should have a [changelog entry](https://github.com/GibbonEdu/core/blob/main/CHANGELOG.txt) noting what was added, changed or fixed.
+2. If you're running [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/), run the `composer install` command to install all required libraries in your vendor folder.
+3. Write some code and push your changes to your repo using the command line or your [favourite](https://www.sourcetreeapp.com/) Git GUI.
+4. Create a [new pull request](https://github.com/GibbonEdu/core/pulls) and fill in the template provided to tell us about your change.
+5. Be sure you're submitting your pull request to the development branch _(and not master)_.
+6. Submissions should have a [changelog entry](https://github.com/GibbonEdu/core/blob/main/CHANGELOG.txt) noting what was added, changed or fixed.
 
 If you're unsure where to begin with GitHub feel free to reach out on the [Support forum](https://ask.gibbonedu.org) or check out these great guides: [makeapullrequest.com](http://makeapullrequest.com/) and [opensource.guide](https://opensource.guide/how-to-contribute/)
 
@@ -26,6 +27,12 @@ Each version, stable or development, is denoted with a major semantic version (e
 ### Branching Strategy
 
 Gibbon uses a simple branching strategy. The current stable version is released and tagged on the `Master` branch. Development branches are setup after each release and increment to the next major version (e.g., v16.0.00 to v17.0.00). The dev branch does not currently track semantic versioning, and a built-in updater handles database changes for [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/).
+
+### Dependency Management
+
+{{% alert theme="info" %}}As of Gibbon v22.0.00, cutting edge code uses composer to manage the vendor folder. See the [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/) page for installation and update instructions.{{% /alert %}}
+
+Gibbon depends on a number of libraries written and managed by other developers, which are stored in the `vendor` folder. As of v22.0.00, developers will need to use PHP's dependency manager, [Composer](https://getcomposer.org/), to install and update libraries in their vendor folder. Stable releases include a full copy of the vendor folder and do not require composer.
 
 ### Development Philosophy
 

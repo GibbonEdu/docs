@@ -12,7 +12,7 @@ A reporting cycle is a period of time within the school year that reporting data
 
 Each reporting cycle can be setup through ___Manage Reporting Cycles___. The start and end date determine when the reporting cycle occurs throughout the school year. These dates are separate from when users have access to the reporting cycle, which is set through ___Manage Access___.
 
-- **Cycle Number**: If there are more than one reporting cycles in a year, you can set the Cycle Number and Total Cycles, which are used by report templates to display progressive and cumulative reporting data.
+- **Cycle Number**: If there is more than one reporting cycle in a year, you can set the Cycle Number and Total Cycles, which are used by report templates to display progressive and cumulative reporting data.
 
 - **Milestones**: A reporting cycle can have a number of Milestones, which are important dates within the reporting cycle. These can act as reminders for users, and are shown on the My Reporting page as a timeline of events.
   ![Milestones](/reports/Milestones.png)

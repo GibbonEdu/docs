@@ -25,9 +25,9 @@ From the ___My Reporting___ page, users can click Edit to access the report writ
 
 - **Report Completion**: Each student report has a Complete checkbox. This tells the system that the report for this student is done, and displays a "Save & Next" button to quickly progress to the next student in your class. Users can always save incomplete reports with the normal "Save" button. The sidebar also highlights complete reports in green.
 
-### Proof reading
+### Proof Reading
 
-There is built-in system for helping proof read other users comments. Users can easily view comments for a whole class, and suggest changes which the recipient can click to accept, reject, or edit and incorporate those changes.
+There is built-in system for helping to proofread other users' comments. Users can easily view comments for a whole class, and suggest changes which the recipient can click to accept, reject, or edit and incorporate those changes.
 
 - **Self-review**: When a user visits the Proof Read page, it will show them their comments by default. This screen lets users read and directly edit their own comments, as needed.
 
