@@ -28,7 +28,7 @@ We welcome community contribution and aim to ensure Gibbon is an open and friend
 Members of the Gibbon team are available to help you with your Gibbon needs, via our gibbonedu.com Expert Support program. Please visit [Gibbon Education Limited](https://gibbonedu.com/) to learn more.
 
 ## Official Gibbon Partners
-The following organisations and individuals have trained and qualified as Official Gibbon Partners under our [certification](https://gibbonedu.com/certification.php) progamme, and are available to provide commercial support:
+The following organisations and individuals have trained and qualified as Official Gibbon Partners under [our gibbonedu.com Certification programme](https://gibbonedu.com/certification.php), and are available to provide commercial support:
 
 - [High Point](https://highpointedu.com), United States & Africa (English/French)
 
