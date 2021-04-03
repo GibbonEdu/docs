@@ -30,7 +30,7 @@ Members of the Gibbon team are available to help you with your Gibbon needs, via
 ## Official Gibbon Partners
 The following organisations and individuals have trained and qualified as Official Gibbon Partners under [our gibbonedu.com Certification programme](https://gibbonedu.com/certification.php), and are available to provide commercial support:
 
-- [High Point](https://highpointedu.com), United States & Africa (English/French)
+- [High Point](https://highpointedu.com)
 
 ## Unofficial Commercial Support
 The following list contains those companies that we know are offering commercial support outside of our Official Gibbon Partner programme. These details are offered without warranty or quality assurance.
