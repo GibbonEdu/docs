@@ -38,7 +38,7 @@ You can generate two types of report PDFs: a combined batch-report of all studen
 Teachers and other staff can access the archive through View by Report as well as View by Student. 
   ![Archive by Student](/reports/Archive by Student.png)
 
-- **View by Report**: This shows a combined view of available reports, further subdivided by year group and roll group. The ___Read___ progress indicator shows the overall number of student reports that have been accessed by a parent in their family. Users with permission van view and download batch PDF files through this page.
+- **View by Report**: This shows a combined view of available reports, further subdivided by year group and form group. The ___Read___ progress indicator shows the overall number of student reports that have been accessed by a parent in their family. Users with permission van view and download batch PDF files through this page.
 
 - **View by Student**: This shows individual reports per student, with options to search and filter the archive page. Reports that have been accessed by a member of the family are highlighted with a Read indicator.
 
