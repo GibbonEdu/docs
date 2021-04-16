@@ -37,7 +37,7 @@ Use the following options in the main menu under **Admin** > **School Admin** to
 #### Groupings
 
 1.  ___Manage Year Groups___- year groups represent the way that schools divides students on the basis of age. By default, Gibbon ships with Years 7-13 preset. Use this area to add, edit and delete school years. Each year group has a unique "sequence number", which shows how it is ordered in relation to other year groups.
-2.  ___Manage Roll Group___ - roll groups (aka tutor groups, home room, form groups) are the groups in which students have their attendance taken and/or receive pastoral care. Roll groups can contain students from a single year group, or can be mixed across years.
+2.  ___Manage Form Group___ - form groups (aka roll groups, home room, tutor groups) are the groups in which students have their attendance taken and/or receive pastoral care. Roll groups can contain students from a single year group, or can be mixed across years.
 3.  ___Manage Departments___ - departments, which can be either learning areas or administrative, represent staff groupings. These are mainly used in the Planner, Departments and Library modules. To make use of this area, you will most likely want to added staff to your school (see below).
 
 #### Others
