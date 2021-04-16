@@ -26,15 +26,15 @@ The scopes and criteria in a reporting cycle determine *what* is being reported 
 
 - The __Year Group__ scope is available to users who have been set as the Head of Year in ___School Admin > Manage Year Groups___.
 
-- The __Form Group__ scope is available to users who have been assigned as a tutor for a roll group through ___School Admin > Manage Roll Groups___.
+- The __Form Group__ scope is available to users who have been assigned as a tutor for a form group through ___School Admin > Manage Form Groups___.
 
 - The __Course__ scope is available to users who have been added as a Teacher of a course through ___Timetable Admin > Course Enrolment by Class___.
 
-**Criteria** determine what kind of data is being recoded for each student. The criteria system is flexible, enabling different sets of data to be collected for different courses, roll groups, and year groups.
+**Criteria** determine what kind of data is being recoded for each student. The criteria system is flexible, enabling different sets of data to be collected for different courses, form groups, and year groups.
 
 - The __name__ and __description__ of a criteria are displayed to users who are writing the reports, to help them know what kind of data they're entering.
 
-- The __target__ for a criteria determines if it is written individually Per Student, or collectively Per Group for all students in the selected course, roll group, or year group. For example, schools may wish to differentiate between one comment written Per Student, as well as a single general comment written Per Group.
+- The __target__ for a criteria determines if it is written individually Per Student, or collectively Per Group for all students in the selected course, form group, or year group. For example, schools may wish to differentiate between one comment written Per Student, as well as a single general comment written Per Group.
 
 **Criteria Types** are the generic types of data being recorded. There are some Comment types added by default, and you're encouraged to add criteria types as needed by your school. These are reusable from year to year, and enable template builders to design different layouts for different types of criteria in the reports. For example, if a school has two different types of grades on a report card, such as a Term Grade and a Final Grade, they may want to set these up as separate criteria types so they can differentiate this data.
 
