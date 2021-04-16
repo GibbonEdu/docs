@@ -26,7 +26,7 @@ The scopes and criteria in a reporting cycle determine *what* is being reported 
 
 - The __Year Group__ scope is available to users who have been set as the Head of Year in ___School Admin > Manage Year Groups___.
 
-- The __Roll Group__ scope is available to users who have been assigned as a tutor for a roll group through ___School Admin > Manage Roll Groups___.
+- The __Form Group__ scope is available to users who have been assigned as a tutor for a roll group through ___School Admin > Manage Roll Groups___.
 
 - The __Course__ scope is available to users who have been added as a Teacher of a course through ___Timetable Admin > Course Enrolment by Class___.
 
