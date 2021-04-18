@@ -20,5 +20,5 @@ Migrating Gibbon from one server to another can involve the following considerat
     *   Ensure the file permissions on your new server are secure, and that /uploads is writable by your web server.
     *   Ensure that the configuration of your new server meets Gibbon's requirements.
     *   Admin > System Admin > System Check can help in both of these regards.
-4. **Decommissioning
+4. **Decommissioning**
     *   Once your new server is up and running, and well tested, decommission your old server, backing up and scrubbing data as needed.
