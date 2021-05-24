@@ -17,7 +17,7 @@ The Manage Staff tab allows you to add, edit and delete members of staff in the 
 
 2. The Edit button allows you to edit certain elements of a staff member's data pertaining to their role in the school. You can also link facilities to a particular staff member, and add records of their contracts.
 
-3. Deleting a member of staff will revert them to being a regular user, but it is generally good Gibbon practice to not delete records whenever possible.
+3. Deleting a member of staff will revert them to being a regular user, but it is generally good Gibbon practice to avoid deleting records whenever possible.
 
 
 
@@ -41,12 +41,12 @@ Under the School heading, information can be found about things the staff member
 
 ## Staff Applications
 
-<!-- ## Absences and Coverage
+For a user to apply to become a member of staff, a job opening must exist first. Click the Add button in the Job Openings tab to create one.
 
-The Absences section allows you to view, manage, approve and create staff absences. This is useful as an integrated method of keeping track of when staff members are in and out of school for various reasons.
+![Job Opening screen](/static/img/administrators/job_opening.png)
 
-To create an absence for yourself or another member of staff, go to New Absence. This form allows you to select the reason for absence, how long it will last, who to notify, and whether or not a substitute will be required.
+When creating a job opening, you can choose what kind of job it is based on the roles defined in your system (Teaching and Support by default), as well as giving it a job title and opening date. You can also fill in the pre-assigned description fields, modify them, or create new ones.
 
-The Coverage section is linked to the Absences section - once an absence is in the system, you can use this section to create and manage cover for the absent teacher's lessons.
+Once you have created a job opening, it will appear in the Staff Application Form menu. If "Public Applications" is active in User Admin -> Staff Application Form Settings, then members of the public can apply for job openings without needing an account in your Gibbon installation.
 
-## Staff Management -->
+![Staff Applications frontpage button](/static/img/administrators/application_button.png)
