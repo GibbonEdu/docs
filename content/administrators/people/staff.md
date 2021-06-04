@@ -7,7 +7,7 @@ linktitle: "Staff"
 
 The Staff module allows you to get a clear and detailed overview of every member of staff in your school system. The main page, Staff Directory, gives a full list of every teacher and all support staff, their staff type, and their job title and roll group if applicable. This can also be viewed as a grid with photos, or in a card view that also shows staff email addresses. You can filter this view to show only teaching or only support staff, and search for preferred names, surnames or usernames.
 
-![Staff Directory top menu](/static/img/administrators/staff_directory.png)
+![Staff Directory top menu](/img/administrators/staff_directory.png)
 
 ## Manage Staff
 
@@ -43,10 +43,10 @@ Under the School heading, information can be found about things the staff member
 
 For a user to apply to become a member of staff, a job opening must exist first. Click the Add button in the Job Openings tab to create one.
 
-![Job Opening screen](/static/img/administrators/job_opening.png)
+![Job Opening screen](/img/administrators/job_opening.png)
 
 When creating a job opening, you can choose what kind of job it is based on the roles defined in your system (Teaching and Support by default), as well as giving it a job title and opening date. You can also fill in the pre-assigned description fields, modify them, or create new ones.
 
 Once you have created a job opening, it will appear in the Staff Application Form menu. If "Public Applications" is active in User Admin -> Staff Application Form Settings, then members of the public can apply for job openings without needing an account in your Gibbon installation.
 
-![Staff Applications frontpage button](/static/img/administrators/application_button.png)
+![Staff Applications frontpage button](/img/administrators/application_button.png)

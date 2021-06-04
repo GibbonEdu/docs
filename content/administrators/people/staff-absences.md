@@ -11,7 +11,7 @@ To create an absence for yourself or another member of staff, go to New Absence.
 
 The Coverage section is linked to the Absences section - once an absence is in the system, you can use this section to create and manage cover for the absent teacher's lessons.
 
-![Coverage menu](/static/img/administrators/coverage.png)
+![Coverage menu](/img/administrators/coverage.png)
 
 As the ability to manage absences is a fairly new part of Gibbon, the ability for teachers to request their own absences or cover is disabled by default. If you wish to enable this functionality, go to User Admin > Manage Permissions, filter down to Staff, and enable the following permissions for the necessary roles.
 
