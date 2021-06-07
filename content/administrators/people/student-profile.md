@@ -3,7 +3,7 @@ title: "Student Profile"
 linktitle: "Student Profile"
 ---
 
-The student profile is a key component of Gibbon, as it gives administrators and teachers full access to all the necessary information about an individual student.
+The student profile is a key component of Gibbon, as it gives administrators and teachers full access to all the necessary information about an individual student. As well as this, students are able to view their own profiles, and parents can view the profiles of their children. Other users may see a brief or full version of any profile, depending on the permissions set in Manage Permissions.
 
 ## General information
 
@@ -11,7 +11,7 @@ The General Information panel lives at the top of a student profile, and provide
 
 ## Teachers of student
 
-Below General Information is an overview of all the student's teachers, based on their timetable. This includes teachers, form tutors, educational assistants, and heads of year. Each entry has the teacher's photo, their name, and what subject they teach the student. If the same teacher teaches one student multiple subjects, they will appear twice.
+Below General Information is an overview of all the student's teachers, based on their timetable. This includes teachers, form tutors, educational assistants, and heads of year. Each entry has the teacher's photo, their name, and what subject they teach the student. If the same teacher teaches one student multiple subjects, they will appear twice. There is an option to select a list view of teachers, and in the list view the teacher's names and email addresses can easily be copy-pasted to send emails to a student's teachers.
 
 ## Timetable
 
