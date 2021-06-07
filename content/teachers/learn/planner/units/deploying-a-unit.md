@@ -20,21 +20,21 @@ In order to deploy a unit with Smart Blocks, do the following:
 *   Click on the ___Edit___ icon ![config](/wp/2016/08/config.png?classes=inline) against the unit you would like to deploy.
 *   Once the unit loads up, scroll down to the ___Classes___ section, and set those classes you want to deploy to ___Yes___ in the ___Running___ column.
 
-![Deploying A Unit - Classes](/wp/2016/08/Deploying-A-Unit-Classes-1024x382.png)
+![Deploying A Unit - Classes](/img/teachers/unit-deploy.png)
 
 *   The icons under the ___Actions___ column will appear once you press the ___Submit___ button, and the page reloads.
 *   Now click on the ___Edit___ icon ![config](/wp/2016/08/config.png?classes=inline) against the class you would like to deploy to.
 *   You will see a list of all lessons in the year (according to the timetable), from which you can select the lessons you wish to deploy to. Select classes by checking the boxes in the ___Include___ column:
 
-![Deploying A Unit - Lessons 1](/wp/2016/08/Deploying-A-Unit-Lessons-1-966x1024.png)
+![Deploying A Unit - Lessons 1](/img/teachers/unit-deploy-lessons1.png)
 
 *   In the final step, you will see slots for the new lessons, and, if your blocks have timings, they should be prefilled with content.
 
-![Deploying A Unit - Lessons 2](/wp/2016/08/Deploying-A-Unit-Lessons-2-1024x869.png)
+![Deploying A Unit - Lessons 2](/img/teachers/unit-deploy-lessons2.png)
 
 *   If your blocks don't have timings, or you want to add new blocks, you can use the ___Add Block___ drop down in the relevant lesson:
 
-![Deploying A Unit - Lessons 3](/wp/2016/08/Deploying-A-Unit-Lessons-3-1024x202.png)
+![Deploying A Unit - Lessons 3](/img/teachers/unit-deploy-lessons3.png)
 
 *   Remember, you can reorder blocks within a lesson, or move them to other lessons, by dragging and dropping them.
 *   Once finished, press the ___Submit___ button to create your lesson plans.
