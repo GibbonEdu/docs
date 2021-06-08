@@ -12,7 +12,7 @@ This manual is currently under development. Requests for new materials can be se
 
 On logging in as a parent, you will see the Parental Dashboard: this aims to give you a quick overview of what is happening for each child you have in the school.
 
-![Parent Dashboard](/img/parents/parent-dashboard.png)
+![Parent Dashboard](/img/parents/parental-dashboard.png)
 
 As shown above, the dashboard shows you a summary of Today's Classes, Recent grades and Upcoming Deadlines. For more detail use the highlighted links.
 
@@ -20,7 +20,7 @@ As shown above, the dashboard shows you a summary of Today's Classes, Recent gra
 
 One of Gibbon's most useful features is the Planner, which allows you to see what is being taught in school. Located under ___Learn___ > ___Planner___ in the main menu, the listing gives you a choice to view lessons by date or by subject:
 
-Use ![zoom](/wp/2013/05/zoom.png?classes=inline) icon to select a lesson and view more details. Once inside a lesson you can post chat messages, available to student, teachers and other parents. You can use the ![like_off](/wp/2013/05/like_off.png?classes=inline)icon to give positive feedback on a lesson (this helps teachers to know what you like).
+Use ![zoom](/wp/2013/05/zoom.png?classes=inline) icon to select a lesson and view more details. Once inside a lesson you can post chat messages, available to student, teachers and other parents.
 
 #### Homework & Deadlines
 
