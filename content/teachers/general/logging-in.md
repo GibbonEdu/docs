@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-To access your Gibbon account, you need to login. The login window is available in the sidebar of the homepage of your Gibbon installation. [![Screen Shot 2015-08-31 at 7.35.39 pm](/wp/2015/08/Screen-Shot-2015-08-31-at-7.35.39-pm-1024x655.png)](/wp/2015/08/Screen-Shot-2015-08-31-at-7.35.39-pm.png)
+To access your Gibbon account, you need to login. The login window is available in the sidebar of the homepage of your Gibbon installation. [![Screen Shot 2015-08-31 at 7.35.39 pm](/img/teachers/login-page.png)
 
 ### **Options**
 
