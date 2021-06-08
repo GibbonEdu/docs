@@ -19,7 +19,7 @@ Gibbon's Fast Finder, located in the header bar, allows you to quickly access th
 
 1.  To use the Fast Finder, which is located at the top right of the screen, start typing into its text box.
 
-[![Fast Finder](/img/teachers/fast-finder.png)
+![Fast Finder](/img/teachers/fast-finder.png)
 
 1.  An autocomplete dropdown will appear, from which you can select the item you are searching for.
 2.  Press ___Go___ to be redirected to the desired information.

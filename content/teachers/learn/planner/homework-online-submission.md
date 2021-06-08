@@ -10,7 +10,7 @@ One of Gibbon's aims is to save teacher time by offering a system of smart workf
 
 If you are interested in using this feature, you can enable it in the Lesson Planner edit view. Once editing a lesson, scroll down the to Homework section, and turn homework on, entering deadline and other details.
 
-Next, enable the Online Submission option, which is at the bottom of the Homework section: [![Homework](/img/teachers/homework-online.png)
+Next, enable the Online Submission option, which is at the bottom of the Homework section: ![Homework](/img/teachers/homework-online.png)
 
 If you save the lesson plan, and then view it, you will see a list of students. Students can submit from right in the lesson plan. Your student list will fill up with submissions, with late submissions being highlighted automatically (and flagged for action by tutors), as shown below: [![Online Submission](/wp/2015/11/Online-Submission-1024x338.png)](/wp/2015/11/Online-Submission.png)
 
