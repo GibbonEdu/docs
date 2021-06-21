@@ -25,14 +25,17 @@ contributors: ["rossdotparker", "fvlasie"]
     For step 4: Supposing you have installed Gibbon in <code>/var/www/html/c/</code> you could run the following commands on your system:
    
       *  cd /var/www/html
-      *  wget https://github.com/GibbonEdu/core/archive/v18.0.01.zip
-      *  unzip v18.0.01.zip
-      *  rm -rf v18.0.01.zip
-      *  chown apache:apache -R core-18.0.01
-      *  rsync -vua core-18.0.01/ c/
-      *  rm -rf core-18.0.01
-
-    The above commands are for upgrading to v18. You will need to get the URL for the version to which you are upgrading here: https://github.com/GibbonEdu/core . Also, your Gibbon install may use a different directory than "c" in the rsync command. Remember to run the database update from Gibbon's Home > System Admin > Update page. 
+      *  wget https://github.com/GibbonEdu/core/archive/v22.0.0.zip
+      *  unzip v22.0.0.zip
+      *  rm -rf v22.0.0.zip
+      *  chown apache:apache -R core-22.0.0
+      *  rsync -vua core-22.0.0/ c/
+      *  rm -rf core-22.0.0
+      
+    The above commands are for upgrading to v22. You will need to get the URL for the version to which you are upgrading here: https://github.com/GibbonEdu/core . Also, your Gibbon install may use a different directory than "c" in the rsync command. Remember to run the database update from Gibbon's Home > System Admin > Update page. 
+      Note that in the switch to v22 the module Roll Groups has been replaced with Form Groups. If you are updating using this method from a verison prior to v22 you will need to run this command too (again assuming Gibbon is installed in <code>/var/www/html/c/</code>):
+      
+      *  rm -rf /var/www/html/c/modules/Roll\ Groups
 
 ## Module Updates
 
