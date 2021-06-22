@@ -32,8 +32,9 @@ contributors: ["rossdotparker", "fvlasie"]
       *  rsync -vua core-22.0.0/ c/
       *  rm -rf core-22.0.0
       
-    The above commands are for upgrading to v22. You will need to get the URL for the version to which you are upgrading here: https://github.com/GibbonEdu/core . Also, your Gibbon install may use a different directory than "c" in the rsync command. Remember to run the database update from Gibbon's Home > System Admin > Update page. 
-      Note that in the switch to v22 the module Roll Groups has been replaced with Form Groups. If you are updating using this method from a verison prior to v22 you will need to run this command too (again assuming Gibbon is installed in <code>/var/www/html/c/</code>):
+    The above commands are for upgrading to v22. You will need to get the URL for the version to which you are upgrading here: https://github.com/GibbonEdu/core . Also, your Gibbon install may use a different directory than "c" in the rsync command. Remember to run the database update from Gibbon's Home > System Admin > Update page.
+    
+      Note that in the switch to v22 the module Roll Groups has been replaced with Form Groups. If you are updating using this method from a version prior to v22 you will need to run this command too (again assuming Gibbon is installed in <code>/var/www/html/c/</code>):
       
       *  rm -rf /var/www/html/c/modules/Roll\ Groups
 
