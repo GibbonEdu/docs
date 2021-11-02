@@ -1,1 +1,0 @@
-<!--- Please provide a general summary of your changes. If you've created a new page or made signifigant changes to the content feel free to add your GitHub username to the contributors list at the top of the changed file. -->
