@@ -54,6 +54,7 @@ If you are using a web hosting company that provides Softaculous via CPanel, you
 Files uploaded to Gibbon are stored in the uploads folder. It's essential for your school's security to ensure that this folder cannot be browsed and accessed by random people. The steps to do this depend on your server setup. Some instructions for Apache servers is included below.
 
 **Apache**:
+
 1.  Edit your apache2 config file, often located at /etc/apache2/apache2.conf
 2.  Look for the directory config, which often looks like `<Directory /var/www/>` ... `</Directory>`
 3.  Inside the config, if you see `Options Indexes FollowSymLinks` change this to `Options FollowSymLinks` removing the Indexes config
