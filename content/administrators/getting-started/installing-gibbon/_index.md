@@ -49,6 +49,18 @@ If you are using a web hosting company that provides Softaculous via CPanel, you
 8.  Set PHP to allow URLs as files with `allow_url_fopen=On` (otherwise Calendar overlay in TT will not work). 
 9. On systems that use selinux make sure to run `setsebool -P httpd_can_sendmail 1` to enable Gibbon to send mail.
 
+## Securing your Uploads Folder
+
+Files uploaded to Gibbon are stored in the uploads folder. It's essential for your school's security to ensure that this folder cannot be browsed and accessed by random people. The steps to do this depend on your server setup. Some instructions for Apache servers is included below.
+
+**Apache**:
+- Edit your apache2 config file, often located at /etc/apache2/apache2.conf
+- Look for the directory config, which often looks like `<Directory /var/www/>` ... `</Directory>`
+- Inside the config, if you see `Options Indexes FollowSymLinks` change this to `Options FollowSymLinks` removing the Indexes config
+- Reload your updated config, on Ubuntu use the command `sudo service apache2 reload`
+- Check to see that your /uploads folder returns a 403 Forbidden or 404 Not Found result
+
+
 ## MySQL Database Privileges
 
 For additional security, it's recommended to setup a MySQL user that has the minimum required database privileges. This is a common practice for web-based apps, to ensure that, should the credentials be compromised, the MySQL user cannot escalate their access in the system.
