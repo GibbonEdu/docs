@@ -25,7 +25,7 @@ Steps:
 1. Make sure your Gibbon installation has a 100% passed system check (you will need to installed certain PHP extensions).
 2. Install the Languages you want.
 3. Create a System Variable in Windows called LANG
-4. Change the variable to the language code you prefer (requires adding the language to the Gibbon installation). For example: LANG=es_MX to use Gibbon in English
+4. Change the variable to the language code you prefer (requires adding the language to the Gibbon installation). For example: LANG=es_MX to use Gibbon in Spanish
 5. Restart Apache server
 6. Refresh browser
 7. Start using Gibbon in the language you prefer. (Note: Windows must be set to the language that will be used in Gibbon).
