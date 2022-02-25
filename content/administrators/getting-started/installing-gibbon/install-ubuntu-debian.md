@@ -17,9 +17,15 @@ Firstly, be aware these will need to be run as root so sudo/su - appropriately!
 
 `apt install apache2 php mysql-server php-gd php-mysql php-zip php-curl php-gettext php-pdo`
 
+For PHP 8, this may look a bit different:
+
+`apt install php8.0-mysql php8.0-gd php8.0-zip php8.0-curl php8.0-gettext php8.0-pdo php8.0-xml php8.0-mbstring`
+
 The relevant packages will be installed, however, you still need to enable mod_rewrite on Apache.
 
 `a2enmod rewrite`
+
+You may also need to edit your php.ini file to enable extensions under Dynamic Extensions, especially php_mysql.
 
 Next, restart Apache!
 
