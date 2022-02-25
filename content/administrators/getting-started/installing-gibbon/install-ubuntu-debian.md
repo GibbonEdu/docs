@@ -31,6 +31,10 @@ Next, restart Apache!
 
 `systemctl restart apache2`
 
+## HTTPS
+
+Check out certbot for automatic LetsEncrypt SSL cert setup and renewal. [https://certbot.eff.org/](https://certbot.eff.org/)
+
 ## Configuration
 
 1. Copy the default configuration from /etc/apache2/sites-available/000-default.conf to /etc/apache2/sites-available/gibbon.local.conf. Symlink /etc/apache2/sites-enabled/gibbon.local.conf to the copied file so it's enabled.
