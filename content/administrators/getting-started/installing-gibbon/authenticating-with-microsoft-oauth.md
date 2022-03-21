@@ -4,10 +4,9 @@ The following are some quick instructions for setting up the Microsoft SSO in Gi
 2. Once logged in, select [Azure Active Directory](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Overview) from the sidebar menu.
 3. Then select [App Registrations](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps) from the list of Manage options in the sidebar.
 4. Click + New Registration and give it a name and select your account type.
-    <img width="575" alt="Screenshot 2022-03-21 at 10 42 09 AM" src="https://user-images.githubusercontent.com/897700/159198749-ec8dec62-5b87-48b5-ad71-bff814ea7bd1.png">
-
 5. For the Redirect URI, this will come from Gibbon.
     - Go into System Admin > Third Party Settings and select the Edit pencil next to the Microsoft SSO option.
+    - <img width="575" alt="Screenshot 2022-03-21 at 10 42 09 AM" src="https://user-images.githubusercontent.com/897700/159198749-ec8dec62-5b87-48b5-ad71-bff814ea7bd1.png">
     - Select Yes next to APi Enabled to turn this API on.
     - Select and copy the value next to API Redirect Uri. This takes the form of http://yourdomain.com/login.php
     - Paste this into the Redirect URI field in the Microsoft page, selecting Web as the platform.
