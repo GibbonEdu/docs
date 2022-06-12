@@ -8,7 +8,7 @@ contributors: ["jcarney2024"]
 Migrating Gibbon from one server to another can involve the following considerations and steps:
 
 ### How to Set Up SMTP Email Settings
-    *   Navigate to Admin > Third Party Settings > SMTP Mail
+*   Navigate to Admin > Third Party Settings > SMTP Mail
     *   Set "Enable SMTP Mail" to "Yes"
     *   Input the hostname of your SMTP email provider. (This is whoever services your email; GSuite, Microsoft Outlook, Zoho, etc.)
         *   Some Common Examples of email providers:
