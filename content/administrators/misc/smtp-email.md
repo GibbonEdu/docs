@@ -5,7 +5,7 @@ tags: ["Miscellaneous"]
 weight: 70
 contributors: ["jcarney2024"]
 ---
-Migrating Gibbon from one server to another can involve the following considerations and steps:
+Setting up a new server, or migrating Gibbon from one server to another, can involve the following considerations and steps:
 
 ### How to Set Up SMTP Email Settings
 *   Navigate to Admin > Third Party Settings > SMTP Mail
