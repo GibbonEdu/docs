@@ -8,7 +8,7 @@ contributors: ["jcarney2024"]
 Setting up a new server, or migrating Gibbon from one server to another, can involve the following considerations and steps:
 
 ### How to Set Up SMTP Email Settings
-*   Navigate to Admin > Third Party Settings > SMTP Mail
+*   Navigate to Admin > System Admin > Third Party Settings > SMTP Mail
     *   Set "Enable SMTP Mail" to "Yes"
     *   Input the hostname of your SMTP email provider. (This is whoever services your email; GSuite, Microsoft Outlook, Zoho, etc.)
         *   Some Common Examples of email providers:
@@ -22,4 +22,4 @@ Setting up a new server, or migrating Gibbon from one server to another, can inv
     *   Finally, click submit to save your changes.
     *   A "Test Email" box will appear, where you can test your new settings!
 
-If you experience any issues with setup, please reference the Gibbon Support Forums. 
+If you experience any issues with setup, please reference the Gibbon Support Forums, and to the documentation provided by your SMTP provider. 
