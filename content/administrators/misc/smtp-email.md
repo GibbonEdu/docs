@@ -50,6 +50,6 @@ Some service providers block legacy authentication requests by default, to make 
     * Set to "No"
     * Click "Save"
     * If you are still having issues, please contact your domain administrator.
-* At this time, it is not possible to enable less secure apps for Zoho. However, their current setup still allows you to use SMTP. :smiley:
+* At this time, it is not possible to enable less secure apps for Zoho. However, their current setup still allows you to use SMTP. 😄
 
 If you experience any issues with setup, please reference the Gibbon Support Forums, and to the documentation provided by your SMTP provider.
