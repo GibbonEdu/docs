@@ -50,10 +50,6 @@ Some service providers block legacy authentication requests by default, to make 
     * Set to "No"
     * Click "Save"
     * If you are still having issues, please contact your domain administrator.
-* If you are using a Zoho account, you may need to enable [less secure apps](https://www.zoho.com/mail/help/less-secure-apps.html) in your zoho admin center.
-  * Navigate to your zoho admin center and click "Settings" > "Customer Portal" > "Authentication" > "SAML"
-    * Click "Turn on"
-    * Click "Save"
-    * If you are still having issues, please contact your domain administrator.
+* At this time, it is not possible to enable less secure apps for Zoho. However, their current setup still allows you to use SMTP. :smiley:
 
 If you experience any issues with setup, please reference the Gibbon Support Forums, and to the documentation provided by your SMTP provider.
