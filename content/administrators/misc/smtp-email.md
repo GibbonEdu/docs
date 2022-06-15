@@ -37,6 +37,7 @@ Setting up a new server, or migrating Gibbon from one server to another, can inv
   * If you are unsure about the correct actions to take, contact your email provider.
 
 ### Less Secure Apps
+
 Some service providers block legacy authentication requests by default, to make their systems more secure. However, when using SMTP email, the service provider might block your request, and your email won't be sent.
 
 * If you are using a Google Apps account, you may need to enable [less secure apps](https://support.google.com/a/answer/6260879) in your google admin center.
