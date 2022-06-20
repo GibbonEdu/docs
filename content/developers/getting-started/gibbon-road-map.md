@@ -8,7 +8,7 @@ contributors: ["rossdotparker","skuipers"]
 
 Shown below are some upcoming key dates in the Gibbon Development Road Map. To request new features, please use the [Feature Requests category in our support forums](https://ask.gibbonedu.org/categories/feature-requests).
 
-*   __v24.0.00__ (aka Haa Gao)
+*   __v24.0.00__ (aka Ha Gao)
     *   String Freeze - May 20th 2022
     *   Release - June 20th 2022
 *   __v25.0.00__ (aka Ice House Street)
