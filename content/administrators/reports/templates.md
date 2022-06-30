@@ -28,6 +28,20 @@ To create a new template, visit the ___Template Builder___ click Add to setup th
 
 - **Headers & Footers**: These are special sections that can show up on the top and bottom of your report. You can have more than one header and footer, and specify specific pages for each. For example, you may have a header with a logo on the first page of the report, and a simple header with report info on all other pages.
 
+### Using Custom Fonts
+
+The template builder can support custom fonts, enabling full UTF-8 support for your reports, including CJK characters. This will generally require some template editing, to either apply the font to your entire report or to select areas.
+
+1. Be sure to scan your asset directory in Template Builder > Manage Assets to see your available fonts. If they are not listed as installed, check the file permissions of the font files in your system.
+2. If you have a custom asset directory set in Reports > Reports Settings, be sure to add your font files into a /fonts folder inside this directory (eg: /uploads/reports/fonts/YourFontName.ttf)
+3. If you're using the mPDF renderer, the font family name needs to be lowercase with no special characters and match the "File Name" listed in the font definition (not always the same as the filename in your system.) Click the pencil next to the font in Manage Assets to check these settings and make changes.
+4. After scanning and setting the font family name, be sure to edit your template in Template Builder and select the font in the list at the top of the template settings. For mPDF, you should see it lowercase, otherwise be sure to change it in Manage Assets.
+5. You can now apply the font in your templates using the CSS font-family attribute and the lowercase name of your font family (eg: yourfontname);
+    - This can be done for specific areas the template by editing your templates and applying the style="font-family: yourfontname" attribute to an HTML tag.
+    - This can also be set by using a stylesheet. Duplicate the default stylesheet in Manage Assets, give it a distinct filename and edit it to change the name at the top of the template definition. You can apply your font-family attribute using CSS rules in the stylesheet. Once you have setup your stylesheet, be sure to edit your template in Template Builder and select your custom stylesheet.
+6. If your font is not showing up in your reports, be sure to check that the font family used in your CSS matches the one listed in Manage Assets, and that the font is selected at the top of your template options in Template Builder.
+
+
 ### Developer Info
 
 The Reports module is new as of v19. We will be expanding on the template functionality and providing more developer info in the upcoming versions. Currently, the template functionality uses the limited HTML capabilities of the TCPDF library for PHP, and not all HTML tags or CSS attributes are supported. The PDF library may change in the future to enable better CSS support.
