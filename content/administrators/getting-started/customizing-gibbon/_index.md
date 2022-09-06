@@ -3,7 +3,7 @@ title: "Customizing Gibbon"
 categories: ["support", "customization"]
 tags: []
 weight: 40
-contributors: ["rossdotparker"]
+contributors: ["rossdotparker", "jcarney2024"]
 ---
 
 Gibbon is designed on the idea that every school is different, and hopes to provide tools to meet a wide range of needs. The approach to customizing Gibbon to your school needs depends on the scope of change you're looking to make.
@@ -16,7 +16,13 @@ Gibbon has an internal String replacement system under ___Admin___ > ___System A
 
 The built-in [User Custom Fields]({{< relref "custom-fields.md" >}}) feature under ___Admin___ > ___User Admin___ > ___Manage User Custom Fields___ allows a fair amount of flexibility to add data a school needs.
 
-### 3) Module System
+### 3) Managing User Permissions
+
+Managing user permissions can be helpful when needing to hide certain modules from different roles.
+
+If you find yourself needing to manage who can access what throughout your Gibbon system, you can do so by navigating to ___Admin___ > ___User Admin___ > ___Manage Permissions___. From there, you can add, and remove permissions for the roles you have created in Gibbon. This will allow you to customize access to certain functions by role.
+
+### 4) Module System
 
 Beyond the built-in tools, Gibbon's Module system allows you to extend the system quite considerably. A module can be anything from a few pages to a whole new set of tools and table data (the Free Learning module is a great example of a single module that can transform how Gibbon is used). There are also a few hooks that can be used by modules to insert content in specific places such as the dashboard: for more info view our [Module Development page](https://docs.gibbonedu.org/developers/getting-started/module-development/). Check out available modules on [our Extend page](https://gibbonedu.org/extend).
 
@@ -37,11 +43,10 @@ To update a module:
 4. Scroll down to find the relevant module in the list of installed module: it will be highlighted in green.
 5. Click the package icon in the table row for the upgraded module and follow on screen instructions.
 
-
-### 4) Fork Gibbon Source Code
+### 5) Fork Gibbon Source Code
 
 With Gibbon being open-source and [available through Github](https://github.com/GibbonEdu/core) it's also possible to make modifications to a forked copy and merge new versions back into it. With each new version (generally twice a year) one would merge the new version back into their Github fork and manually handle any conflicts between the two. This direction likely requires the most programming knowledge, but is certainly one option to maintain a set of changes from one version to another. As with anything open-source, if it's a change that the developer feels could benefit other schools they can try contributing it back to the core as a pull request.
 
-### 5) Feature Request System
+### 6) Feature Request System
 
 If there is an area that many schools may be needing to customize and there is a lot of interest in it, such features can be put forward in [the Feature Request category of our forum](https://ask.gibbonedu.org/categories/feature-requests). If you try something and find it's working well for your school be sure to share your findings [on our forum](https://ask.gibbonedu.org).
