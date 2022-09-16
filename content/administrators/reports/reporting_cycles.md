@@ -50,3 +50,32 @@ Users with __Can Write__ access are able to write reports within their scope. If
 If __Can Proof Read__ is enabled, users with this access can view and suggest edits on comments written by other users in the same reporting scope.
 
 ![Access](/reports/Reporting Access.png)
+
+
+### Rolling Over to a new School Year
+
+Once you already have reports, templates, and reporting cycles, it's much quicker to setup for future school years.
+
+**Reporting Cycles**
+
+- You can login to a previous school year (or use the Year Switcher on the dashboard) and navigate to the ___Reports > Manage Reporting Cycles___ page.
+
+- Then, use the __Duplicate__ option on a reporting cycle to copy it to the following year. Be sure to select the target school year, enter the start and end date of the new reporting cycle as well as update the cycle numbers.
+
+- Duplicating a cycle will copy all the scopes and criteria, but not the grades, into a new reporting cycle.
+
+- Once you've duplicated your reporting cycles, use the Year Switcher to return to ___Reports > Manage Reporting Cycles___ in your target school year.
+
+- From here it's a good idea to Edit the reporting cycle(s) and update the milestones.
+
+- If you have added any new form groups or new courses in the target school year, you will also want to go into __Scopes & Criteria__ to add these into the respective areas.
+
+**Reports**
+
+- Create new reports for these reporting cycles through ___Reports > Manage Reports___. These will connect your templates to the criteria you've defined in your reporting cycles.
+
+**Templates**
+
+- Templates can be re-used from year to year and are not attached to a school year, so they do not need duplicated.
+
+- If you are making large changes to your template, it's best to create a new template and keep the old template should you need to re-generate old reports in the future.
