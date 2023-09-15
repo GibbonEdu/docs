@@ -33,6 +33,11 @@ The video below gives an overview of the installation process:
 Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) Gibbon via Softaculous.
 {{% /panel %}}
 
+{{% panel %}}
+Installing from scratch on an Apache server? Check out the [How to Install Gibbon]([https://www.softaculous.com/apps/educational/Gibbon](https://ask.gibbonedu.org/t/how-to-install-gibbon-for-noobs-like-me-on-debian-12-or-ubuntu-and-similar/8365)) thread by @dardiv on the forums.
+{{% /panel %}}
+
+
 ## Softaculous Installation
 
 If you are using a web hosting company that provides Softaculous via CPanel, you can follow the instructions in the video below to install Gibbon:<iframe src="https://www.youtube.com/embed/5tfuT1CjAe8?rel=0" allowfullscreen="allowfullscreen" width="560" height="315" frameborder="0"></iframe>
