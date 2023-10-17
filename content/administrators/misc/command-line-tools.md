@@ -20,7 +20,7 @@ This script:
 
 *   Finds users who are 'Expected' and have reached or exceeded their start date, and sets their status to 'Full'.
 *   Finds users who are 'Full' and have exceeded their end date, and sets status to 'Left'.
-*   Finds parents of students of have have exceeded their end date, have no other active children in school and are not staff members, and sets their status to 'Left'.
+*   Finds parents of students who have exceeded their end date, have no other active children in school and are not staff members, and sets their status to 'Left'.
 
 To run this script, run the following commands, or put them within cron on a *nix machine:
 
