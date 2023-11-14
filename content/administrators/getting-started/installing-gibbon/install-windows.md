@@ -21,7 +21,7 @@ ii) use the [cutting edge code](https://docs.gibbonedu.org/administrators/gettin
 > cd  C:\xampp\apache\bin
 > 
 3. Start your Apache server. Type in `httpd.exe`. You would see it running as per here. 
-![apache1.png](static/wp/2023/10/apache_1.png)
+![apache1.png](/wp/2023/10/apache_1.png)
 4. Go to your xampp, click "Start" on the MySQL.
 5. Navigate to your browser, type in localhost:<i>port</i>. You will be able to find the Core module.
 6. Follow the instructions as per installation guide.

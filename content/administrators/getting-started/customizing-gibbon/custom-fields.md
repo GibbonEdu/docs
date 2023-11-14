@@ -12,4 +12,4 @@ Gibbon includes the ability to create and use custom fields for users. Once crea
 
 #### Getting Started
 
-</span> To create new fields, go to ___Admin___ > ___System Admin___ > ___Custom Fields___. Click on the ___Add___ button to create a new field, which will give you the following options: ![custom_field1](/static/wp/2023/10/Custom_fields_1.png)
+</span> To create new fields, go to ___Admin___ > ___System Admin___ > ___Custom Fields___. Click on the ___Add___ button to create a new field, which will give you the following options: ![custom_field1](/wp/2023/10/Custom_fields_1.png)
