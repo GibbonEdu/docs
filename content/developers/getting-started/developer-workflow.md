@@ -20,7 +20,7 @@ If you're unsure where to begin with GitHub feel free to reach out on the [Suppo
 
 ### Release Schedule
 
-We aim to release a new version every 6 months, usually every January and June. There is a string freeze one month before each release, where all interface strings fixed and shared with translators via POEditor.
+We aim to release a new version every 6 months. Starting with v26, releases are every November and April. There is a string freeze one month before each release, where all interface strings fixed and shared with translators via POEditor.
 
 Each version, stable or development, is denoted with a major semantic version (e.g., v16.0.0). Updates to a stable version are only released in the case of a security concern, and are tagged as a patch version (e.g., v16.0.1). 
 
@@ -49,3 +49,7 @@ Pull requests can be submitted to the [current development branch](https://docs.
 Our CI robots will [automatically built & test](https://docs.gibbonedu.org/developers/core-concepts/testing/) any pull requests. Our code coverage isn’t extensive yet, so a green checkmark on GitHub isn’t necessarily a green light to merge: there’ll always be a human review too.
 
 Each pull request is reviewed by at least one Gibbon Maintainer. Complex changes may require more than one set of eyes and some hearty discussion. Focus on code readability and bite-size commits and your PRs will be in good shape to merge.
+
+### Browser Support
+
+In general, Gibbon is designed for and tested using the recent stable versions of Chrome, Firefox, Edge, and Safari. Our aim is to support, at a minimum, the past three years of any specific major browser version. A best attempt is made to support IE versions 9 to 11, however IE is considered out of date and functionality cannot be guarunteed in the future. Alternate browsers, such as Opera and Brave, aren't specifically tested, however alternate browsers should work with Gibbon provided they support modern HTML, CSS and JavaScript standards.
