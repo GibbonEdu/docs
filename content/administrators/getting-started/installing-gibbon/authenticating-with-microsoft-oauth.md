@@ -1,3 +1,11 @@
+---
+title: "Microsoft Integration"
+slug: microsoft-oauth
+categories: ["support"]
+tags: []
+weight: 20
+contributors: ["skuipers"]
+---
 The following are some quick instructions for setting up the Microsoft SSO in Gibbon. This documentation is a work in progress, but should help get users started. Please let us know in our forums if you have any questions: [https://ask.gibbonedu.org](https://ask.gibbonedu.org)
 
 1. Begin by logging into your Microsoft account via [Azure Portal](https://portal.azure.com/). If you don't have an account you can set one up, however you may certainly need an enterprise level account from Microsoft if you are looking to enable SSO for your entire organization.
