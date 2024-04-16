@@ -12,10 +12,10 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
 *   __v26.0.00__ (aka Joss House Bay)
     *   String Freeze - October 20th 2023
     *   Release - November 20th 2023
-*   __v27.0.00__ (aka Kowloon Bay)
-    *   String Freeze - March 20th 2024
-    *   Release - April 20th 2024
-*   __v28.0.00__ (aka Lan Kwai Fong)
+*   __v27.0.00__ (aka Kadoorie Farm)
+    *   String Freeze - April 20th 2024
+    *   Release - May 20th 2024
+*   __v28.0.00__ (TBD)
     *   String Freeze - October 20th 2024
     *   Release - November 20th 2024
  
