@@ -17,11 +17,12 @@ Setting up a new server, or migrating Gibbon from one server to another, can inv
       * GSuite: smtp.gmail.com
       * Outlook: smtp.office365.com
       * Zoho: smtp.zoho.com
-    * Input your SMTP port; Most Commonly: 25, 465, 587
+    * Input your SMTP port: Most Commonly 587 or 465 (occasionally 25)
     * Select your SMTP Encryption type
       * Suggested: Automatic (Gibbon will automatically select the correct encryption type based on the port selected.)
-    * SMTP Username: Enter the username for your account. This may be the same as your emails set in Admin > System Settings > Organisation Email, otherwise this account needs to be able to access and send from the organisation email. **If this account is not able to send from your "Organisation Email" listed in Gibbon, you will not be able to send emails from Gibbon.**
-    * Enter a password for the username entered above. **Make sure you're using an [app specific password](#app-specific-passwords), in order to bypass two-factor authentication**
+    * SMTP Username: Enter the username for your account.
+      * This may be the same as your emails set in Admin > System Settings > Organisation Email, otherwise this account needs to be able to access and send from the organisation email. **If this account is not able to send from your "Organisation Email" listed in Gibbon, you will not be able to send emails from Gibbon.**
+    * Enter a password for the username entered above. **Make sure you're using an [app specific password](#app-specific-passwords) if you have two-factor authentication (2fA) enabled.**
     * Finally, click submit to save your changes.
     * Use the "Test Email" box to test your new settings!
 
@@ -29,12 +30,12 @@ Setting up a new server, or migrating Gibbon from one server to another, can inv
 
 ### Important Update about Google SMTP Relay and Less Secure Apps
 
-* As of June 15, 2024, the use of plain passwords with Less Secure Apps enabled will no longer be supported by Google. If you are using [Gmail SMTP Relay](https://apps.google.com/supportwidget/articlehome?hl=en&article_url=https%3A%2F%2Fsupport.google.com%2Fa%2Fanswer%2F2956491%3Fhl%3Den&assistant_id=generic-unu&product_context=2956491&product_name=UnuFlow&trigger_context=a) via smtp.gmail.com, you will need to use an App Password to continue sending email, which also requires enabling 2 Factor Authentication for your email account. See the instructions below to create an App Password.
+* As of June 15, 2024, the use of plain passwords with Less Secure Apps enabled will no longer be supported by Google. If you are using [Gmail SMTP Relay](https://apps.google.com/supportwidget/articlehome?hl=en&article_url=https%3A%2F%2Fsupport.google.com%2Fa%2Fanswer%2F2956491%3Fhl%3Den&assistant_id=generic-unu&product_context=2956491&product_name=UnuFlow&trigger_context=a) via smtp.gmail.com, you will need to use an App Password to continue sending email, which also requires enabling two-factor authentication (2FA) for your email account. See the instructions below to create an App Password.
 
 ### App Specific Passwords
 
 * Some service providers may require you to use an app specific password to bypass two-factor authentication.
-  * If you are using Google, or an account with 2FA enables, this will be necessary to make your SMTP email settings work.
+  * If you are using Google, or an account with 2FA enabled, this will be necessary to make your SMTP email settings work.
   * The App Password works like a regular SMTP username and password, however the password is replaced with a special token that can be tracked and revoked as needed.
   * Follow the instructions below to create your App Password, then be sure to update the password field in Gibbon to use this new password, and test your email sending. 
     * [Google App Specific Password Instructions](https://support.google.com/accounts/answer/185833?hl=en)
