@@ -70,7 +70,7 @@ It’s a common question! Luckily, the answer lies in the open source model: the
 
 Generally, open source projects are created and maintained through a community-oriented development model. This can involve a couple people or even thousands of developers—often all around the world—working together on the same codebase. They often do so through collaborative tools that enable them to share and manage their code, such [GitHub](https://github.com) and the [Git](https://git-scm.com/) version control system.
 
-You may wonder: “Doesn’t that mean anyone can change the code?” Yes and no. Collaborative development includes checks and balances. For example, Gibbon uses a process of [code review and testing](https://docs.gibbonedu.org/developers/getting-started/developer-workflow/):
+You may wonder: “Doesn’t that mean anyone can change the code?” Yes and no. Collaborative development includes checks and balances. For example, Gibbon uses a process of [code review and testing](/development/getting-started/developer-workflow):
 
 > Anyone can edit the code, but not anyone can introduce changes directly into the official version of Gibbon.
 
@@ -252,7 +252,7 @@ For schools that are used to a telephone hotline to support their paid platforms
 
 Be sure to explore if there are members of the community who can offer additional support. Not all open source platforms may offer 1:1 support, but it’s worth exploring what’s out there. These would be paid services, because they’re replying on someone else’s time and expertise, but they may be what your school need. For example, members of the Gibbon team provide Expert Support through [gibbonedu.com](http://gibbonedu.com). This is offered to schools who need additional email or video support to help get a system setup or provide additional training. Expert support is offered ad hoc as well as through a monthly support contract.
 
-Paid support is not required for an open source platform, but it can provide peace of mind to school administrators. Another option, if your school has a technically-minded individual on staff, is for them to become familiar with the source code of the platform and make their own fixes and changes. They could even contribute these changes back to the community. Gibbon has created [a contributor guide](https://github.com/GibbonEdu/core/blob/master/.github/CONTRIBUTING) to help explain how to become part of the developer community.
+Paid support is not required for an open source platform, but it can provide peace of mind to school administrators. Another option, if your school has a technically-minded individual on staff, is for them to become familiar with the source code of the platform and make their own fixes and changes. They could even contribute these changes back to the community. Gibbon has created [a contributor guide](/development/contributing) to help explain how to become part of the developer community.
 
 ## Map your Responsibilities
 

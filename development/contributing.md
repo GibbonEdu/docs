@@ -14,7 +14,7 @@ You can contribute your time and expertise many ways. For example, you might:
 * Write tutorials and “how-to” articles for the [Gibbon documentation](https://gibbonedu.org/support/).
 * Help people with the questions they ask on the [Support forum](https://ask.gibbonedu.org).
 * [Create a module](/development/getting-started/module-development) that provides additional functionality above and beyond the core.
-* Expand our internationalization and [help translate Gibbon](getting-started/configuration/internationalisation.md) in your language.
+* Expand our internationalization and [help translate Gibbon](/getting-started/configuration/internationalisation) in your language.
 * Improve the existing [guides and documentation](/about) of features in Gibbon.
 * Submit bug reports or hack on Gibbon itself by fixing bugs you've found in the [GitHub Issue tracker](https://github.com/GibbonEdu/core/issues).
 
@@ -37,7 +37,7 @@ Submit the bug by [creating an issue](https://github.com/GibbonEdu/core/issues/n
 
 ## How to suggest a feature
 
-To request new features, please use the [Feature Requests category](https://ask.gibbonedu.org/c/feature-requests/12) in our support forums. You can find more info about planned features and upcoming releases on the [[Gibbon Development Road Map](https://gibbonedu.org/support/developers/gibbon-road-map/)](/development/gibbon-road-map).
+To request new features, please use the [Feature Requests category](https://ask.gibbonedu.org/c/feature-requests/12) in our support forums. You can find more info about planned features and upcoming releases on the [Gibbon Development Road Map](/development/gibbon-road-map).
 
 
 ## How to help translate

@@ -10,12 +10,9 @@ contributors:
 
 # Installing on Windows
 
-To install XAMPP, follow the instructions here: 
-[Install Xampp](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/install-xampp/)
+To install XAMPP, follow the instructions here: [Install Xampp](/introduction/installation-options/local-installation/install-xampp)
 
-After installing the necessary requirements, you will need to download the core module either from 
-i) [here](https://gibbonedu.org/download/) or 
-ii) use the [cutting edge code](https://docs.gibbonedu.org/administrators/getting-started/installing-gibbon/cutting-edge-code/).
+After installing the necessary requirements, you will need to download the core module either from [here](https://gibbonedu.org/download/) or use the [cutting edge code](/introduction/installation-options/cutting-edge-code).
 
 ## How to install?
 1. Go to windows command, run as admin. 

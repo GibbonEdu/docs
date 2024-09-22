@@ -18,7 +18,7 @@ The most common cause of Gibbon's multilingual features not working is the serve
 
 ## Setting up Locales in Windows
 
-Setting up languages and locales in Windows is a bit different than Linux systems. Our community member,  [Manuel A. Ruiz P.](https://ask.gibbonedu.org/profile/manuelruizp84), has shared the following video to help Windows users setup a language variable to use for Gibbon.
+Setting up languages and locales in Windows is a bit different than Linux systems. Our community member, [Manuel A. Ruiz P.](https://ask.gibbonedu.org/profile/manuelruizp84), has shared the following steps to help Windows users setup a language variable to use for Gibbon.
 
 Steps:
 
@@ -30,4 +30,4 @@ Steps:
 6. Refresh browser
 7. Start using Gibbon in the language you prefer. (Note: Windows must be set to the language that will be used in Gibbon).
 
-Please ask any questions [on this forum post](https://ask.gibbonedu.org/discussion/3543/translate-gibbon-into-another-language-in-a-windows-environment) if you get stuck. Thanks!
+Please ask any questions [on this forum post](https://ask.gibbonedu.org/t/translate-gibbon-into-another-language-in-a-windows-environment/3385) if you get stuck. Thanks!

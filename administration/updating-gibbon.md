@@ -16,7 +16,7 @@ contributors:
 ## Core Updates
 
 1.  The system will alert you of new updates to the core, when you visit System Admin.
-    *   Note, that this does not apply to systems running [Cutting Edge Code](https://gibbonedu.org/cutting-edge-code/).
+    *   Note, that this does not apply to systems running [Cutting Edge Code](/introduction/installation-options/cutting-edge-code/).
 2.  Use the Update action in System Admin for semi-automatic updates to the core, as follows:
     1.  <span style="text-decoration: underline; color: #ff0000;">**Backup your database and installation files.**</span>
     2.  Download and unzip the latest version of Gibbon.

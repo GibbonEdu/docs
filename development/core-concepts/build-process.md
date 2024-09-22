@@ -11,7 +11,7 @@ contributors: ["skuipers"]
 
 Gibbon uses PHP's dependency manager [Composer](https://getcomposer.org/) to manage and install required libraries and dependencies in the `vendor` folder, when are then auto-loaded into the available namespaces.
 
-Before installing Gibbon make sure you have composer installed on your server. Follow the [Getting Started](https://getcomposer.org/doc/00-intro) guides on the composer website for more instructions about how to do this. 
+Before installing Gibbon make sure you have composer installed on your server. Follow the [Getting Started](https://getcomposer.org/doc/00-intro.md) guides on the composer website for more instructions about how to do this. 
 
 Using composer, navigate to your root Gibbon folder and run the `composer install` command once to install all required libraries. You can also run `composer install --no-dev` to exclude any libraries that are used solely for development and testing.
 
