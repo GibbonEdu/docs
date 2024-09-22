@@ -1,0 +1,47 @@
+.vp-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+  
+.vp-box-container .vp-box {
+    background-color: var(--vp-c-bg-soft);
+    transition: color .5s,background-color .5s;
+    padding: 24px;
+    border-radius: 8px;
+    flex: 0 32%;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.vp-box {
+  border: 1px solid var(--vp-c-bg-soft);
+  transition: border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.vp-box:hover {
+  border-color: var(--vp-c-brand-1);
+  transition: border-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.vp-box .box-title {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  display: block;
+  color: var(--vp-c-brand-1);
+}
+
+.vp-box .box-caption {
+  margin-bottom: 0;
+  transition: color 0.5s;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--vp-c-text-2);
+}

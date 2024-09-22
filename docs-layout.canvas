@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"b01bb17abbd14af4","type":"text","text":"Introduction","x":-220,"y":-272,"width":250,"height":60},
+		{"id":"d7836cf4b41664e6","type":"text","text":"What is Gibbon?\nServer Requirements\nInstalling Gibbon\nPost-Installation\nNext Steps","x":140,"y":-324,"width":250,"height":164},
+		{"id":"888c18d085df632b","type":"text","text":"Getting Started","x":-220,"y":-72,"width":250,"height":60},
+		{"id":"7f9722d84af11733","type":"text","text":"School Setup\n","x":140,"y":-102,"width":250,"height":60},
+		{"id":"2873b4c4f8dac4b9","type":"text","text":"School Structure\nStudent Enrolment\nRoles & Permissions\nTimetabling & Rollover\nImporting Data\n","x":490,"y":-160,"width":250,"height":148},
+		{"id":"5c1fd6e5a430a1be","type":"text","text":"Installing on Linux\nInstalling on MAMP\nInstalling on Windows\nInstalling on XAMPP","x":490,"y":-343,"width":250,"height":142},
+		{"id":"647a8d453662d74e","type":"text","text":"Configuration","x":140,"y":-12,"width":250,"height":60},
+		{"id":"7e0f759821cfb464","type":"text","text":"Customization","x":140,"y":78,"width":250,"height":60},
+		{"id":"0508cdb48152c7cb","type":"text","text":"System Settings\nModules & Themes\nLanguages & Translation\nCommunication Settings\nSSO Integration","x":490,"y":0,"width":250,"height":160},
+		{"id":"033919929eaeffe8","type":"text","text":"School Year Rollover\nUpdating Gibbon\nBacking Up Your System\nCommand Line Tools\nMigrating Gibbon\nServer Maintenance","x":140,"y":205,"width":250,"height":185},
+		{"id":"96c526f6485e4a0f","type":"text","text":"Gibbon Lifecycle","x":-220,"y":237,"width":250,"height":60},
+		{"id":"0b7327ed8c87d366","type":"text","text":"Admin\nLearn\nAssess\nPeople\nOther","x":140,"y":428,"width":250,"height":164},
+		{"id":"b427adbb962b6c56","type":"text","text":"Modules","x":-220,"y":480,"width":250,"height":60},
+		{"id":"1d1ea8e9cbbad90a","type":"text","text":"Getting Started\nCore Concepts\nDeveloper Workflow\nGibbon Road Map\nCoding Standards\nModule Development\nContributing","x":140,"y":620,"width":250,"height":220},
+		{"id":"0b03015ce0a8b5e5","type":"text","text":"Development","x":-220,"y":660,"width":250,"height":60},
+		{"id":"40f95f5154ed443f","type":"text","text":"Custom Fields\nString Replacement\nDisplay Settings\nLogo & Welcome Page","x":490,"y":172,"width":250,"height":130},
+		{"id":"6c283b359be9f0ad","type":"text","text":"...","x":490,"y":480,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"8c48ae27d5e77f6e","fromNode":"647a8d453662d74e","fromSide":"right","toNode":"0508cdb48152c7cb","toSide":"left"},
+		{"id":"5174330b564c899d","fromNode":"888c18d085df632b","fromSide":"right","toNode":"7f9722d84af11733","toSide":"left"},
+		{"id":"c97ad3a14d5535e0","fromNode":"b427adbb962b6c56","fromSide":"right","toNode":"0b7327ed8c87d366","toSide":"left"},
+		{"id":"8fe14c812a581cd2","fromNode":"0b03015ce0a8b5e5","fromSide":"right","toNode":"1d1ea8e9cbbad90a","toSide":"left"},
+		{"id":"68d4dfd0d5cb7f8b","fromNode":"0b7327ed8c87d366","fromSide":"right","toNode":"6c283b359be9f0ad","toSide":"left"},
+		{"id":"9dc401fb63c90ac7","fromNode":"96c526f6485e4a0f","fromSide":"right","toNode":"033919929eaeffe8","toSide":"left"},
+		{"id":"9fb7d094e27fdcd1","fromNode":"b01bb17abbd14af4","fromSide":"right","toNode":"d7836cf4b41664e6","toSide":"left"},
+		{"id":"f6ed87b40a60fe2f","fromNode":"7f9722d84af11733","fromSide":"right","toNode":"2873b4c4f8dac4b9","toSide":"left"},
+		{"id":"7f49399a73b5c613","fromNode":"7e0f759821cfb464","fromSide":"right","toNode":"40f95f5154ed443f","toSide":"left"},
+		{"id":"a736ae82f830e16a","fromNode":"888c18d085df632b","fromSide":"right","toNode":"647a8d453662d74e","toSide":"left"},
+		{"id":"3617058a965bff5a","fromNode":"888c18d085df632b","fromSide":"right","toNode":"7e0f759821cfb464","toSide":"left"},
+		{"id":"297ed888715ae15c","fromNode":"d7836cf4b41664e6","fromSide":"right","toNode":"5c1fd6e5a430a1be","toSide":"left"}
+	]
+}
