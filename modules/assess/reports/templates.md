@@ -20,7 +20,7 @@ You can duplicate and edit one of the built-in template files, as a basis for cu
 
 To create a new template, visit the ___Template Builder___ click Add to setup the basic document details, such as the page size, layout, and margins. The context determines whether the template will be used for reporting cycles (eg: report cards), or whether it is generated from student enrolment data (eg: transcripts).
 
-![Template Builder](/img/reports/Template%20Builder.png)
+![Template Builder](https://docs.gibbonedu.org/img/reports/Template%20Builder.png)
 
 - **Preview**: Each preview uses a set of fake data, which enables you to rapidly generate sample reports without exposing any private student information. The HTML preview provides a quick approximation of a report. It is for sample purposes and may not be an exact match to the final PDF. The PDF preview is a more accurate representation of the report template. 
 

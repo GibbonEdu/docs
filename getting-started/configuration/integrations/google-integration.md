@@ -14,31 +14,31 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 
 2\. Once logged in you need to create a new project by clicking the ___Create Project___ button:
 
-[![](/img/admin/getting-started/02-create-project-300x49.png)](/img/admin/getting-started/02-create-project.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/02-create-project-300x49.png)](https://docs.gibbonedu.org/img/admin/getting-started/02-create-project.png)
 
 3\. In the new project set-up dialog, give your project a name. Click the ___C______reate___ button:
 
-[![](/img/admin/getting-started/03-project-name-300x134.png)](/img/admin/getting-started/03-project-name.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/03-project-name-300x134.png)](https://docs.gibbonedu.org/img/admin/getting-started/03-project-name.png)
 
 4.Click on the ___Credentials___ tab:
 
-[![](/img/admin/getting-started/05-select-credentialstab-300x274.png)](/img/admin/getting-started/05-select-credentialstab.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/05-select-credentialstab-300x274.png)](https://docs.gibbonedu.org/img/admin/getting-started/05-select-credentialstab.png)
 
 5\. Then click <span style="text-decoration: underline;">**Create** **credentials**</span>:
 
-[![](/img/admin/getting-started/05-create-credentials-300x158.png)](/img/admin/getting-started/05-create-credentials.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/05-create-credentials-300x158.png)](https://docs.gibbonedu.org/img/admin/getting-started/05-create-credentials.png)
 
 6\. Click Choose **<span style="text-decoration: underline;">OAuth2 Client ID</span>**:
 
-[![](/img/admin/getting-started/06-OAuth-ClientID-300x210.png)](/img/admin/getting-started/06-OAuth-ClientID.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/06-OAuth-ClientID-300x210.png)](https://docs.gibbonedu.org/img/admin/getting-started/06-OAuth-ClientID.png)
 
 7\. If you have not already configured the consent screen, at this point you will be required to do so:
 
-[![](/img/admin/getting-started/07a-consent-screen-300x107.png)](/img/admin/getting-started/07a-consent-screen.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/07a-consent-screen-300x107.png)](https://docs.gibbonedu.org/img/admin/getting-started/07a-consent-screen.png)
 
 8\. Fill in the details for the Product Name and click Save.
 
-[![](/img/admin/getting-started/07b-product-name-300x290.png)](/img/admin/getting-started/07b-product-name.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/07b-product-name-300x290.png)](https://docs.gibbonedu.org/img/admin/getting-started/07b-product-name.png)
 
 9\. In the new client ID window, do the following:
 
@@ -47,22 +47,22 @@ If your school uses GSuite (Formerly Google Apps), you can enable single sign on
 *   Set Authorised Redirect URI to http://www.your-gibbon-install/lib/google/index.php. The googleOAuth folder is in the in the lib folder of Gibbon v14.0.00 and above on your server.
 *   Click create client ID:
 
-[![](/img/admin/getting-started/07c-create-client-id-274x300.png)](/img/admin/getting-started/07c-create-client-id.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/07c-create-client-id-274x300.png)](https://docs.gibbonedu.org/img/admin/getting-started/07c-create-client-id.png)
 
-10\. After this is complete, the client id details will be given to you: [![](/img/admin/getting-started/07d-client-id-details-300x140.png)](/img/admin/getting-started/07d-client-id-details.png) (Save the client ID and client secret for step 14.)
+10\. After this is complete, the client id details will be given to you: [![](https://docs.gibbonedu.org/img/admin/getting-started/07d-client-id-details-300x140.png)](https://docs.gibbonedu.org/img/admin/getting-started/07d-client-id-details.png) (Save the client ID and client secret for step 14.)
 
-11\. Create an API key: [![](/img/admin/getting-started/08a-API-key-300x268.png)](/img/admin/getting-started/08a-API-key.png)
+11\. Create an API key: [![](https://docs.gibbonedu.org/img/admin/getting-started/08a-API-key-300x268.png)](https://docs.gibbonedu.org/img/admin/getting-started/08a-API-key.png)
 
-12\. Save the API Key for step 14: [![](/img/admin/getting-started/08b-API-key-created-300x158.png)](/img/admin/getting-started/08b-API-key-created.png)
+12\. Save the API Key for step 14: [![](https://docs.gibbonedu.org/img/admin/getting-started/08b-API-key-created-300x158.png)](https://docs.gibbonedu.org/img/admin/getting-started/08b-API-key-created.png)
 
-13\. Leave the Key Restriction blank: [![](/img/admin/getting-started/10-key-restriction-300x281.png)](/img/admin/getting-started/10-key-restriction.png)
+13\. Leave the Key Restriction blank: [![](https://docs.gibbonedu.org/img/admin/getting-started/10-key-restriction-300x281.png)](https://docs.gibbonedu.org/img/admin/getting-started/10-key-restriction.png)
 
 14\. Everything is now set up on the Google side, so you can enter your details into Gibbon by going to ___Home___ > ___System Admin___ > **<span style="text-decoration: underline;">Third Party Settings</span>**. The details you need to enter into are as follows.
 
 *   Google Developers Client Name
 *   Google Developers Redirect URI (See step 9 above)
 
-[![](/img/admin/getting-started/11a-Authentication-Gibbon-300x181.png)](/img/admin/getting-started/11a-Authentication-Gibbon.png) Use details from steps 7-8 or click on the Credentials tab: For the following use: Google Developers Client ID = Yellow Google Developers Client Secret = Red Google Developers Client Name = Blue Google Developers Redirect Url = Green [![](/img/admin/getting-started/11b-Client-id-285x300.png)](/img/admin/getting-started/11b-Client-id.png) API Key: [![](/img/admin/getting-started/11c-API-key-300x119.png)](/img/admin/getting-started/11c-API-key.png)
+[![](https://docs.gibbonedu.org/img/admin/getting-started/11a-Authentication-Gibbon-300x181.png)](https://docs.gibbonedu.org/img/admin/getting-started/11a-Authentication-Gibbon.png) Use details from steps 7-8 or click on the Credentials tab: For the following use: Google Developers Client ID = Yellow Google Developers Client Secret = Red Google Developers Client Name = Blue Google Developers Redirect Url = Green [![](https://docs.gibbonedu.org/img/admin/getting-started/11b-Client-id-285x300.png)](https://docs.gibbonedu.org/img/admin/getting-started/11b-Client-id.png) API Key: [![](https://docs.gibbonedu.org/img/admin/getting-started/11c-API-key-300x119.png)](https://docs.gibbonedu.org/img/admin/getting-started/11c-API-key.png)
 
 15\. Gibbon requires a single Google API, the Calendar API, which can be turned on via the Google Developer Console.
 

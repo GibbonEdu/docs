@@ -23,11 +23,11 @@ Medical data updates keep track of student medical data. Some fields are mandato
 
 At the bottom of the Medical section is a checkbox that allows a medical condition to be added to a student.
 
-![Medical Checkbox](/img/medical-checkbox.png)
+![Medical Checkbox](https://docs.gibbonedu.org/img/medical-checkbox.png)
 
 This will open an additional form that shows a parent a list of elements of a medical condition.
 
-![Medical Conditions](/img/medical-conditions.png)
+![Medical Conditions](https://docs.gibbonedu.org/img/medical-conditions.png)
 
 This section allows parents to go into more detail about any serious medical issues their child may have. When going through data updates, it is important to keep an eye on any updates that show a new medical condition, as this information may need to be relayed to other members of staff depending on risk level. There is an option in System Admin > Notification Events to send a notification to certain people when a new medical data update with a medical condition of a specified risk level is sent in.
 

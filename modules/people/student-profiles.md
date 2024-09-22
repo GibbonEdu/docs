@@ -19,4 +19,4 @@ There are three ways to access a student's profile in Gibbon:
 3.  Click on a student name almost anywhere in the system: most instances of student names are links direct to the relevant part of their profile (e.g. clicking on a student name in a class markbook, will take you to that students' academic results.
 
 ___Features___
-___Features___ The list below is taken from the sidebar menu of the Student Profile, and shows the range of information available to teachers: ![Student Profile Sidebar](/img/teachers/general/Student-Profile-Sidebar.png)
+___Features___ The list below is taken from the sidebar menu of the Student Profile, and shows the range of information available to teachers: ![Student Profile Sidebar](https://docs.gibbonedu.org/img/teachers/general/Student-Profile-Sidebar.png)

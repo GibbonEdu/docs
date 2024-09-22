@@ -23,7 +23,7 @@ Each report in Manage Reports represents a single type of PDF document that can 
 ## Generating Reports
 
 You can generate two types of report PDFs: a combined batch-report of all students per Year Group, as well as a single individual report per Student.
-  ![Generate Reports](/img/reports/Generate%20Reports.png)
+  ![Generate Reports](https://docs.gibbonedu.org/img/reports/Generate%20Reports.png)
 
 - **Batch Generation**: Depending on the complexity of the report, the PDF generation may take several minutes. The system will display a progress indicator for reports that are running, and will email the person who started the process once it it complete. You can cancel a batch-report while it is generating. When you batch-generate a report, it will also generate the individual reports per-student, to ensure these always match. 
 
@@ -38,7 +38,7 @@ You can generate two types of report PDFs: a combined batch-report of all studen
 ## Teacher and Admin Access
 
 Teachers and other staff can access the archive through View by Report as well as View by Student. 
-  ![Archive by Student](/img/reports/Archive%20by%20Student.png)
+  ![Archive by Student](https://docs.gibbonedu.org/img/reports/Archive%20by%20Student.png)
 
 - **View by Report**: This shows a combined view of available reports, further subdivided by year group and form group. The ___Read___ progress indicator shows the overall number of student reports that have been accessed by a parent in their family. Users with permission van view and download batch PDF files through this page.
 

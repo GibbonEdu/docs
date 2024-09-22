@@ -60,7 +60,7 @@ Along with “for free” (gratis) and "freedom" (libre), a third way to think o
 
 It’s not uncommon to perceive open source as lower quality or having a shorter longevity than proprietary software. However, this perception stems from one of open source’s greatest strengths: its diversity. Open source includes everything from hobbyist projects, made over a weekend, to [international foundations](https://www.linuxfoundation.org/) that maintain the backbone of the internet. Open source is more prevalent than many people realize. For example, open source software accounts for 86% of web servers worldwide, and open source software contributes over $1 trillion in savings for all technology consumers annually ([Open Source software statistics](https://wifitalents.com/statistic/open-source-software/)).
 
-It’s important to remain critical in your approach to <u>any</u> software platform—proprietary or open source. It pays to do your research and look into the history of the platform you’ll be investing your time in. For some ideas, check out the [evaluation criteria](/introduction/guide-to-open-source#evaluate-the-platform) in the section below.
+It’s important to remain critical in your approach to <u>any</u> software platform—proprietary or open source. It pays to do your research and look into the history of the platform you’ll be investing your time in. For some ideas, check out the [evaluation criteria](#evaluate-the-platform) in the section below.
 
 > If an open source project only has a couple core developers, you might ask: “What happens if something happens to you?”
 

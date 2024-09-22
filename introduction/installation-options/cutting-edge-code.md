@@ -36,5 +36,5 @@ Using composer, navigate to your root Gibbon folder and run the `composer instal
 ## Updating
 
 The [update proceedure](/administration/updating-gibbon) for stable and cutting edge code is nearly the same: the only variable is where you download the software from.
-![Composer Update](/img/admin/composer-message.png)
+![Composer Update](https://docs.gibbonedu.org/img/admin/composer-message.png)
 After updating a Cutting Edge code installation, you may see a message that composer needs to be updated. To do this, navigate to your root Gibbon folder and run the `composer install` command once to install or update the libraries in your vendor folder.

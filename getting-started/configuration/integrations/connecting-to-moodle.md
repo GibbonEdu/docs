@@ -11,10 +11,10 @@ By using the Gibbon module "Moodle" you can use Gibbon to populate Moodle with u
 
 *   __Home > Site administration > Plugins > Authentication > External database__ (click on the image for more detail)
 
-[![Moodle Users](/img/admin/misc/Moodle-Users.png)](/img/admin/misc/Moodle-Users.png)
+[![Moodle Users](https://docs.gibbonedu.org/img/admin/misc/Moodle-Users.png)](https://docs.gibbonedu.org/img/admin/misc/Moodle-Users.png)
 
 *   __Home > Site administration > Plugins > Enrolments > External database__ (click on the image for more detail)
 
-[![Moodle Enrolment](/img/admin/misc/Moodle-Enrolment.png)](/img/admin/misc/Moodle-Enrolment.png)
+[![Moodle Enrolment](https://docs.gibbonedu.org/img/admin/misc/Moodle-Enrolment.png)](https://docs.gibbonedu.org/img/admin/misc/Moodle-Enrolment.png)
 
 Beyond this, follow the Moodle instructions for using cron to periodically pull data across from Gibbon to Moodle.

@@ -15,7 +15,7 @@ contributors:
 
 On logging in as a parent, you will see the Parental Dashboard: this aims to give you a quick overview of what is happening for each child you have in the school.
 
-![Parent Dashboard](/img/parents/parental-dashboard.png)
+![Parent Dashboard](https://docs.gibbonedu.org/img/parents/parental-dashboard.png)
 
 As shown above, the dashboard shows you a summary of Today's Classes, Recent grades and Upcoming Deadlines. For more detail use the highlighted links.
 

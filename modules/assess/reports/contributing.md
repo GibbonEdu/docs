@@ -12,7 +12,7 @@ Users who have access to a reporting cycle will be able to see their progress in
 
 Users with the `Write Reports_editAll` permission have a drop-down to select and view the My Reporting page for any user.
 
-![My Reporting](/img/reports/My%20Reporting.png)
+![My Reporting](https://docs.gibbonedu.org/img/reports/My%20Reporting.png)
 
 ## Writing Reports
 
@@ -23,7 +23,7 @@ From the ___My Reporting___ page, users can click Edit to access the report writ
 - **Write Reports by Student**: Each reporting page begins with the student name and picture, as well as quick-links to bring up their profile, attendance, markbook, and past reports.
 
 - **Comment Helpers**: As users write comments, the report system will check to see if the student name is present, and if any of the pronouns appear to be mis-matched. These are just helpers, users can feel free to ignore them if they're happy with the comment. Users can also paste a comment with a placeholder {name} and this will be automatically replaced with the student name.
-  ![Comment Tools](/img/reports/Write%20Reports%20-%20Comment%20Tools.png)
+  ![Comment Tools](https://docs.gibbonedu.org/img/reports/Write%20Reports%20-%20Comment%20Tools.png)
 
 - **Report Completion**: Each student report has a Complete checkbox. This tells the system that the report for this student is done, and displays a "Save & Next" button to quickly progress to the next student in your class. Users can always save incomplete reports with the normal "Save" button. The sidebar also highlights complete reports in green.
 
@@ -31,4 +31,4 @@ From the ___My Reporting___ page, users can click Edit to access the report writ
 
 Users who have been granted permission have access to the overall report progress screens. These are broken down by reporting cycle, by scope, and by person. There is also a page for viewing proof reading progress by scope.
 
-  ![Progress](/img/reports/Progress%20by%20Reporting%20Cycle.png)
+  ![Progress](https://docs.gibbonedu.org/img/reports/Progress%20by%20Reporting%20Cycle.png)

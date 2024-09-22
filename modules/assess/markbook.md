@@ -10,7 +10,7 @@ contributors: ["rossdotparker"]
 
 The Markbook is designed to support teachers in ongoing Assessment Recording & Reporting (ARR). It supports the ability to create Markbook columns (either individually or in bulk) and then to enter various data (grades, rubrics, comments and uploads) for each student in a class. In addition, it can be linked to the Planner, such that submitted homework can be viewed during marking. Each Markbook column can optionally be shared with parents and students, allowing for pertinent results to be rapidly disseminated.
 
-![Markbook 01](/img/teachers/markbook.png)
+![Markbook 01](https://docs.gibbonedu.org/img/teachers/markbook.png)
 
 ### Getting Started
 

@@ -12,4 +12,4 @@ The Gibbon homepage for teachers seeks to give you all the information you need 
 
 ### Features
 
-The image below highlights some of the main functions you can find on a fully configured homepage. ![Teacher Home Page](/img/teachers/home-page.png) Students see a similar, but slightly reduced set of functionality, allowing them to interact with the lesson plans, homework, and assessed work that you give them access to.
+The image below highlights some of the main functions you can find on a fully configured homepage. ![Teacher Home Page](https://docs.gibbonedu.org/img/teachers/home-page.png) Students see a similar, but slightly reduced set of functionality, allowing them to interact with the lesson plans, homework, and assessed work that you give them access to.

@@ -18,7 +18,7 @@ Below General Information is an overview of all the student's teachers, based on
 
 At the bottom of the main landing page for each student is their timetable, which shows what lessons they have in the current week. You can click on any lesson's name to see further information about it.
 
-![Student timetable](/img/administrators/student_timetable.png)
+![Student timetable](https://docs.gibbonedu.org/img/administrators/student_timetable.png)
 
 ## Personal
 

@@ -18,4 +18,4 @@ To enable Crowd Assessment, [create a lesson in the Lesson Planner](/modules/lea
 *   ___Online Submissions___ - so students can submit their work into Gibbon
 *   ___Crowd Assessment___ - so yourself, your students and a potentially wider audience can access the work.
 
-![Crowd Assessment](/img/teachers/crowd-assessment.png) Once Crowd Assessment is enabled, the work can be accessed by going to ___Assess___ > ___Crowd Assessment___ in the top menu bar. Each lesson remains visible in the Crowd Assessment listing for 6 weeks after the lesson took place.
+![Crowd Assessment](https://docs.gibbonedu.org/img/teachers/crowd-assessment.png) Once Crowd Assessment is enabled, the work can be accessed by going to ___Assess___ > ___Crowd Assessment___ in the top menu bar. Each lesson remains visible in the Crowd Assessment listing for 6 weeks after the lesson took place.

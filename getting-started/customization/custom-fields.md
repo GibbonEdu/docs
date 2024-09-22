@@ -15,4 +15,4 @@ Gibbon includes the ability to create and use custom fields for users. Once crea
 
 ### Getting Started
 
-To create new fields, go to ___Admin___ > ___System Admin___ > ___Custom Fields___. Click on the ___Add___ button to create a new field, which will give you the following options: ![custom_field1](/img/admin/customizing-gibbon/Custom_fields_1.png)
+To create new fields, go to ___Admin___ > ___System Admin___ > ___Custom Fields___. Click on the ___Add___ button to create a new field, which will give you the following options: ![custom_field1](https://docs.gibbonedu.org/img/admin/customizing-gibbon/Custom_fields_1.png)

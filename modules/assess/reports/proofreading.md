@@ -15,12 +15,12 @@ There is built-in system for helping to proofread other users' comments. Users c
 - **Peer-review**: At the top of the Proof Read page, users who have *Can Proof Read* access can select any other user from within their reporting cycle.
 
 - **Proof reading**: When reading peer comments, selecting "Looks good" indicates that the comment has been proof read. Users can also select "Edit Comment" to suggest edits, as well as add an optional reason. 
-  ![Proof Read](/img/reports/Proof%20Read%20-%20Proof.png)
+  ![Proof Read](https://docs.gibbonedu.org/img/reports/Proof%20Read%20-%20Proof.png)
 
 - **Saving**: There is a save button on every comment, for convenience. The whole page will save, so users only need to click Save as needed (not once per comment).
   
 - **Reviewing**: As users edit each other’s comments, they will appear as Done or Edited in their own Proof Read screen. If edits have been suggested, users can see them highlighted on their page (removed text in red, inserted in green). From there, users can choose to Accept the changes, Decline them, or Edit and incorporate the changes into their comments.
-  ![Proof Read Accept](/img/reports/Proof%20Read%20-%20Accept.png)
+  ![Proof Read Accept](https://docs.gibbonedu.org/img/reports/Proof%20Read%20-%20Accept.png)
 
 - **Progress**: The progress bar at the top of the Proof Read page will fill up in green as comments have been proof read. Comments collapse automatically once they've been proofed, but users can expand and continue editing them with the arrow icon.
 

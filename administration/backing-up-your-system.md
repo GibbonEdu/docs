@@ -23,7 +23,7 @@ Your backup process should be **automated and scheduled** to occur at regular fr
 
 ## Shell Script
 
-One option is to use a shell script ([example here](/img/admin/getting-started/script_backup1.sh) for Linux servers) to copy all important files and database data to an external drive, which should be r<u>otated to maintain online and offline copies</u> of your data. On Linux servers, you can use cron to schedule the script to run on a regular basis (e.g. every night at 01:00):
+One option is to use a shell script ([example here](https://docs.gibbonedu.org/img/admin/getting-started/script_backup1.sh) for Linux servers) to copy all important files and database data to an external drive, which should be r<u>otated to maintain online and offline copies</u> of your data. On Linux servers, you can use cron to schedule the script to run on a regular basis (e.g. every night at 01:00):
 
 ```sh
 0 1 * * * cd /home/user/ ; script_backup.sh

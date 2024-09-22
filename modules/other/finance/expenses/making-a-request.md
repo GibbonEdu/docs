@@ -16,7 +16,7 @@ Expenses require approval before they can be made against a budget. Use the intr
 2.  Select **My Expense Requests** in the module menu
 3.  Use the add button to create a new request, filling in all required fields.
 
-![Add Expense Request](/img/teachers/making-a-request.png)
+![Add Expense Request](https://docs.gibbonedu.org/img/teachers/making-a-request.png)
 
 1.  Important Notes:
     1.  You can only make requests from budgets that you have access rights to.

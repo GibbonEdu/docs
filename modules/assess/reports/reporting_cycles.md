@@ -15,7 +15,7 @@ Each reporting cycle can be setup through ___Manage Reporting Cycles___. The sta
 - **Cycle Number**: If there is more than one reporting cycle in a year, you can set the Cycle Number and Total Cycles, which are used by report templates to display progressive and cumulative reporting data.
 
 - **Milestones**: A reporting cycle can have a number of Milestones, which are important dates within the reporting cycle. These can act as reminders for users, and are shown on the My Reporting page as a timeline of events.
-  ![Milestones](/img/reports/Milestones.png)
+  ![Milestones](https://docs.gibbonedu.org/img/reports/Milestones.png)
 
 
 ## Scopes and Criteria
@@ -49,7 +49,7 @@ Users with __Can Write__ access are able to write reports within their scope. If
 
 If __Can Proof Read__ is enabled, users with this access can view and suggest edits on comments written by other users in the same reporting scope.
 
-![Access](/img/reports/Reporting%20Access.png)
+![Access](https://docs.gibbonedu.org/img/reports/Reporting%20Access.png)
 
 
 ## Rolling Over to a new School Year

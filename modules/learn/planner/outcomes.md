@@ -10,7 +10,7 @@ contributors: ["rossdotparker"]
 
 **Outcomes** allow a school to record and organise the learning objectives that are taught across the curriculum. Setting outcomes can be a fundamental first step in using Gibbon to manage teaching and learning within a school.
 
-![Support_User_Planner_Outcomes](/img/teachers/outcomes.png)
+![Support_User_Planner_Outcomes](https://docs.gibbonedu.org/img/teachers/outcomes.png)
 
 ### Uses
 

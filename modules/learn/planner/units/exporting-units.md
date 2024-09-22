@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-If you are leaving your current school, which uses Gibbon, and wish to take your units with you, you can use the Export feature to output your unit onto the screen. From here, you can save the HTML using your browser, or copy and paste the content into a document of some kind. ![Export Units 02](/img/teachers/planner/Export-Units-02.png)
+If you are leaving your current school, which uses Gibbon, and wish to take your units with you, you can use the Export feature to output your unit onto the screen. From here, you can save the HTML using your browser, or copy and paste the content into a document of some kind. ![Export Units 02](https://docs.gibbonedu.org/img/teachers/planner/Export-Units-02.png)
 
 ### Exporting
 

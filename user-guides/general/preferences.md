@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 # Preferences
 
-Your Gibbon account has a number of settings, which you can control. These are located on the ___Preferences___ page, which you can access via the Minor Links section of the Gibbon interface: ![Preferences](/img/teachers/preferences.png)
+Your Gibbon account has a number of settings, which you can control. These are located on the ___Preferences___ page, which you can access via the Minor Links section of the Gibbon interface: ![Preferences](https://docs.gibbonedu.org/img/teachers/preferences.png)
 
 ### Options
 
