@@ -21,16 +21,13 @@ hero:
     - theme: alt
       text: Getting Started
       link: /getting-started/next-steps
-    # - theme: alt
-    #   text: Updating
-    #   link: /administrators/getting-started/updating-gibbon
 
 features:
   - icon: 
       src: assets/github.svg
     title: Open Source!
     details: Just like Gibbon, all of our docs are open source, written and maintained by members of the Gibbon community.
-    link: https://github.com/GibbonEdu/docs
+    link: https://docs.gibbonedu.org/introduction/guide-to-open-source
   - icon: 
       src: assets/markdown.svg
     title: Written in Markdown

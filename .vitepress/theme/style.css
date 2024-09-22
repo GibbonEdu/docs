@@ -190,6 +190,10 @@
  * Customized
  * -------------------------------------------------------------------------- */
 
+.copyright {
+  font-size: 11px !important;
+  color: var(--vp-c-text-3) !important;
+}
 
 .vp-doc blockquote {
     border-left: 2px solid var(--vp-c-brand-3);
