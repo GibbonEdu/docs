@@ -15,6 +15,8 @@ Common questions include:
 - [Rolling over to a New School Year](/modules/admin/user-admin/rollover)
 - [Updating to a New Version](/administration/updating-gibbon)
 
+For more answers to common questions, please [visit our FAQ](/getting-started/faq).
+
 ## Gibbon Foundation
 
 In 2023 the Gibbon Foundation was established to further support Gibbon as a sustainable, global project. The copyright of the Gibbon codebase has been officially transferred from Ross Parker, the founder of Gibbon, to the Gibbon Foundation. This change represents a milestone in the growth and sustainability of the project and its community.
