@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
 import "vitepress-markdown-timeline/dist/theme/index.css";
+import googleAnalytics from 'vitepress-plugin-google-analytics';
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -15,5 +16,9 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     DefaultTheme.enhanceApp({ app, router, siteData });
+
+    googleAnalytics({
+        id: 'G-GZ14784KJE',
+    });
   }
 }
