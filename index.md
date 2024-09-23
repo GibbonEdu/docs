@@ -32,9 +32,9 @@ features:
        src: /assets/support.svg
     title: Community Support
     details: Explore available support options, including community-driven forums and docs.
-    link: /introduction/welcome#gibbon-foundation
+    link: /introduction/welcome
   - icon: 
-       src: /assets/roadmap.svg
+       src: /assets/roadmap2.svg
     title: Gibbon Road Map
     details: View our upcoming release dates and see a map of our current development goals.
     link: /development/gibbon-road-map
