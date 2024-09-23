@@ -42,7 +42,3 @@ The video below gives an overview of the initial setup of Gibbon, with the follo
 ### Additional Videos
 
 In March 2021 we ran a training day with a number of sessions to help administrators setup their system. You can find the full playlist of sessions here: [Gibbon Training Day 2021](https://www.youtube.com/watch?v=jTj4KLEB-w8&list=PLomK0srSl6WLUpLCWXAPNx7pc5uxbHt4A)
-
-## Demo Data
-
-Integrated into the Gibbon installer, opt to include demo data when you configure your database to see what Gibbon looks like in a fully operational school.

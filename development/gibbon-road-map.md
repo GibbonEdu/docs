@@ -14,13 +14,13 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
 
 
 
-::: timeline  v27.0.01 <Badge type="info">Kadoorie Farm</badge>
+::: timeline  v27.0.01 <Badge type="info">Kadoorie Farm</badge> <Badge type="tip" text="Current Release" />
 - String Freeze: April 20th 2025
 - Release: June 7th 2024
 :::
 
 
-::: timeline v28.0.00 <Badge type="info">Lam Tsuen</badge> <Badge type="tip">In Development</badge>
+::: timeline v28.0.00 <Badge type="info">Lam Tsuen</badge> <Badge type="warning">In Development</badge>
 - String Freeze: October 20th 2024
 - Release: November 20th 2024
 :::
@@ -49,15 +49,17 @@ The following is a roadmap of upcoming development plans and goals for the Gibbo
 - **Activities Module**: a visual refresh of the activity pages, including options to browse descriptions and pictures of activities. Also includes new drag-and-drop tools for enrolment and staffing.
 - **Admissions Module**: continued development to add more reporting and statistics, and the ability to handle pre-application and post-application forms.
 - **Library Module**: continued development to improve the bookshelf view for a larger range of library items.
+- **Data Audit and Logging**: track changes to important records to see who modified them and when.
 :::
 
 <hr class="timeline-indicator timeline-planned">
 
 ::: timeline  Planned
 - **Routing Infrastructure**: refactoring to use modern path routing with a front-controller pattern and with separation of model, view and controller.
+- **Front-end Framework**: replacing jQuery with a modern front-end framework.
 - **Events Module**: a new module to enable adding events directly to the timetable without needing an external calendar integration.
-- **Data Audit and Logging**: track changes to important records to see who modified them and when.
 - **Dashboard Visual Refresh**: a new responsive card-based layout for dashboards, with options for users to add or hide cards that are relevant to them.
+- **Settings Manager**: a method to search and update settings across the whole system.
 - **LDAP Integration**: adds additional authentication options for schools.
 :::
 
@@ -66,7 +68,6 @@ The following is a roadmap of upcoming development plans and goals for the Gibbo
 ::: timeline Future
 - **API Access**: a REST based API to enable further integrations with apps and tools.
 - **Multi-School Installation**: the option to have multiple school installs on the same server, with a central dashboard to manage these installs.
-- **Settings Manager**: a method to search and update settings across the whole system.
 :::
 
 <hr class="timeline-indicator timeline-not-possible">

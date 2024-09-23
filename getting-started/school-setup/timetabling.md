@@ -16,6 +16,46 @@ Gibbon supports storing and rendering of timetables using a non-grid-restrained 
 3.  You should have a list of all the activities the school does in all days the school is on.
 4.  This should be in terms of the periods, the times and the activities of a particular time set.
 
+## Timetable Structure
+
+Timetabling uses a number of components to determine the overall structure of a school's timetable. Many of these components are re-usable, so it's helpful to understand how they all connect together:
+
+- **Timetable Column**: These determine a reusable structure for a hypothetical day in any of your timetables. 
+- **Timetable Row**: Columns are made up of rows, which determine which periods happen on a given day. Eg: Period 1, Period 2, Lunch Time, Period 3, etc.
+
+::: tip Reusable Component
+Timetable columns do not exist on their own, they define a structure that can be re-used when creating timetable days. If a school has the same timings for periods on every day of the week, they would only need one timetable column to create this structure.
+:::
+
+- **Timetable**: This holds the complete structure for which classes will run when, and is attached to a specific school year. You can have more than one timetable for different areas of the school (eg: primary and secondary), but a year group can only belong to one timetable.
+- **Timetable Day**: Timetables are made up of timetable days. These determine how the structure of a day (timetable column) might apply to different days in the timetable (often weekdays, but could be a Day A, Day B, Day C etc. structure).
+- **Classes by Period**: Editing a timetable day lets you start assigning which classes will run in the day, and the available periods are based on the column you chose.
+
+```mermaid
+flowchart LR
+  subgraph Timetable
+    direction LR
+    subgraph T1 [Timetable Day<br/><small>eg: Monday</small>]
+        direction TB
+        d1(Timetable Column<br/><small>Period 1<br/>Period 2<br/>etc...</small>);
+    end
+    subgraph T2 [Timetable Day<br/><small>eg: Tuesday</small>]
+        d2(Timetable Column<br/><small>Period 1<br/>Period 2<br/>etc...</small>);
+    end
+    subgraph T3 [Timetable Day<br/><small>eg: Wednesday</small>]
+        d3(Timetable Column<br/><small>Period 1<br/>Period 2<br/>etc...</small>);
+    end
+    T4[etc]
+  end
+  T1 --> T2 --> T3 --> T4
+```
+
+- **Exceptions**: You can add exceptions if certain staff or students will not be present in a specific period of a specific class.
+- **Tie Days to Dates**: This is often the final step in timetable creation, where you assign a timetable day (eg: Red Monday or Day A) to an exact calendar date (eg: Sept 18). 
+
+::: warning Troubleshooting Note
+If your timetable is blank after setting up all the timetable days, be sure you've tied the days to dates. Your timetable day may be called "Monday", but it isn't attached to the calendar until it's assigned to a specific set of Monday's. This enables alternating timetable structures.
+:::
 ## Creating A Timetable
 
 1.  Go to Admin > Timetable Admin

@@ -17,22 +17,18 @@ The basic installation process for Gibbon is:
 flowchart LR
   A(Download<br>Gibbon) --> B(Upload Files<br>to Server) --> C(Navigate to<br>Gibbon) --> D(Complete the<br>Installer) --> E(Login to<br>Gibbon);
 ```
-## Download Gibbon
 
-Visit [Gibbon Download page](https://gibbonedu.org/download/) to download the Gibbon Core. This will always link to the most recent stable release of Gibbon. 
+### Quick Start
 
-::: info Advanced Installation
-Developers may wish to install [Cutting Edge Code](/introduction/installation-options/cutting-edge-code). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
-:::
+1. [Download](https://gibbonedu.org/download/) and unzip the latest version of the Gibbon Core.
+2. Copy all files to your server, choosing either the root directory or a sub-folder within it.
+3. Navigate your browser to the folder on your server where Gibbon has been located.
+4. Follow the on-screen instructions in Gibbon's new installer.
+5. Login to Gibbon, then check out the [Getting Started](/getting-started/next-steps) section for next steps.
 
-## Installation
+For detailed instructions about each of these steps, continue reading the sections below.
 
-After download and unzipping:
-
-1.  Copy all files to your server, choosing either the root directory or a sub-folder within it.
-2.  Navigate your browser to the folder on your server where Gibbon has been located.
-3.  Follow the on-screen instructions in Gibbon's new installer.
-4.  Check out the [Getting Started With Gibbon](/getting-started/next-steps) page for more information.
+## Video Guide
 
 The video below gives an overview of the installation process:
 
@@ -40,18 +36,45 @@ The video below gives an overview of the installation process:
 <iframe src="https://www.youtube.com/embed/jTj4KLEB-w8?start=133&end=1179" allowfullscreen="allowfullscreen" width="660" height="400" frameborder="0"></iframe>
 </ClientOnly>
 
-::: info
-Looking for a quick install? [Download](https://www.softaculous.com/apps/educational/Gibbon) Gibbon via Softaculous.
+
+## Download Gibbon
+
+Visit [Gibbon Download page](https://gibbonedu.org/download/) to download the Gibbon Core. This page always links to the latest version, which is the most stable release of Gibbon. 
+
+All versions of Gibbon can be found on the [GitHub releases](https://github.com/GibbonEdu/core/releases) page. If you download from this page, be sure to download the Install Bundle, which includes all necessary files.
+
+::: info Advanced Installation
+Developers may wish to install [Cutting Edge Code](/introduction/installation-options/cutting-edge-code). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
 :::
 
-::: info
-Installing from scratch on an Apache server? Check out the [How to Install Gibbon](https://ask.gibbonedu.org/t/how-to-install-gibbon-for-noobs-like-me-on-debian-12-or-ubuntu-and-similar/8365) thread by @dardiv on the forums.
+## Upload Files
+
+As self-hosted software, once you download Gibbon, you'll need to unzip it and upload the contents of this folder to your server. The location you upload to needs to be web-accessible via a URL or IP address. In most Linux web servers, this location is the `/var/www/html` directory, which is the default root folder of the web server. 
+
+After uploading the files, depending on your server setup, you may also need to adjust the file permissions to ensure the web server can run them. On Linux servers, this can be done with the `chmod` and `chown` commands.
+
+## Navigate to Gibbon
+
+In a web browser, navigate to URL that corresponds to the directory where Gibbon is located. If you copied Gibbon into a sub-folder on your server, then the URL will likely contain your domain + the name of this subfolder.
+
+::: tip Example
+If you uploaded to `/var/www/html` then your URL will likely be https://yourdomain.com. If you used a sub-folder such as `/var/www/html/gibbon` then your URL will likely be https://yourdomain.com/gibbon.
 :::
+## Installation & Login
 
-## Softaculous Installation
+The installer will step you though the rest of the installation process, beginning with a system requirements check, and then creating and populating the Gibbon database. 
 
-If you are using a web hosting company that provides Softaculous via CPanel, you can follow the instructions in the video below to install Gibbon:
+After completing the installer, you can navigate back to your Gibbon URL to login using the administrator user you created during installation.
 
-<ClientOnly>
-<iframe src="https://www.youtube.com/embed/5tfuT1CjAe8?rel=0" allowfullscreen="allowfullscreen" width="660" height="415" frameborder="0"></iframe>
-</ClientOnly>
+### Demo Data
+
+Integrated into the Gibbon installer, you can opt to include demo data when you configure your database to see what Gibbon looks like in a fully operational school. If you are setting up your system for use in production, do not install the demo data, to ensure you begin with a nice clean installation.
+
+### Installer Troubleshooting
+
+- If you see an error that Gibbon is `missing the composer autoloader`, then your vendor folder is either missing or not installed correctly. Be sure you are using a full Install Bundle from the Gibbon download page, or follow the composer instructions for [cutting edge code](/introduction/installation-options/cutting-edge-code). 
+- If your installer does not load or you see a PHP error message, double-check that your server meets the system requirements and your web server has correct file permissions.
+
+::: tip Post-Installation
+After installing, be sure to follow the [Post-Install & Server Config](/introduction/post-installation) steps to ensure your system is running smoothly.
+:::
