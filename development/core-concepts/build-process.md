@@ -1,9 +1,11 @@
 ---
-title: "Build Process"
-categories: ["core"]
-tags: []
-order: 20
-contributors: ["skuipers"]
+title: Build Process
+categories:
+  - core
+tags: 
+order: 10
+contributors:
+  - skuipers
 ---
 # Build Process
 

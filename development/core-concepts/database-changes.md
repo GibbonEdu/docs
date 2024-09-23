@@ -1,9 +1,11 @@
 ---
-title: "Database Changes"
-categories: ["core"]
-tags: []
-order: 30
-contributors: ["skuipers"]
+title: Database Changes
+categories:
+  - core
+tags: 
+order: 15
+contributors:
+  - skuipers
 ---
 # Database Changes
 

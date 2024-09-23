@@ -19,4 +19,4 @@ As of v8.2.00, Gibbon has a new system for system-wide notifications. This repla
 *   **$gibbonPersonID** - the user to be targetted by the notification.
 *   **$text** - the notification text to be shown to the user. If the same module sets multiple notifications with the same text to the same person, they will not be duplicated, but rather will have a counter incremented. This aims to prevent notification flooding.
 *   **$moduleName** - the name of the module setting the notification, or NULL or empty string for the system itself.
-*   **$actionLink** - when the user clicks on Action & Delete in the Notifications page, this is where they will be taken. e.g. `/index.php?q=/modules/Planner/planner_view_full.php&gibbonPlannerEntryID=$gibbonPlannerEntryID`
+*   **&dollar;actionLink** - when the user clicks on Action & Delete in the Notifications page, this is where they will be taken. e.g. `/index.php?q=/modules/Planner/planner_view_full.php&gibbonPlannerEntryID=$gibbonPlannerEntryID`

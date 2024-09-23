@@ -1,9 +1,11 @@
 ---
-title: "Automated Testing"
-categories: ["testing"]
-tags: []
-order: 80
-contributors: ["skuipers"]
+title: Automated Testing
+categories:
+  - testing
+tags: 
+order: 20
+contributors:
+  - skuipers
 ---
 # Automated Testing
 
@@ -24,6 +26,6 @@ Codeception involves integration testing and makes use of a database connection;
 $testEnvironment = 'codeception';
 ```
 
-### Travis CI ###
+### Continuous Integration ###
 
-Pull requests and commits to the development branch are automatically built & tested using [Travis CI](https://travis-ci.org/GibbonEdu/core).
+Pull requests to the development branch are automatically built & tested with continuous integration using GitHub Actions.
