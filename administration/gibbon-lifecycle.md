@@ -24,7 +24,7 @@ Along side the day-to-day tasks of the school year, the following are recommende
 
 The largest unit of time in Gibbon is a **School Year**. Many different types of records are attached to a school year, and are archived when [rolling over to a new school year](/modules/admin/user-admin/rollover). 
 
-::: tip
+::: tip What is a rollover?
 A rollover is an essential process that starts a new school year, enrols students, and updates users based on their status. The rollover performs a lot of work that would otherwise need to be done manually.
 :::
 

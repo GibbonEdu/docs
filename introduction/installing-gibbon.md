@@ -75,6 +75,6 @@ Integrated into the Gibbon installer, you can opt to include demo data when you 
 - If you see an error that Gibbon is `missing the composer autoloader`, then your vendor folder is either missing or not installed correctly. Be sure you are using a full Install Bundle from the Gibbon download page, or follow the composer instructions for [cutting edge code](/introduction/installation-options/cutting-edge-code). 
 - If your installer does not load or you see a PHP error message, double-check that your server meets the system requirements and your web server has correct file permissions.
 
-::: tip Post-Installation
+::: info Post-Installation
 After installing, be sure to follow the [Post-Install & Server Config](/introduction/post-installation) steps to ensure your system is running smoothly.
 :::

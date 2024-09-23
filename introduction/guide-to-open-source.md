@@ -107,7 +107,7 @@ These evaluation criteria are based on Urko Masse’s excellent post on [Open So
 
 ---
 
-::: tip 
+::: tip This Section
 You may be planning to use an open source platform, or planning to _consider_ using one. In both cases, this **Plan** section can help answer the most common questions you might have.
 :::
 ## Assess your Needs
@@ -176,7 +176,7 @@ Your stakeholders can make or break a project. Taking time to find your change a
 
 Finding your change agents is often a matter of how you create and share your vision. On the surface, introducing a new piece of technology might seem like a simple IT decision. However, chances are it’ll affect many different people in many different capacities.
 
-::: tip 
+::: tip The Value Proposition
 Your stakeholders may not know or care what open source means. That’s OK. However, if you can, taking the time to communicate what open source can offer them helps create a shared vision for change.
 :::
 
@@ -227,7 +227,7 @@ Are you migrating from an existing school platform or starting up for the first 
 
 # Support
 
-::: tip 
+::: tip This Section
 Initially, open source can sound like a DIY project: do it yourself, you’re on your own, sink or swim. Luckily, that’s not the case. This **Support** section offers info about how open source support works and how to set your school up for success.
 :::
 

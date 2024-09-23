@@ -30,8 +30,8 @@ Gibbon uses a simple branching strategy. The current stable version is released 
 
 ## Dependency Management
 
-::: tip
-As of Gibbon v22.0.00, cutting edge code uses composer to manage the vendor folder. See the [cutting edge code](/introduction/installation-options/cutting-edge-code)page for installation and update instructions.
+::: tip Composer Required
+As of Gibbon v22.0.00, cutting edge code uses composer to manage the vendor folder. See the [cutting edge code](/introduction/installation-options/cutting-edge-code) page for installation and update instructions.
 :::
 
 Gibbon depends on a number of libraries written and managed by other developers, which are stored in the `vendor` folder. As of v22.0.00, developers will need to use PHP's dependency manager, [Composer](https://getcomposer.org/), to install and update libraries in their vendor folder. Stable releases include a full copy of the vendor folder and do not require composer.

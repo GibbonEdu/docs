@@ -9,7 +9,7 @@ contributors: ["skuipers"]
 
 Gibbon uses [PHPUnit](https://phpunit.de/) and [Codeception](https://codeception.com/) for automated testing. Both testing frameworks can be installed and configured to run in your localhost.
 
-::: tip NOTE
+::: warning Note
 Our refactoring efforts are ongoing, and the code coverage for automated tests is not all-encompassing. A passing test does not guarantee a working codebase: please always test manually too.
 :::
 ### PHPUnit ###

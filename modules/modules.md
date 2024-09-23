@@ -9,7 +9,7 @@ draft: false
 
 Gibbon includes a number of built-in modules, which make up the core of Gibbon. These modules are enabled by default, but can be disabled through the <u>System Admin > Manage Modules</u> page. You can also customise the main menu of Gibbon by editing the categories for each module. 
 
-::: tip
+::: tip Note
 Core modules do not need updated individually, and are always kept up-to-date when upgrading Gibbon to the latest version.
 :::
 ## Additional Modules
@@ -27,7 +27,7 @@ Check out available modules on [our Extend page](https://gibbonedu.org/extend).
 5. Click the plus icon in the table row for the new module.
 6. The new module will appear in Gibbon's main menu.
 
-::: tip
+::: tip Module Versions
 Additional modules need updated manually when new versions are available. New module versions may be released more or less frequently, and do not necessarily match the release cycle of the Core. Check the [Extend](https://gibbonedu.org/extend) page when downloading a new version to ensure it is compatible with your version of Gibbon.
 :::
 

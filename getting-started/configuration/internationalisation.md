@@ -8,11 +8,11 @@ contributors:
   - rossdotparker
 ---
 
-# Multilingual, Internationalisation & Localisation
+# Languages & Translation
 
 Thanks to our amazing volunteers, Gibbon is available in several different languages. If you would like to help translate Gibbon, please email [support@gibbonedu.org](mailto:support@gibbonedu.org). Your help would be most appreciated!
 
-## Troubleshooting
+## Locale Troubleshooting
 
 The most common cause of Gibbon's multilingual features not working is the server's OS not having the correct locales installed. This is usually fairly trivial to solve, as shown in the example below, which installs the Great Britain locale for use with English, under Ubuntu: `sudo locale-gen en_GB` There is plenty of guidance online for the equivalent commands for other languages and platforms.
 
