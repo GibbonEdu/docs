@@ -26,6 +26,13 @@
   top: 20px;
   left: 17px;
 }
+
+.vp-doc .custom-block img {
+    max-width: 4em;
+    margin-top: -1.2em;
+    float: right;
+}
+
 .vp-doc .custom-block.warning:before,
 .vp-doc .custom-block.danger:before {
   content: "⚠";
