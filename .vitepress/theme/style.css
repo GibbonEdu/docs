@@ -121,6 +121,17 @@
   }
 }
 
+
+:root {
+    --vp-nav-logo-height: 3.5rem;
+}
+
+.VPImage.logo {
+    margin-top: -0.625rem;
+    margin-right: 0.75rem;
+    margin-left: -1.25rem;
+}
+
 /**
  * Component: Custom Block
  * -------------------------------------------------------------------------- */

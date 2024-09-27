@@ -47,7 +47,7 @@ export default withMermaid({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: "Gibbon Docs",
-        logo: "/gibbon-logo.png",
+        logo: "/gibbon-purple.svg",
 
         nav: [
             {
