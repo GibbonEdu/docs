@@ -114,7 +114,7 @@ export default withMermaid({
                 ],
             },
             {
-                text: "v27.0.01",
+                text: "v28.0.00",
                 items: [
                     { text: "Download", link: "https://gibbonedu.org/download" },
                     {
