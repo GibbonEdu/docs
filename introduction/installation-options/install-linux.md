@@ -29,7 +29,7 @@ apt install apache2 php mysql-server php-gd php-mysql php-zip php-curl php-gette
 For PHP 8, this may look a bit different:
 
 ``` sh 
-apt install php8.0-mysql php8.0-gd php8.0-zip php8.0-curl php8.0-gettext php8.0-pdo php8.0-xml php8.0-mbstring
+apt install php8.0-mysql php8.0-gd php8.0-zip php8.0-curl php8.0-gettext php8.0-pdo php8.0-xml php8.0-mbstring php8.0-intl
 ```
 
 The relevant packages will be installed, however, you still need to enable mod_rewrite on Apache.
