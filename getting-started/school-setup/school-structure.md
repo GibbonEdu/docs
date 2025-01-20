@@ -22,6 +22,6 @@ Use the following options in the main menu under <u>Admin > School Admin</u> to 
 
 ### Others
 
-1.  ___Manage Spaces___ - spaces are any areas in your school that you might want to use in the timetable, including classrooms, labs, offices, sports facilities, etc.
+1.  ___Manage Facilities___ - facilities are any areas in your school that you might want to use in the timetable, including classrooms, labs, offices, sports facilities, etc.
 
 The other settings in School Admin are not so fundamental to the running of a school, and so will not be covered here. Mostly, these are used to control the functioning of single module (e.g. Manage Student Settings).
