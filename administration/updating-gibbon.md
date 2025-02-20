@@ -20,11 +20,14 @@ contributors:
 2.  Use the Update action in System Admin for semi-automatic updates to the core, as follows:
     1.  <span style="text-decoration: underline; color: #ff0000;">**Backup your database and installation files.**</span>
     2.  Download and unzip the latest version of Gibbon.
-    3.  Login to your Gibbon installation and go to Admin > System Admin > Update.
-    4.  Update your install base with the newly downloaded files, taking care not to overwrite any additional modules and themes you have installed.
-    5.  Refresh the Update page, and it should show there are some database updates to be run. Run these by pressing the Submit button.
-    6.  If the new version includes a lot of theme changes, you may need to refresh your page a few times to see things correctly.
-    7.  In some cases you might need to log out and back in for all changes to be effective.
+    3.  Login to your Gibbon installation
+    4.  Go to Admin > System Admin > Active Sessions and enable Maintenance Mode, which will log out any non-administrative users.
+    5.  The go to Admin > System Admin > Update
+    7.  Update your install base with the newly downloaded files, taking care not to overwrite any additional modules and themes you have installed.
+    8.  Refresh the Update page, and it should show there are some database updates to be run. Run these by pressing the Submit button.
+    9.  If the new version includes a lot of theme changes, you may need to force refresh your page and go to Admin > System Admin > Cache Manager to clear the various caches.
+    10.  In some cases you might need to log out and back in for all changes to be effective.
+    11.  Once you are satisfied that the update has been successful, return to Admin > System Admin > Active Sessions and disable Maintenance Mode.
     
     
     **Tips for updating via the command line**
