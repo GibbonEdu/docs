@@ -44,7 +44,8 @@ The following is a roadmap of upcoming development plans and goals for the Gibbo
 <hr class="timeline-indicator timeline-progress">
 
 ::: timeline In Progress
-- **Activities Module**: a visual refresh of the activity pages, including options to browse descriptions and pictures of activities. Also includes new drag-and-drop tools for enrolment and staffing.
+- **Front-end Framework**: replacing jQuery with a modern front-end framework.
+- **Timetable Visual Refresh**: updating the UI and rendering system for the timetable, with added flexibility for layers and custom modules.
 - **Admissions Module**: continued development to add more reporting and statistics, and the ability to handle pre-application and post-application forms.
 - **Library Module**: continued development to improve the bookshelf view for a larger range of library items.
 - **Data Audit and Logging**: track changes to important records to see who modified them and when.
@@ -54,8 +55,7 @@ The following is a roadmap of upcoming development plans and goals for the Gibbo
 
 ::: timeline  Planned
 - **Routing Infrastructure**: refactoring to use modern path routing with a front-controller pattern and with separation of model, view and controller.
-- **Front-end Framework**: replacing jQuery with a modern front-end framework.
-- **Events Module**: a new module to enable adding events directly to the timetable without needing an external calendar integration.
+- **Calendar Module**: a new module to enable adding events directly to the timetable without needing an external calendar integration.
 - **Dashboard Visual Refresh**: a new responsive card-based layout for dashboards, with options for users to add or hide cards that are relevant to them.
 - **Settings Manager**: a method to search and update settings across the whole system.
 - **LDAP Integration**: adds additional authentication options for schools.
