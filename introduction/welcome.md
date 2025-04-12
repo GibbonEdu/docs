@@ -33,6 +33,7 @@ The following organisations and individuals have trained and qualified as Offici
 - [High Point](https://highpointedu.com)
 - [Edtech Innovations Ltd.](https://edtechinno.com)
 - [Everon Learning Solutions](https://www.everonlearning.com/)
+- [CnA Solutions](https://cnasolutions.ng/)
 
 ## Unofficial Commercial Support
 The following list contains those companies that we know are offering commercial support outside of our Official Gibbon Partner programme. These details are offered without warranty or quality assurance.
