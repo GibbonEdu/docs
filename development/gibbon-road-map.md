@@ -22,7 +22,7 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
 - Release: November 20th 2025
 :::
 
-::: timeline  v31.0.00 <Badge type="info">TBD</badge> <Badge type="warning">Future Release</badge>
+::: timeline  v31.0.00 <Badge type="info">Octopus</badge> <Badge type="warning">Future Release</badge>
 - String Freeze: April 20th 2026
 - Release: May 20th 2026
 :::
