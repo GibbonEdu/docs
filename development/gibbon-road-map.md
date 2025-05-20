@@ -12,20 +12,19 @@ contributors:
 
 Shown below are some upcoming key dates in the Gibbon Development Road Map. To request new features, please use the [Feature Requests category in our support forums](https://ask.gibbonedu.org/c/feature-requests/12).
 
-
-::: timeline v28.0.00 <Badge type="info">Lam Tsuen</badge> <Badge type="tip" text="Current Release" />
-- String Freeze: October 20th 2024
-- Release: November 20th 2024
-:::
-
-::: timeline  v29.0.00 <Badge type="info">Ma On Shan</badge> <Badge type="warning">In Development</badge>
+::: timeline  v29.0.00 <Badge type="info">Ma On Shan</badge> <Badge type="tip" text="Current Release" />
 - String Freeze: April 20th 2025
 - Release: May 20th 2025
 :::
 
-::: timeline  v30.0.00 <Badge type="info">Nam Chung</badge> <Badge type="warning">Future Release</badge>
+::: timeline  v30.0.00 <Badge type="info">Nam Chung</badge> <Badge type="warning">In Development</badge>
 - String Freeze: October 20th 2025
 - Release: November 20th 2025
+:::
+
+::: timeline  v31.0.00 <Badge type="info">TBD</badge> <Badge type="warning">Future Release</badge>
+- String Freeze: April 20th 2026
+- Release: May 20th 2026
 :::
 
 
@@ -45,7 +44,6 @@ The following is a roadmap of upcoming development plans and goals for the Gibbo
 
 ::: timeline In Progress
 - **Front-end Framework**: replacing jQuery with a modern front-end framework.
-- **Timetable Visual Refresh**: updating the UI and rendering system for the timetable, with added flexibility for layers and custom modules.
 - **Admissions Module**: continued development to add more reporting and statistics, and the ability to handle pre-application and post-application forms.
 - **Library Module**: continued development to improve the bookshelf view for a larger range of library items.
 - **Data Audit and Logging**: track changes to important records to see who modified them and when.
