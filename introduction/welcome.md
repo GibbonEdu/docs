@@ -18,10 +18,9 @@ Common questions include:
 For more answers to common questions, please [visit our FAQ](/getting-started/faq).
 
 ## Gibbon Foundation
+In 2023 the Gibbon Foundation was established to further support Gibbon as a sustainable, global project. The copyright of the Gibbon codebase has been officially transferred from Ross Parker, the founder of Gibbon, to the [Gibbon Foundation](https://gibbonedu.org/about/#foundation). This change represents a milestone in the growth and sustainability of the project and its community.
 
-In 2023 the Gibbon Foundation was established to further support Gibbon as a sustainable, global project. The copyright of the Gibbon codebase has been officially transferred from Ross Parker, the founder of Gibbon, to the Gibbon Foundation. This change represents a milestone in the growth and sustainability of the project and its community.
 ## Community Help & Issue Reporting
-
 If you need help, but can't find it here, try asking members of the Gibbon community on the [Gibbon Support Forums](http://ask.gibbonedu.org/). Similarly, issues and bugs can be reported to the forum as well.
 
 ## Expert Support
