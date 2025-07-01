@@ -30,6 +30,7 @@ Members of the Gibbon team are available to help you with your Gibbon needs, via
 The following organisations and individuals have trained and qualified as Official Gibbon Partners under [our gibbonedu.com Certification programme](https://gibbonedu.com/certification.php), and are available to provide commercial support:
 
 - [High Point](https://highpointedu.com)
+- [Edtech Innovations Ltd.](https://edtechinno.com/)
 - [Everon Learning Solutions](https://www.everonlearning.com/)
 - [CnA Solutions](https://cnasolutions.ng/)
 
