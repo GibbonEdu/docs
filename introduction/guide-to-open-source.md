@@ -288,8 +288,6 @@ Shirky, C. (2007). Love, Internet Style [Video]. Retrieved from [https://www.you
 
 The Linux Foundation. (2013). How is Linux made? [Video]. Retrieved from [https://www.youtube.com/watch?v=yVpbFMhOAwE](https://www.youtube.com/watch?v=yVpbFMhOAwE)
 
-Wired. (2013). In a world without open source. [Blog post]. Retrieved from [https://www.wired.com/insights/2013/07/in-a-world-without-open-source/](https://www.wired.com/insights/2013/07/in-a-world-without-open-source/)
-
 ---
 
 **Attribution**
