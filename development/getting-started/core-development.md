@@ -31,17 +31,17 @@ Understandably, there are times when this is not possible and you find yourself 
 
 If you are planning to build a whole new feature for the core, please get in touch with our team first via the [Developer section of the forums](https://ask.gibbonedu.org/c/developers/7), our developer Slack channel, or contact [support@gibbonedu.org](mailto:support@gibbonedu.org). While we welcome community contributions, its important to check with us to see if your feature will fit with the core if you'd like it to become part of an upcoming version. 
 
-There are a number of considerations we make as core developers when considering new features for the core: 
+There are a number of considerations we make as core developers when adding new features: 
 
-- Is it maintainable?
+- **Is it maintainable?**
   - The core team will need to maintain all the new code for the foreseeable future. Large scale changes, or changes that do not fit with the Gibbon code style, will be harder to maintain and not fit with the core.
-- Is it useful and flexible?
+- **Is it useful and flexible?**
   - A new feature should be designed in such a way that it can be turned off when needed, and includes configuration and permissions for schools to customize it to their needs. 
-- Does it overlap with ongoing development?
+- **Does it overlap with ongoing development?**
   - We may already have plans to refactor areas of the codebase or add new features that are similar. Check in first to be sure!
-- Does it fit the Gibbon ethos?
+- **Does it fit the Gibbon ethos?**
   - Gibbon is made with a set of core values that are human-centered and avoids tracking and automating processes that we believe should be human first. As such, features like facial recognition and AI analytics are unlikely to be accepted into the core.
-- Could it be a module instead?
+- **Could it be a module instead?**
   - Any feature that is highly specific to one school's needs would be best in a custom module rather than in the core.
 
 ::: warning Important Note
