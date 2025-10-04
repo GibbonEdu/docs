@@ -15,7 +15,7 @@ const vitepressSidebarOptions = {
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
-    // excludePattern: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas', '/deploy/**',],
+    excludeGlobPattern: ['**/README.md', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
     convertSameNameSubFileToGroupIndexPage: false,
@@ -35,7 +35,7 @@ export default withMermaid({
 
     head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
-    srcExclude: ['**/README.md', '/templates/**', '/.obsidian', '*.canvas', '/deploy/**',],
+    srcExclude: ['**/README.md', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
 
     markdown: {
         config: (md) => {

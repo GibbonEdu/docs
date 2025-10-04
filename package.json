@@ -2,7 +2,8 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "docs:preview": "vitepress preview",
+    "docs:debug": "DEBUG='vitepress:*' vitepress build"
   },
   "devDependencies": {
     "mermaid": "^11.10.1",
