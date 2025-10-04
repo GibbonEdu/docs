@@ -26,6 +26,8 @@ Understandably, there are times when this is not possible and you find yourself 
   - With this approach, each time there is an update in Gibbon, you can pull the latest version into your fork, and then merge your branch back into that version, which will apply your changes on top of the new code.
   - This approach does require some knowledge of Git and GitHub. See the [Getting Started](/development/getting-started/developer-workflow#getting-setup) section for some pointers.
 
+Finally, if you've made changes that you feel would be beneficial for the Gibbon core, such as bug fixes or enhancements to existing features, you are welcome to create a [Pull Request](/development/getting-started/developer-workflow#pull-request-code-review). By adding your changes to the next version of Gibbon, you won't need to worry about maintaining them separately from the core. Keep in mind, not all changes will fit with the core, so when in doubt please check with us first.
+
 
 ## Building New Core Features
 
