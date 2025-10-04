@@ -88,6 +88,7 @@ export default withMermaid({
                             { text: "Developer Workflow", link: "/development/getting-started/developer-workflow" },
                             { text: "Coding Standards", link: "/development/getting-started/coding-standards" },
                             { text: "Module Development", link: "/development/getting-started/module-development" },
+                            { text: "Core Development", link: "/development/getting-started/core-development" },
                         ],
                     },
                     {
