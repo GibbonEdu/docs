@@ -1,4 +1,4 @@
-# Staff Absences and Coverage
+# Staff Absences
 
 The Absences section allows you to view, manage, approve and create staff absences. This is useful as an integrated method of keeping track of when staff members are out of school for various reasons.
 
