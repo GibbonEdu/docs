@@ -5,9 +5,12 @@ Gibbon supports two distinct coverage modes, which determine how substitute teac
 
 Coverage ensures that when a teacher is marked absent, another user can be assigned to take over their classes for the affected dates.
 
+::: tip Note
+The coverage system assumes a school will use either Internal or External coverage, and that this setting generally will not change once the system is running. If your school uses a mix of coverage, it's best to use External coverage mode and then add internal staff manually as substitutes.
+:::
 
 ## Internal Coverage Mode
-**Internal coverage** is used when teachers cover each other’s classes. In this mode, all active staff members can be assigned as substitutes, and their priority is determined through the **People > Staff > Manage Staff > Edit Staff** interface.
+**Internal coverage** is used when teachers cover each other’s classes. In this mode, all active staff members with a staff type of Teaching can be assigned as substitutes, and their priority is determined through the **People > Staff > Manage Staff > Edit Staff** interface.
 
 Each staff profile contains a **Coverage Priority** field and an **Exclude from Staff Coverage** toggle.
 
@@ -43,8 +46,7 @@ If a user is listed as both a staff member and a substitute, their priority in *
 - Coverage lists are automatically ordered by priority (highest to lowest). Users excluded from staff coverage or without an assigned role will not appear.  
 
 ::: tip Note
-Coverage settings and absence management are found in **People > Staff > Manage Staff Absences**.  
-Substitute availability and priority do not automatically update when switching coverage modes — verify your settings after changes.
+Coverage settings and absence management are found in **People > Staff > Manage Staff Absences**. Substitute availability and priority do not automatically update when switching coverage modes — verify your settings after changes.
 :::
 
 ## See Also
