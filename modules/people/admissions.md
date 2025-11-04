@@ -1,14 +1,14 @@
+---
 title: Admissions
 description: Manage student applications, enrolments, and withdrawals in Gibbon.
+---
 
 # Admissions
 
 ## Overview
-The **Admissions** module manages the full student lifecycle — from initial application through enrolment to withdrawal.  
-It connects external-facing application forms with internal records, ensuring every student’s journey is accurately tracked and integrated across the system.
+The **Admissions** module manages the full student lifecycle — from initial application through enrolment to withdrawal. It connects external-facing application forms with internal records, ensuring every student’s journey is accurately tracked and integrated across the system.
 
-Schools use this module to monitor applications, manage enrolments, handle withdrawals, and review trends over time.  
-Admissions staff and administrators can coordinate processes efficiently without needing external systems.
+Schools use this module to monitor applications, manage enrolments, handle withdrawals, and review trends over time. Admissions staff and administrators can coordinate processes efficiently without needing external systems.
 
 ## Key Actions
 - Manage student applications  
@@ -18,11 +18,9 @@ Admissions staff and administrators can coordinate processes efficiently without
 - Analyse enrolment trends  
 
 ## Typical Workflow
-Admissions staff begin with submitted applications, which are stored as **Admissions Accounts**.  
-Once an application is accepted, the applicant’s data transfers automatically to **Student Enrolment**, where they become part of the active student body.
+Admissions staff begin with submitted applications, which are stored as **Admissions Accounts**. Once an application is accepted, the applicant’s data transfers automatically to **Student Enrolment**, where they become part of the active student body.
 
-Withdrawals are handled through the **Withdraw Student** section, which ensures records are archived correctly and notifications are sent to relevant staff.  
-Administrators can then use **Left Students** and **Enrolment Trends** to report on changes and plan for the future.
+Withdrawals are handled through the **Withdraw Student** section, which ensures records are archived correctly and notifications are sent to relevant staff. Administrators can then use **Left Students** and **Enrolment Trends** to report on changes and plan for the future.
 
 ::: tip
 Admissions integrates closely with the [Form Builder](../system-admin/form-builder.md), which controls the structure of application forms.
@@ -39,8 +37,7 @@ Typical uses include:
 - Reviewing enrolment lists for reporting  
 
 ::: tip
-“Form Group” refers to the student’s homeroom or roll group.  
-Updating a student’s enrolment here automatically aligns attendance and reporting data across the system.
+“Form Group” refers to the student’s homeroom or roll group. Updating a student’s enrolment here automatically aligns attendance and reporting data across the system.
 :::
 
 ### Withdraw Student
@@ -72,8 +69,7 @@ Keeping admissions accounts separate helps schools manage prospective families s
 :::
 
 ### Manage Applications
-The operational hub of the admissions process, displaying all active and pending submissions for the current academic year.  
-Staff can review, edit, and decide on applications here.
+The operational hub of the admissions process, displaying all active and pending submissions for the current academic year. Staff can review, edit, and decide on applications here.
 
 Common actions:
 - Review application details and status  
@@ -87,20 +83,17 @@ Upon acceptance:
 - Notifications alert relevant admissions staff  
 
 ### Left Students
-Lists students who have graduated or withdrawn.  
-This section provides access to historical data and supports re-admissions when needed.
+Lists students who have graduated or withdrawn. This section provides access to historical data and supports re-admissions when needed.
 
 Administrators can:
 - Filter by academic year or departure reason  
 - Export data for archiving or reporting  
 
 ### New Students
-Displays students who have been newly accepted or transferred in for the current academic year.  
-Useful for orientation and onboarding processes.
+Displays students who have been newly accepted or transferred in for the current academic year. Useful for orientation and onboarding processes.
 
 ### Student Enrolment Trends
-Provides visual summaries of enrolment changes across years.  
-Helps leadership teams identify trends and support planning for class sizes, staffing, and resources.
+Provides visual summaries of enrolment changes across years. Helps leadership teams identify trends and support planning for class sizes, staffing, and resources.
 
 ## Related Modules
 See also the [Form Builder](../system-admin/form-builder.md) documentation for details on configuring application forms.
