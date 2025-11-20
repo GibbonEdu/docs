@@ -22,7 +22,7 @@ Shown below are some upcoming key dates in the Gibbon Development Road Map. To r
 - Release: May 20th 2026
 :::
 
-::: timeline  v20.0.00 <Badge type="info"></badge> <Badge type="warning">Future Release</badge>
+::: timeline  v32.0.00 <Badge type="info">Pottinger Street</badge> <Badge type="warning">Future Release</badge>
 - String Freeze: October 20th 2026
 - Release: November 20th 2026
 :::
