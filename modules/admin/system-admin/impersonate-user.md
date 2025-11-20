@@ -14,7 +14,7 @@ This tool gives you the ability to login as another user and see everything they
 
 Impersonating another user is a powerful level of access, so additional security measures have been put in place to restrict access:
 
-- The Impersonate User permission must be enabled for the Administrator role in User Admin > Manage Preferences
+- The Impersonate User permission must be enabled for the Administrator role in <u>User Admin > Manage Preferences</u>
 - The user must have full **Administrator** access as their primary role
 - Access must be enabled for that specific username in the config.php file, see below:
 
@@ -31,5 +31,8 @@ $allowImpersonateUser = ['example1', 'example2', 'example3'];
 
 ## Impersonating a User
 
-When you impersonate a user, it logs you out of your current session an logs you in to the selected user. You will be able to see and act as that user in the system. This is useful for testing and troubleshooting, especially when checking what permissions a user has or assisting them with a particular action. When you are done, be sure to log out of that user to log back into your own account.
+When you impersonate a user, it logs you out of your current session an logs you in to the selected user. You will be able to see and act as that user in the system. This is useful for testing and troubleshooting, especially when checking what permissions a user has or assisting them with a particular action. 
 
+:::tip
+When you are done, be sure to log out of that user to log back into your own account.
+:::

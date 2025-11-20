@@ -2,13 +2,12 @@
 title: "Calendar"
 categories: ["support"]
 tags: []
-order: 10
 contributors: ["skuipers"]
 ---
 
 ### Calendar
 
-The calendar module enables creating and managing events and participants. Unlike previous calendar implementations, the Calendar module does not require Google SSO or Microsoft SSO. You can create a variety of different calendars with different editors and view permissions, and assign them different colours which will show up on timetables as well as the View Calendar page.
+The calendar module enables creating and managing events and participants. Unlike other calendar implementations in Gibbon, the Calendar module does not require Google SSO or Microsoft SSO. You can create a variety of different calendars with different editors and view permissions, and assign them different colours which will show up on timetables as well as the View Calendar page.
 
 ## Key Actions
 
@@ -21,7 +20,7 @@ The calendar module enables creating and managing events and participants. Unlik
 
 ### Event Types
 
-Each event has a type. We've added some defaults, such as School Event and Meeting, however you can edit these and add your own event types for your school's needs. This option is found in Calendar > Manage Calendars, and look for the Event Types button.
+Each event has a type. We've added some defaults, such as School Event and Meeting, however you can edit these and add your own event types for your school's needs. This option is found in <u>Calendar > Manage Calendars</u>, and look for the Event Types button.
 
 ### View Access
 
