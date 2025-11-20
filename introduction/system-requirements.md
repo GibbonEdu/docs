@@ -24,12 +24,12 @@ It also means that **all of your private school data belongs to you** on your ow
 	- With `mod_rewrite` enabled (or equivalent)
 	- *You can optionally use an alternate web server, but please note that these docs are aimed at Linux servers, and our capacity to support other platforms is limited*
 2. **PHP** 
-	- Version 7.4 or above
+	- Version 8.0 or above
 	- With extensions: `gettext`, `mbstring`, `curl`, `zip`, `xml`, `gd`, `intl`
 	- Recommended to turn PHP `display_errors` off in production
 
 3. **MySQL** 
-	- Version 5.7 or above 
+	- Version 8.0 or above 
 	- Database collation set to `utf8_general_ci` or `utf8mb3_general_ci`
 	- *You can optionally use a comparable version of MariaDB*
 
