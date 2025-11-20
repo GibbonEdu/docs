@@ -15,7 +15,7 @@ const vitepressSidebarOptions = {
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
-    excludeGlobPattern: ['**/README.md', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
+    excludeGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
     convertSameNameSubFileToGroupIndexPage: false,
