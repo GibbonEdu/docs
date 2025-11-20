@@ -30,7 +30,7 @@ It also means that **all of your private school data belongs to you** on your ow
 
 3. **MySQL** 
 	- Version 8.0 or above 
-	- Database collation set to `utf8_general_ci` or `utf8mb3_general_ci`
+	- Database collation set to `utf8mb3_general_ci`
 	- *You can optionally use a comparable version of MariaDB*
 
 
