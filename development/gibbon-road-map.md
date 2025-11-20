@@ -12,19 +12,19 @@ contributors:
 
 Shown below are some upcoming key dates in the Gibbon Development Road Map. To request new features, please use the [Feature Requests category in our support forums](https://ask.gibbonedu.org/c/feature-requests/12).
 
-::: timeline  v29.0.00 <Badge type="info">Ma On Shan</badge> <Badge type="tip" text="Current Release" />
-- String Freeze: April 20th 2025
-- Release: May 20th 2025
-:::
-
-::: timeline  v30.0.00 <Badge type="info">Nam Chung</badge> <Badge type="warning">In Development</badge>
+::: timeline  v30.0.00 <Badge type="info">Nam Chung</badge> <Badge type="tip">Current Release</badge>
 - String Freeze: October 20th 2025
 - Release: November 20th 2025
 :::
 
-::: timeline  v31.0.00 <Badge type="info">Octopus</badge> <Badge type="warning">Future Release</badge>
+::: timeline  v31.0.00 <Badge type="info">Octopus</badge> <Badge type="warning">In Development</badge>
 - String Freeze: April 20th 2026
 - Release: May 20th 2026
+:::
+
+::: timeline  v20.0.00 <Badge type="info"></badge> <Badge type="warning">Future Release</badge>
+- String Freeze: October 20th 2026
+- Release: November 20th 2026
 :::
 
 
@@ -53,7 +53,6 @@ The following is a roadmap of upcoming development plans and goals for the Gibbo
 
 ::: timeline  Planned
 - **Routing Infrastructure**: refactoring to use modern path routing with a front-controller pattern and with separation of model, view and controller.
-- **Calendar Module**: a new module to enable adding events directly to the timetable without needing an external calendar integration.
 - **Dashboard Visual Refresh**: a new responsive card-based layout for dashboards, with options for users to add or hide cards that are relevant to them.
 - **Settings Manager**: a method to search and update settings across the whole system.
 - **LDAP Integration**: adds additional authentication options for schools.
