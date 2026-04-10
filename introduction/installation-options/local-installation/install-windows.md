@@ -17,9 +17,7 @@ This page provides download links and step-by-step instructions for installing G
 
 This installation method is intended only for local testing and evaluation.
 
-The default database credentials are insecure.
-Do not use this setup for live school environments.
-For real deployments, configure secure credentials and use a production‑grade server stack.
+The database credentials are insecure. Do not use this setup for live school environments. For real deployments, configure secure credentials and use a production‑grade server stack.
 :::
 
 ## Prerequisites
@@ -28,7 +26,7 @@ For real deployments, configure secure credentials and use a production‑grade 
 
 XAMPP provides Apache, PHP, and MySQL needed to run Gibbon.
 
-1. Go to [XAMPP home page](https://www.apachefriends.org/index.html) and download **XAMPP for Windows** installer.
+1. Go to the [XAMPP home page](https://www.apachefriends.org/index.html) and download the **XAMPP for Windows** installer.
 2. Double-click the installer in your Downloads folder and follow the prompts to install XAMPP.
 
 ::: info
@@ -41,31 +39,33 @@ Click **Yes** to continue with installation if you see a question regarding anti
 Click **OK** if there is a message about Windows User Account Control (UAC) being activated and to avoid installing XAMPP to C:\Program Files.
 :::
 
-3. When XAMPP setup has completed, check the box to launch the XAMPP Control Panel and click **Finish**.
+3. When XAMPP setup is completed, check the box to launch the XAMPP Control Panel and click **Finish**.
 
 ### Configure Apache
 
 A few PHP Extensions required by Gibbon are not enabled by default in XAMPP. You will need to enable these extensions before you can proceed with installation.
 
-1. Click **Config** in XAMPP Control Panel and select **PHP (php.ini)** to display this file in Notepad application.
-2. In php.ini file, find the following lines and remove the semicolon (;) at the beginning of each line to enable the extensions:
+1. Click **Config** in XAMPP Control Panel and select **PHP (php.ini)** to open this file in Notepad.
+2. In **php.ini** file, find the following lines and remove the semicolon (\;) at the beginning of each line to enable the extensions:
 
 ```
-extension=zip
-extension=gd
-extension=intl
+;extension=zip
+;extension=gd
+;extension=intl
 ```
+
+3. Save the **php.ini** file and close Notepad.
 
 ### Start XAMPP services
 
-1. In the XAMPP Control Panel, click **Start** next to **Apache** to start the web server.
+1. In the XAMPP Control Panel, click the **Start** button for Apache to start the web server.
 
 ::: info
 
 Click **Allow** to enable public and private network access for Apache HTTP if prompted by Windows Firewall pop-up.
 :::
 
-2. Click **Start** next to **MySQL** to start the database server.
+2. Click **Start** button for **MySQL** to start the database server.
 
 ::: info
 
@@ -79,7 +79,7 @@ Click **Allow** to enable public and private network access for mysqld if prompt
 Set a password for the root MySQL user.
 
 1. Click **Shell** on the XAMPP Control Panel to open a command prompt window.
-2. Run the following command to set a password for root user:
+2. Run the following command to set a password for the root user:
 ```
 mysql -u root -p
 ```
@@ -98,8 +98,8 @@ alter user 'root'@'localhost' identified by 'root';
 
 Set up a database for Gibbon using phpMyAdmin.
 
-1. Click **Admin** button next to **MySQL** in the XAMPP Control Panel.
-2. Your browser will then open http://localhost/phpadmin/ in a new tab.
+1. Click **Admin** button for **MySQL** in the XAMPP Control Panel.
+2. Your browser will open http://localhost/phpadmin/ in a new tab.
 3. Click **Databases** tab.
 4. Enter **gibbon** as the name of a new database and click **Create** button.
 
@@ -107,7 +107,7 @@ Set up a database for Gibbon using phpMyAdmin.
 
 Create a folder for Gibbon files.
 
-1. Click **Shell** button which is located on right-hand side of XAMPP Control Panel.
+1. Click **Shell** button located on right-hand side of XAMPP Control Panel.
 2. In the shell window, run the following command:
 
 ```
@@ -143,14 +143,14 @@ copy c:\Users\<your-username>\Downloads\GibbonEduCore-InstallBundle\* c:\xampp\h
 5. To finish installation:
 * Enter surname, first name, email, username and password to create administrator account
 * Leave System Settings with default values
-* Provide an organisation name and initials
+* Provide an organization name and initials
 * In the Miscellaneous section, select country, currency and timezone
 * Click **Submit** to continue.
 
 ## Verify Gibbon installation
 
-1. Successfully completing the installation will redirect you to the Gibbon login page at http://localhost/gibbon.
-2. Log into Gibbon using admin account you created.
+1. Go to the Gibbon login page at http://localhost/gibbon.
+2. Log into Gibbon using the admin account you created.
 
 ## Where to go next
 
