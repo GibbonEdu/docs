@@ -26,20 +26,73 @@ For real deployments, configure secure credentials and use a production‑grade 
 
 ### Install XAMPP
 
-XAMPP provides Apache, PHP, and MariaDB (MySQL replacement) needed to run Gibbon.
+XAMPP provides Apache, PHP, and MySQL needed to run Gibbon.
 
-1. Go to [XAMPP home page](https://www.apachefriends.org/index.html) and click **XAMPP for Windows** button to download the XAMPP installer.
+1. Go to [XAMPP home page](https://www.apachefriends.org/index.html) and download **XAMPP for Windows** installer.
 2. Double-click the installer in your Downloads folder and follow the prompts to install XAMPP.
-3. Click **Yes** to continue with installation if you see a question regarding antivirus software running may interfere with XAMPP installation.
-4. Click **OK** if there is a message about Windows User Account Control (UAC) being enabled.
-5. When XAMPP setup has completed, check the box to launch the XAMPP Control Panel and click **Finish**.
+
+::: info
+
+Click **Yes** to continue with installation if you see a question regarding antivirus software running may interfere with XAMPP installation.
+:::
+
+::: info
+
+Click **OK** if there is a message about Windows User Account Control (UAC) being activated and to avoid installing XAMPP to C:\Program Files.
+:::
+
+3. When XAMPP setup has completed, check the box to launch the XAMPP Control Panel and click **Finish**.
+
+### Configure Apache
+
+A few PHP Extensions required by Gibbon are not enabled by default in XAMPP. You will need to enable these extensions before you can proceed with installation.
+
+1. Click **Config** in XAMPP Control Panel and select **PHP (php.ini)** to display this file in Notepad application.
+2. In php.ini file, find the following lines and remove the semicolon (;) at the beginning of each line to enable the extensions:
+
+```
+extension=zip
+extension=gd
+extension=intl
+```
 
 ### Start XAMPP services
 
 1. In the XAMPP Control Panel, click **Start** next to **Apache** to start the web server.
-2. Click **Allow** to enable public and private network access for Apache HTTP if prompted by Windows Firewall pop-up. 
-3. In the XAMPP Control Panel, click **Start** next to **MySQL** to start the database server.
-4. Click **Allow** to enable public and private network access for mysqld if prompted by Windows Firewall pop-up.
+
+::: info
+
+Click **Allow** to enable public and private network access for Apache HTTP if prompted by Windows Firewall pop-up.
+:::
+
+2. Click **Start** next to **MySQL** to start the database server.
+
+::: info
+
+Click **Allow** to enable public and private network access for mysqld if prompted by Windows Firewall pop-up.
+:::
+
+3. Verify you can see XAMPP welcome page by opening http://localhost/dashboard in your web browser.
+
+### Configure MySQL
+
+Set a password for the root MySQL user.
+
+1. Click **Shell** on the XAMPP Control Panel to open a command prompt window.
+2. Run the following command to set a password for root user:
+```
+mysql -u root -p
+```
+
+::: info
+
+Press **Enter** when you are prompted for a password. This will log you in to MySQL without a password since the root user does not have one by default.
+:::
+
+3. Run the following command to set a password for root user:
+```
+alter user 'root'@'localhost' identified by 'root';
+```
 
 ### Create database
 
@@ -61,7 +114,7 @@ Create a folder for Gibbon files.
 mkdir htdocs\gibbon
 ```
 
-3. Verify the folder exists:
+3. Verify the new folder exists:
 ```
 dir htdocs
 ```
@@ -75,3 +128,31 @@ dir htdocs
 ```
 copy c:\Users\<your-username>\Downloads\GibbonEduCore-InstallBundle\* c:\xampp\htdocs\gibbon\
 ```
+
+## Install Gibbon
+
+1. Open http://localhost/gibbon.
+2. The Gibbon installer will check system requirements. Click **Submit** button.
+3. Enter your database settings:
+* Database Server: **localhost**
+* Database Name: **gibbon**
+* Username: **root**
+* Password: **root**
+
+4. Set **Install demo data** to **Yes** then click **Submit**.
+5. To finish installation:
+* Enter surname, first name, email, username and password to create administrator account
+* Leave System Settings with default values
+* Provide an organisation name and initials
+* In the Miscellaneous section, select country, currency and timezone
+* Click **Submit** to continue.
+
+## Verify Gibbon installation
+
+1. Successfully completing the installation will redirect you to the Gibbon login page at http://localhost/gibbon.
+2. Log into Gibbon using admin account you created.
+
+## Where to go next
+
+* Explore the [Gibbon home page](https://docs.gibbonedu.org/user-guides/general/the-home-page).
+* Access information within a Gibbon system using the [Fast Finder](https://docs.gibbonedu.org/user-guides/general/fast-finder).
