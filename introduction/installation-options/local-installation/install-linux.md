@@ -24,16 +24,16 @@ This installation method is intended only for local testing and evaluation.
 ### Install PHP, Apache, and MySQL
 
 1. Open a terminal and run the following command to install Apache and its PHP module:
-``` sh
+``` bash
 sudo apt-get update
 sudo apt install -y apache2 libapache2-mod-php
 ```
 2. Install MySQL:
-```
+``` bash
 sudo apt install -y mysql-server
 ```
 3. Install PHP and required PHP extensions:
-``` sh
+``` bash
 sudo apt install -y php \
     php-common \
     php-sqlite3 \
@@ -51,7 +51,7 @@ sudo apt install -y php \
     php-php-gettext
 ```
 4. Install additional dependencies:
-``` sh
+``` bash
 sudo apt install -y unzip \
     git \
     composer
