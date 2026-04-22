@@ -103,7 +103,7 @@ sudo composer install
 ```
 ::: info
 
-Press **return** to continue as root/super user for installing dependencies.
+Press **return** when asked to continue as root/super user for installing dependencies.
 :::
 
 ## Configure Apache to access Gibbon
