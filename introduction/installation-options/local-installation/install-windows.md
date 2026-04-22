@@ -17,7 +17,9 @@ This page provides download links and step-by-step instructions for installing G
 
 This installation method is intended only for local testing and evaluation.
 
-The database credentials are insecure. Do not use this setup for live school environments. For real deployments, configure secure credentials and use a production‑grade server stack.
+- The default database credentials are insecure.
+- Do **not** use this setup for live school environments.
+- For real deployments, configure secure credentials and use a production‑grade server stack.
 :::
 
 ## Prerequisites
