@@ -1,17 +1,15 @@
-###########################################################
+################################################################################
 # General Setup
-###########################################################
+################################################################################
 
-### Compose files  ###############################################################################################
-# The file paths where docker-compose can file its YAML file
-
+# Compose files
 COMPOSE_FILE=ops/docker-compose.yml
 
-### prefix for local container ##############################################################################
+# Prefix for local container
 COMPOSE_PROJECT_NAME=gibbondocs
 
-### Application
+# Application
 APPLICATION=..
 
-### Core services managed in Docker compose ##############################################################################
+# Core services managed in Docker compose
 NODE_VERSION=18
