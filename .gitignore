@@ -1,1 +1,3 @@
 .vitepress/.temp
+node_modules/
+.env
