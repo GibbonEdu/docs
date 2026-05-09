@@ -1,0 +1,17 @@
+###########################################################
+# General Setup
+###########################################################
+
+### Compose files  ###############################################################################################
+# The file paths where docker-compose can file its YAML file
+
+COMPOSE_FILE=ops/docker-compose.yml
+
+### prefix for local container ##############################################################################
+COMPOSE_PROJECT_NAME=deployment
+
+### Application
+APPLICATION=..
+
+### Core services managed in Docker compose ##############################################################################
+NODE_VERSION=18

@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  vitepress:
+    build:
+      context: ..
+      dockerfile: ops/Dockerfile
+      args:
+        - NODE_VERSION=${NODE_VERSION}
+    ports:
+      - "5173:5173"
+    volumes:
+      - ..:/app
+      - ../node_modules:/app/node_modules
+    environment:
+      - VITE_APP_TITLE=Gibbon Docs
+      - NODE_ENV=development
