@@ -21,7 +21,7 @@ fi
 echo "Starting local vitepress web server..."
 
 # Install dependencies using npm from Docker container
-docker-compose run --rm vitepress npm install
+docker compose run --rm vitepress npm install
 
 # Start Vitepress web server
-docker-compose up -d
+docker compose up -d

@@ -1,13 +1,19 @@
 ARG NODE_VERSION
 FROM node:${NODE_VERSION}-alpine
 
-# Install git and other dependencies
-RUN apk add --no-cache git
+ARG NODE_ENV
+ENV NODE_ENV ${NODE_ENV}
 
 # Set working directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
-# Expose the default VitePress port
+# Install git
+RUN apk add --no-cache git
+
+# Swtich to non-root user
+USER node
+
+# Expose default VitePress port
 EXPOSE 5173
 
 # Run VitePress dev server

@@ -3,7 +3,7 @@
 ################################################################################
 
 # Compose files
-COMPOSE_FILE=ops/docker-compose.yml
+COMPOSE_FILE=ops/compose.yaml
 
 # Prefix for local container
 COMPOSE_PROJECT_NAME=gibbondocs
@@ -12,4 +12,4 @@ COMPOSE_PROJECT_NAME=gibbondocs
 APPLICATION=..
 
 # Core services managed in Docker compose
-NODE_VERSION=18
+NODE_VERSION=20
