@@ -1,0 +1,15 @@
+################################################################################
+# General Setup
+################################################################################
+
+# Compose files
+COMPOSE_FILE=ops/compose.yaml
+
+# Prefix for local container
+COMPOSE_PROJECT_NAME=gibbondocs
+
+# Application
+APPLICATION=..
+
+# Core services managed in Docker compose
+NODE_VERSION=20
