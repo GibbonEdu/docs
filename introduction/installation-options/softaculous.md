@@ -13,6 +13,22 @@ This page provides step-by-step instructions for installing Gibbon on Linux usin
 Gibbon cannot be installed using the free version of Softaculous. The premium version of Softaculous needs to be purchased to access the Gibbon installer.
 :::
 
+::: info
+* A video showing how Gibbon is installed using Softaculous is available:
+
+<div style="max-width:660px;margin:0 auto;">
+  <ClientOnly>
+    <iframe
+      src="https://www.youtube.com/embed/5tfuT1CjAe8?rel=0"
+      width="100%"
+      height="360"
+      style="border:0;display:block;"
+      allowfullscreen
+    ></iframe>
+  </ClientOnly>
+</div>
+:::
+
 ## Access cPanel
 
 1. Go to the cPanel login page `https://<server-domain.com>:2083` in your browser, replacing `<server-domain.com>` with the actual domain name for your server.
@@ -45,12 +61,6 @@ The URL will be in the form of `<protocol>://<server-domain>/<directory>` which 
 2. Log into Gibbon using admin account you created.
 
 ## Where to go next
-
-* A video showing how Gibbon is installed using Softaculous is available:
-
-<ClientOnly>
-<iframe src="https://www.youtube.com/embed/5tfuT1CjAe8?rel=0" allowfullscreen="allowfullscreen" width="660" height="415"></iframe>
-</ClientOnly>
 
 * Explore the [Gibbon home page](https://docs.gibbonedu.org/user-guides/general/the-home-page).
 * Access information within a Gibbon system using the [Fast Finder](https://docs.gibbonedu.org/user-guides/general/fast-finder).
