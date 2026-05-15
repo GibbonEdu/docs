@@ -15,10 +15,9 @@ const vitepressSidebarOptions = {
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
-    excludeGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
+    excludeByGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
-    convertSameNameSubFileToGroupIndexPage: false,
 };
 
 // https://vitepress.dev/reference/site-config
