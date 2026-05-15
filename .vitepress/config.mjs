@@ -11,7 +11,7 @@ const vitepressSidebarOptions = {
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
-    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development'],
+    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development', 'get-started', 'tutorials', 'guides', 'explanation', 'reference'],
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
