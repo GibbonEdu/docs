@@ -83,5 +83,5 @@ Integrated into the Gibbon installer, you can opt to include demo data when you 
 ### Post-Install & Server Config {#post-install-server-config}
 
 ::: info Check your server after installation
-After installing, be sure to follow the [Post-Installation](/introduction/post-installation) steps to ensure your system is running smoothly.
+After installing, be sure to follow the [Post-Installation](/guides/install/post-installation) steps to ensure your system is running smoothly.
 :::
