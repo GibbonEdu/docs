@@ -1,12 +1,17 @@
 ---
 title: Installing Gibbon
-short: Installation
+shortTitle: Installation
 categories:
   - support
-tags: 
-order: 30
+tags: []
+order: 5
 contributors:
   - rossdotparker
+sidebar:
+  - text: "Guides"
+    items:
+      - text: "Install"
+        link: /guides/install/
 ---
 
 # Installing Gibbon

@@ -1,6 +1,6 @@
 ---
 title: Softaculous Installation
-order: 5
+order: 20
 draft: false
 contributors:
   - pli888

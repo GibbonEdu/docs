@@ -3,8 +3,8 @@ title: Installing on Linux
 short: Installation
 categories:
   - support
-tags: 
-order: 15
+tags: []
+order: 20
 contributors:
   - jimbo8098
 ---
