@@ -9,7 +9,7 @@ contributors: ["skuipers"]
 ## Getting Setup
 
 1. Fork the [GibbonEdu/core](https://github.com/GibbonEdu/core) repository on GitHub and [clone a copy](https://help.github.com/articles/cloning-a-repository/) on your local machine.
-2. This is [cutting edge code](/introduction/installation-options/cutting-edge-code), so you'll need to run the `composer install --no-dev` command to install all required libraries in your vendor folder. 
+2. This is [cutting edge code](/explanation/cutting-edge-code), so you'll need to run the `composer install --no-dev` command to install all required libraries in your vendor folder. 
 3. Navigate to your server in your browser and run the Gibbon installer, often with demo data as a starting point.
 4. Write some code and push your changes to your repo using the command line or your [favourite](https://www.sourcetreeapp.com/) Git GUI.
 5. Create a [new pull request](https://github.com/GibbonEdu/core/pulls) and fill in the template provided to tell us about your change.
@@ -32,7 +32,7 @@ Gibbon uses a simple branching strategy. The current stable version is released 
 ## Dependency Management
 
 ::: tip Composer Required
-As of Gibbon v22.0.00, cutting edge code uses composer to manage the vendor folder. See the [cutting edge code](/introduction/installation-options/cutting-edge-code) page for installation and update instructions.
+As of Gibbon v22.0.00, cutting edge code uses composer to manage the vendor folder. See the [cutting edge code](/explanation/cutting-edge-code) page for installation and update instructions.
 :::
 
 Gibbon depends on a number of libraries written and managed by other developers, which are stored in the `vendor` folder. As of v22.0.00, developers will need to use PHP's dependency manager, [Composer](https://getcomposer.org/), to install and update libraries in their vendor folder. Stable releases include a full copy of the vendor folder and do not require composer.

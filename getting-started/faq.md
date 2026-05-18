@@ -11,7 +11,7 @@ Gibbon is free. As open source software, it is both available "for free" (gratis
 
 To help sustain the Gibbon ecosystem, there are some paid services available for support and development through [GibbonEdu.com](https://gibbonedu.com). However, Gibbon does not use the [freemium](https://en.wikipedia.org/wiki/Freemium) or [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) model, and all the core features of Gibbon are—**and will always remain**—free.
 
-Web servers, unfortunately, are not free. Schools should be aware that running and maintaining a web server does cost money, so it is recommended to [budget for these costs](/introduction/guide-to-open-source#is-it-really-free).
+Web servers, unfortunately, are not free. Schools should be aware that running and maintaining a web server does cost money, so it is recommended to [budget for these costs](/explanation/guide-to-open-source#is-it-really-free).
 
 ## What license does Gibbon use?
 
@@ -22,7 +22,7 @@ Gibbon is an independent project, maintained by a core development team and supp
 
 Since then, through its open-source roots, Gibbon has grown into a global project. In 2018, Sandra Kuipers stepped into the role of Gibbon's maintainer. Sandra currently leads the development of Gibbon, setting the short-term goals and long-range architecture plans.
 
-In 2023 the [Gibbon Foundation](/introduction/welcome#gibbon-foundation) was established as a non-profit entity incorporated in Hong Kong to further support Gibbon a global project, and the copyright of the Gibbon codebase was transferred from Ross Parker to the Gibbon Foundation.
+In 2023 the [Gibbon Foundation](/getting-started/welcome#gibbon-foundation) was established as a non-profit entity incorporated in Hong Kong to further support Gibbon a global project, and the copyright of the Gibbon codebase was transferred from Ross Parker to the Gibbon Foundation.
 ## Is Gibbon reliable?
 
 One of the core development principles of Gibbon is to maintain stable, reliable software. After all, the school where Gibbon was developed {{ new Date().getFullYear() - 2010 }} years ago still uses it daily for all aspects of school management. While some software companies "[move fast and break things](https://en.wikipedia.org/wiki/Move_fast_and_break_things)," the Gibbon project "moves deliberately and sustains things." Schools need software that can be relied upon from day-to-day, and this philosophy is at the heart of our [developer workflow](development/getting-started/developer-workflow.md) and [release cycle](development/gibbon-road-map.md).
@@ -52,7 +52,7 @@ As of 2024, Gibbon does not currently have a general-purpose API. The reasons fo
 A multi-tenant option is one of the future goals of Gibbon, to enable installing and managing multiple schools on a single server. However, to make this work, there are currently a number of architectural changes and refactoring initiatives that need to be completed first. For this reason, a multi-install or school-district version of Gibbon remains on the [long-term road map](/development/gibbon-road-map).
 ## Can I use Gibbon for higher education?
 
-Gibbon was designed for K to 12 schools, so there are certain assumptions that the system makes about admissions and enrolment (eg: that the student is attached to a family). However, this does not prevent using Gibbon for different needs. But, it's important to keep in mind that the needs and demands of a university will be very different than a K-12 school, especially depending on the size of the school. For this reason, if you're looking at Gibbon for alternate purposes, we encourage you to [download and install](/introduction/installing-gibbon) the software locally to test its functionalities to see if they suit your needs.
+Gibbon was designed for K to 12 schools, so there are certain assumptions that the system makes about admissions and enrolment (eg: that the student is attached to a family). However, this does not prevent using Gibbon for different needs. But, it's important to keep in mind that the needs and demands of a university will be very different than a K-12 school, especially depending on the size of the school. For this reason, if you're looking at Gibbon for alternate purposes, we encourage you to [download and install](/guides/install/installing-gibbon) the software locally to test its functionalities to see if they suit your needs.
 
 ## Can I use Gibbon for training centres or other schools?
 

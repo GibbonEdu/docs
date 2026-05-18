@@ -13,13 +13,13 @@ hero:
 
   actions:
     - theme: brand
-      text: Introduction
-      link: /introduction/welcome
+      text: Getting Started
+      link: /getting-started/welcome
     - theme: alt
       text: Installing Gibbon
-      link: /introduction/installing-gibbon
+      link: /guides/install/installing-gibbon
     - theme: alt
-      text: Getting Started
+      text: Setting up Gibbon
       link: /getting-started/next-steps
 
 features:
@@ -27,12 +27,12 @@ features:
        src: /assets/open.svg
     title: Open Source!
     details: Learn what open source is and what it means for a project like Gibbon.
-    link: /introduction/guide-to-open-source
+    link: /explanation/guide-to-open-source
   - icon: 
        src: /assets/support.svg
     title: Community Support
     details: Explore available support options, including community-driven forums and docs.
-    link: /introduction/welcome#gibbon-foundation
+    link: /getting-started/welcome#gibbon-foundation
   - icon: 
        src: /assets/roadmap2.svg
     title: Gibbon Road Map

@@ -2,8 +2,8 @@
 title: Installing on Windows
 categories:
   - support
-tags: 
-order: 20
+tags: []
+order: 10
 contributors:
   - xjlwi
   - pli888

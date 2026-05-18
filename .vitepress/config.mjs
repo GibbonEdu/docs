@@ -11,14 +11,13 @@ const vitepressSidebarOptions = {
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
-    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development'],
+    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development', 'get-started', 'tutorials', 'guides', 'explanation', 'reference'],
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
-    excludeGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
+    excludeByGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
-    convertSameNameSubFileToGroupIndexPage: false,
 };
 
 // https://vitepress.dev/reference/site-config
@@ -57,8 +56,8 @@ export default withMermaid({
                     {
                         text: "New Users",
                         items: [
-                            { text: "System Requirements", link: "/introduction/system-requirements" },
-                            { text: "Installing Gibbon", link: "/introduction/installing-gibbon" },
+                            { text: "System Requirements", link: "/reference/system-requirements" },
+                            { text: "Installing Gibbon", link: "/guides/install/installing-gibbon" },
                             { text: "Getting Started", link: "/getting-started/next-steps" },
 
                         ],

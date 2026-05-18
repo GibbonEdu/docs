@@ -3,10 +3,9 @@ Redirect /administrators/getting-started/download/ /introduction/system-requirem
 Redirect /administrators/getting-started/installing-gibbon/ /introduction/installing-gibbon
 Redirect /administrators/getting-started/installing-gibbon/cutting-edge-code/ /introduction/installation-options/cutting-edge-code
 Redirect /administrators/getting-started/installing-gibbon/install-ubuntu-debian/ /introduction/installation-options/install-linux
-Redirect /administrators/getting-started/installing-gibbon/install-windows/ /introduction/installation-options/local-installation/install-windows
+Redirect /administrators/getting-started/installing-gibbon/install-windows/ /guides/install/local/install-windows
 Redirect /administrators/getting-started/installing-gibbon/google-oauth/ /getting-started/configuration/integrations/google-integration
 Redirect /administrators/getting-started/installing-gibbon/microsoft-oauth/ /getting-started/configuration/integrations/microsoft-integration
-Redirect /administrators/getting-started/installing-gibbon/install-xampp/ /introduction/installation-options/local-installation/install-xampp
 Redirect /administrators/getting-started/getting-started-with-gibbon/ /getting-started/next-steps
 Redirect /administrators/getting-started/importing-users/ /getting-started/school-setup/importing-data
 Redirect /administrators/getting-started/customizing-gibbon/ /getting-started/customization/customizing-gibbon

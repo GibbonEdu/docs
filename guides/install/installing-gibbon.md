@@ -1,12 +1,17 @@
 ---
 title: Installing Gibbon
-short: Installation
+shortTitle: Installation
 categories:
   - support
-tags: 
-order: 30
+tags: []
+order: 5
 contributors:
   - rossdotparker
+sidebar:
+  - text: "Guides"
+    items:
+      - text: "Install"
+        link: /guides/install/
 ---
 
 # Installing Gibbon
@@ -44,7 +49,7 @@ Visit [Gibbon Download page](https://gibbonedu.org/download/) to download the Gi
 All versions of Gibbon can be found on the [GitHub releases](https://github.com/GibbonEdu/core/releases) page. If you download from this page, be sure to download the Install Bundle, which includes all necessary files.
 
 ::: info Advanced Installation
-Developers may wish to install [Cutting Edge Code](/introduction/installation-options/cutting-edge-code). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
+Developers may wish to install [Cutting Edge Code](/explanation/cutting-edge-code). This allows you to run the latest code from [our GitHub repo](https://github.com/GibbonEdu/core), however this is not recommended for production environments.
 :::
 
 ## Upload Files
@@ -72,11 +77,11 @@ Integrated into the Gibbon installer, you can opt to include demo data when you 
 
 ### Installer Troubleshooting
 
-- If you see an error that Gibbon is `missing the composer autoloader`, then your vendor folder is either missing or not installed correctly. Be sure you are using a full Install Bundle from the Gibbon download page, or follow the composer instructions for [cutting edge code](/introduction/installation-options/cutting-edge-code). 
+- If you see an error that Gibbon is `missing the composer autoloader`, then your vendor folder is either missing or not installed correctly. Be sure you are using a full Install Bundle from the Gibbon download page, or follow the composer instructions for [cutting edge code](/explanation/cutting-edge-code). 
 - If your installer does not load or you see a PHP error message, double-check that your server meets the system requirements and your web server has correct file permissions.
 
 ### Post-Install & Server Config {#post-install-server-config}
 
 ::: info Check your server after installation
-After installing, be sure to follow the [Post-Installation](/introduction/post-installation) steps to ensure your system is running smoothly.
+After installing, be sure to follow the [Post-Installation](/guides/install/post-installation) steps to ensure your system is running smoothly.
 :::
