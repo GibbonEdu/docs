@@ -1,6 +1,6 @@
 ---
 title: Guide to Open Source
-order: 10
+order: 5
 draft: false
 ---
 # Guide to Open Source
