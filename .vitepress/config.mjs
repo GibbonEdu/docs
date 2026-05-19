@@ -50,9 +50,9 @@ export default withMermaid({
         nav: [
             {
                 text: "Docs",
-                activeMatch: '/introduction',
+                activeMatch: '/getting-started',
                 items: [
-                    { text: "Welcome", link: "/introduction/welcome" },
+                    { text: "Welcome", link: "/getting-started/welcome" },
                     {
                         text: "New Users",
                         items: [
