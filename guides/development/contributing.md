@@ -1,7 +1,7 @@
 ---
 title: Contributing
 description: 
-order: 5
+order: 1
 contributors:
   - skuipers
 ---
