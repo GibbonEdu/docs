@@ -37,7 +37,7 @@ Submit the bug by [creating an issue](https://github.com/GibbonEdu/core/issues/n
 
 ## How to suggest a feature
 
-To request new features, please use the [Feature Requests category](https://ask.gibbonedu.org/c/feature-requests/12) in our support forums. You can find more info about planned features and upcoming releases on the [Gibbon Development Road Map](/development/gibbon-road-map).
+To request new features, please use the [Feature Requests category](https://ask.gibbonedu.org/c/feature-requests/12) in our support forums. You can find more info about planned features and upcoming releases on the [Gibbon Development Road Map](/explanation/development/gibbon-road-map).
 
 
 ## How to help translate

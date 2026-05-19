@@ -37,7 +37,7 @@ features:
        src: /assets/roadmap2.svg
     title: Gibbon Road Map
     details: View our upcoming release dates and see a map of our current development goals.
-    link: /development/gibbon-road-map
+    link: /explanation/development/gibbon-road-map
   - icon: 
        src: /assets/code.svg
     title: Start Developing

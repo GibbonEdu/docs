@@ -68,7 +68,7 @@ Users with permission can switch to different school years using the Year Switch
 
 ## One Version to the Next
 
-We recommend keeping Gibbon up-to-date with the latest version. Generally, a new version of Gibbon is released twice per year, and exact release dates can be found in the [Gibbon Road Map](/development/gibbon-road-map).
+We recommend keeping Gibbon up-to-date with the latest version. Generally, a new version of Gibbon is released twice per year, and exact release dates can be found in the [Gibbon Road Map](/explanation/development/gibbon-road-map).
 
 Since new versions of the core often add new features, many schools will choose to update Gibbon between school years or between terms. In this case, we recommend <u>a minimum of one update per year</u>, to ensure you have the latest features and security updates.
 

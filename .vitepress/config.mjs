@@ -78,7 +78,7 @@ export default withMermaid({
                 activeMatch: '/development',
                 items: [
                     { text: "Contributing", link: "/guides/development/contributing" },
-                    { text: "Gibbon Road Map", link: "/development/gibbon-road-map" },
+                    { text: "Gibbon Road Map", link: "/explanation/development/gibbon-road-map" },
                     {
                         text: "Getting Started",
                         items: [

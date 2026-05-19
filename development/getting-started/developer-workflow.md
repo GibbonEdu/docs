@@ -47,7 +47,7 @@ There are a few schools running cutting edge code in production which helps to c
 
 Each pull request should contain only one new feature or improvement. Ideally, split any larger change sets into multiple PRs if they involve more than a handful of files. Long running branches with breaking changes are unlikely to be merged into the core.
 
-Pull requests can be submitted to the [current development branch](https://docs.gibbonedu.org/developers/getting-started/gibbon-road-map/) and not to `Master` (which is our stable release). Please take some time to describe your changes, there’s a PR template on GitHub to get you started.
+Pull requests can be submitted to the [current development branch](/explanation/development/gibbon-road-map/) and not to `Master` (which is our stable release). Please take some time to describe your changes, there’s a PR template on GitHub to get you started.
 
 Our CI robots will [automatically built & test](/development/core-concepts/testing) any pull requests. Our code coverage isn’t extensive yet, so a green checkmark on GitHub isn’t necessarily a green light to merge: there’ll always be a human review too.
 
