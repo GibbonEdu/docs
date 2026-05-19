@@ -45,7 +45,7 @@ The following list contains those companies that we know are offering commercial
 We welcome community contribution and aim to ensure Gibbon is an open and friendly environment.
 
 <div class="vp-box-container">
-  <a class="vp-box" href="/development/contributing">
+  <a class="vp-box" href="/guides/development/contributing">
     <p class="box-title">Contributor Guide</p>
     <p class="box-caption">Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.</p>
   </a>
