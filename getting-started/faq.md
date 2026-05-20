@@ -41,7 +41,7 @@ Gibbon uses the POEditor online translation platform to manage and collect trans
 
 Upcoming features can be found on our [road map](/explanation/development/gibbon-road-map), and you are welcome to [request new features](https://ask.gibbonedu.org/c/feature-requests/12) on our forums. However, please note that development capacity is generally focused towards features that are sustainable and provide the greatest value to the widest range of schools. Our small development team also focuses much of our capacity on refactoring and maintaining the codebase.
 
-Schools who have or hire a developer can [create their own modules](/development/getting-started/module-development) to meet their needs. This is the most flexible and sustainable way to add new functionality. Developers are also welcome to [program new features](development/getting-started/developer-workflow.md) for the core, but are recommended to get in touch with our team to ensure their changes fit within the scope and direction of the core.
+Schools who have or hire a developer can [create their own modules](/explanation/development/module-development) to meet their needs. This is the most flexible and sustainable way to add new functionality. Developers are also welcome to [program new features](development/getting-started/developer-workflow.md) for the core, but are recommended to get in touch with our team to ensure their changes fit within the scope and direction of the core.
 
 ## Does Gibbon have an API?
 

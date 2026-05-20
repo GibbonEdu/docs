@@ -16,7 +16,7 @@ The code for the Gibbon core can be found in the [GibbonEdu/core](https://github
 Since Gibbon is open source, you are welcome to modify the code in the core. However, keep in mind that your changes will be overwritten the next time you update Gibbon. In order to update to the next version and add new features, the files from the new version need to be copied into your installation and will replace the existing files.
 
 ::: tip Module Development
-Whenever possible, it's best to try and create your changes as a [new module](/development/getting-started/module-development) in Gibbon, rather than modifying the core.
+Whenever possible, it's best to try and create your changes as a [new module](/explanation/development/module-development) in Gibbon, rather than modifying the core.
 :::
 
 Understandably, there are times when this is not possible and you find yourself making changes directly to the core. There are a few ways you can keep track of changes you make:
