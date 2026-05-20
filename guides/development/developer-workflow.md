@@ -49,7 +49,7 @@ Each pull request should contain only one new feature or improvement. Ideally, s
 
 Pull requests can be submitted to the [current development branch](/explanation/development/gibbon-road-map/) and not to `Master` (which is our stable release). Please take some time to describe your changes, there’s a PR template on GitHub to get you started.
 
-Our CI robots will [automatically built & test](/development/core-concepts/testing) any pull requests. Our code coverage isn’t extensive yet, so a green checkmark on GitHub isn’t necessarily a green light to merge: there’ll always be a human review too.
+Our CI robots will [automatically built & test](/explanation/development/core-concepts/testing) any pull requests. Our code coverage isn’t extensive yet, so a green checkmark on GitHub isn’t necessarily a green light to merge: there’ll always be a human review too.
 
 Each pull request is reviewed by at least one Gibbon Maintainer. Complex changes may require more than one set of eyes and some hearty discussion. Focus on code readability and bite-size commits and your PRs will be in good shape to merge.
 
