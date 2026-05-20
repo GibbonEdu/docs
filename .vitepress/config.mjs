@@ -94,7 +94,7 @@ export default withMermaid({
                         items: [
 
                             { text: "Build Process", link: "/explanation/development/core-concepts/build-process" },
-                            { text: "Database Changes", link: "/development/core-concepts/database-changes" },
+                            { text: "Database Changes", link: "/explanation/development/core-concepts/database-changes" },
                         ],
                     },
 
