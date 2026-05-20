@@ -93,7 +93,7 @@ export default withMermaid({
                         text: "Core Concepts",
                         items: [
 
-                            { text: "Build Process", link: "/development/core-concepts/build-process" },
+                            { text: "Build Process", link: "/explanation/development/core-concepts/build-process" },
                             { text: "Database Changes", link: "/development/core-concepts/database-changes" },
                         ],
                     },
