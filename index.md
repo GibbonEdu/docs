@@ -42,7 +42,7 @@ features:
        src: /assets/code.svg
     title: Start Developing
     details: How to setup a dev environment, build modules and contribute changes to the core.
-    link: /development/getting-started/developer-workflow
+    link: /guides/development/developer-workflow
 #   - icon: 
 #       src: assets/github.svg
 #     title: Open Source!
