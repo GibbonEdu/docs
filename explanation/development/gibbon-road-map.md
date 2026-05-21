@@ -2,8 +2,8 @@
 title: Gibbon Road Map
 categories:
   - support
-tags: 
-order: 6
+tags: []
+order: 30
 contributors:
   - rossdotparker
   - skuipers

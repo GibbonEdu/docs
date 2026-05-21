@@ -2,7 +2,7 @@
 title: "Module Development"
 categories: ["support", "customization"]
 tags: []
-order: 30
+order: 50
 contributors: ["rossdotparker"]
 ---
 # Module Development

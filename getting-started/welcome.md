@@ -10,7 +10,7 @@ contributors:
 Our community offers documentation and guides to help get you up and running. Use the menu on the left to navigate the available support materials.
 
 Common questions include:
-- [How to Install Gibbon](/introduction/installing-gibbon)
+- [How to Install Gibbon](/guides/install/installing-gibbon)
 - [Setting Up a New School](/getting-started/next-steps)
 - [Rolling over to a New School Year](/modules/admin/user-admin/rollover)
 - [Updating to a New Version](/administration/updating-gibbon)
@@ -45,7 +45,7 @@ The following list contains those companies that we know are offering commercial
 We welcome community contribution and aim to ensure Gibbon is an open and friendly environment.
 
 <div class="vp-box-container">
-  <a class="vp-box" href="/development/contributing">
+  <a class="vp-box" href="/guides/development/contributing">
     <p class="box-title">Contributor Guide</p>
     <p class="box-caption">Learn more about how you can contribute to Gibbon, from code to non-code contributions alike.</p>
   </a>

@@ -37,12 +37,12 @@ features:
        src: /assets/roadmap2.svg
     title: Gibbon Road Map
     details: View our upcoming release dates and see a map of our current development goals.
-    link: /development/gibbon-road-map
+    link: /explanation/development/gibbon-road-map
   - icon: 
        src: /assets/code.svg
     title: Start Developing
     details: How to setup a dev environment, build modules and contribute changes to the core.
-    link: /development/getting-started/developer-workflow
+    link: /guides/development/developer-workflow
 #   - icon: 
 #       src: assets/github.svg
 #     title: Open Source!

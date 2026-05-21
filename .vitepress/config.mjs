@@ -11,7 +11,7 @@ const vitepressSidebarOptions = {
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
-    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'development', 'get-started', 'tutorials', 'guides', 'explanation', 'reference'],
+    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'install', 'development', 'get-started', 'tutorials', 'guides', 'explanation', 'reference'],
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
@@ -77,24 +77,24 @@ export default withMermaid({
                 text: "Devs",
                 activeMatch: '/development',
                 items: [
-                    { text: "Contributing", link: "/development/contributing" },
-                    { text: "Gibbon Road Map", link: "/development/gibbon-road-map" },
+                    { text: "Contributing", link: "/guides/development/contributing" },
+                    { text: "Gibbon Road Map", link: "/explanation/development/gibbon-road-map" },
                     {
                         text: "Getting Started",
                         items: [
 
-                            { text: "Developer Workflow", link: "/development/getting-started/developer-workflow" },
-                            { text: "Coding Standards", link: "/development/getting-started/coding-standards" },
-                            { text: "Module Development", link: "/development/getting-started/module-development" },
-                            { text: "Core Development", link: "/development/getting-started/core-development" },
+                            { text: "Developer Workflow", link: "/guides/development/developer-workflow" },
+                            { text: "Coding Standards", link: "/reference/coding-standards" },
+                            { text: "Module Development", link: "/explanation/development/module-development" },
+                            { text: "Core Development", link: "/explanation/development/core-development" },
                         ],
                     },
                     {
                         text: "Core Concepts",
                         items: [
 
-                            { text: "Build Process", link: "/development/core-concepts/build-process" },
-                            { text: "Database Changes", link: "/development/core-concepts/database-changes" },
+                            { text: "Build Process", link: "/explanation/development/core-concepts/build-process" },
+                            { text: "Database Changes", link: "/explanation/development/core-concepts/database-changes" },
                         ],
                     },
 

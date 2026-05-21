@@ -2,7 +2,7 @@
 title: "Coding Standards"
 categories: ["support"]
 tags: []
-order: 20
+order: 30
 contributors: ["rossdotparker", "skuipers"]
 ---
 # Coding Standards
