@@ -65,8 +65,8 @@ export default withMermaid({
                     {
                         text: "Existing Users",
                         items: [
-                            { text: "The Gibbon Lifecycle", link: "/administration/gibbon-lifecycle" },
-                            { text: "Updating Gibbon", link: "/administration/updating-gibbon" },
+                            { text: "The Gibbon Lifecycle", link: "/guides/administration/gibbon-lifecycle" },
+                            { text: "Updating Gibbon", link: "/guides/administration/updating-gibbon" },
                             { text: "Managing Modules", link: "/modules/modules" },
                         ],
                     },

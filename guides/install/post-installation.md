@@ -29,7 +29,7 @@ Files uploaded to Gibbon are stored in the uploads folder. It's essential for yo
 
 ## Create a Backup Plan
 
-Now that you have Gibbon installed, it's never too soon to think of your backup procedures. Be sure to visit the [Backing Up Your System](/administration/backing-up-your-system) page.
+Now that you have Gibbon installed, it's never too soon to think of your backup procedures. Be sure to visit the [Backing Up Your System](/guides/administration/backing-up-your-system) page.
 
 ## MySQL Database Privileges
 

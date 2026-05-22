@@ -13,7 +13,7 @@ Common questions include:
 - [How to Install Gibbon](/guides/install/installing-gibbon)
 - [Setting Up a New School](/getting-started/next-steps)
 - [Rolling over to a New School Year](/modules/admin/user-admin/rollover)
-- [Updating to a New Version](/administration/updating-gibbon)
+- [Updating to a New Version](/guides/administration/updating-gibbon)
 
 For more answers to common questions, please [visit our FAQ](/getting-started/faq).
 
