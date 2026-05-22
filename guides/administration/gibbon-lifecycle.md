@@ -15,10 +15,10 @@ flowchart LR
 ## Server Administration
 
 Along side the day-to-day tasks of the school year, the following are recommended administration actions and tools that can help keep Gibbon in good working order:
-- Establish a clear [Backup Plan](/administration/backing-up-your-system) for both your file system and your database.
-- Setup [Command Line Tools](/administration/command-line-tools) to update data and schedule notifications automatically.
-- Plan for regular [Server Maintenance](/administration/server-maintenance) to keep your server software up-to-date.
-- Aim to [Update Gibbon](/administration/updating-gibbon) when new releases are available, generally twice per year.
+- Establish a clear [Backup Plan](/guides/administration/backing-up-your-system) for both your file system and your database.
+- Setup [Command Line Tools](/guides/administration/command-line-tools) to update data and schedule notifications automatically.
+- Plan for regular [Server Maintenance](/guides/administration/server-maintenance) to keep your server software up-to-date.
+- Aim to [Update Gibbon](/guides/administration/updating-gibbon) when new releases are available, generally twice per year.
 
 ## One School Year to the Next
 

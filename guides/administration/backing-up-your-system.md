@@ -35,7 +35,7 @@ You can setup regular cloud backups to an AWS S3 bucket, to ensure you have offs
 
 - Install the [AWS CLI tools](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) on your server and configure them.
 - Create a shell script that runs mysqldump to backup your database, then connects to AWS to upload a copy of the backup to your S3 bucket.
-- Schedule this shell script to run daily using a [cron task](/administration/command-line-tools).
+- Schedule this shell script to run daily using a [cron task](/guides/administration/command-line-tools).
 
 An example of the shell script code can be found below. This example assumes your system user is `ubuntu`, your database name is `gibbon`, and your S3 bucket name is `gibbon-backup`. It stores your backup in a directory within your user home called `aws_bucket`. Update as necessary.
 
