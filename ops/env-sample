@@ -12,4 +12,4 @@ COMPOSE_PROJECT_NAME=gibbondocs
 APPLICATION=..
 
 # Core services managed in Docker compose
-NODE_VERSION=20
+NODE_VERSION=26
