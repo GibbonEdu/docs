@@ -16,4 +16,4 @@ Clicking on the Notifications icon (as highlighted above), takes you to the Noti
 
 ### Email Notifications
 
-In order to make notifications more obvious, you can enable email notifications via the [Preferences page](/user-guides/general/preferences)
+In order to make notifications more obvious, you can enable email notifications via the [Preferences page](/tutorials/using-gibbon/general/preferences)
