@@ -8,7 +8,7 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
-Expenses require approval before they can be made against a budget. Use the introductions below to make a request against a budget you have access rights to, and you will receive [notifications](/user-guides/general/notifications) as your request makes its way through the approval process.
+Expenses require approval before they can be made against a budget. Use the introductions below to make a request against a budget you have access rights to, and you will receive [notifications](/tutorials/using-gibbon/general/notifications) as your request makes its way through the approval process.
 
 ### Getting Started
 

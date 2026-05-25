@@ -16,7 +16,7 @@ Expenses require approval before they can be made against a budget. Approval tak
     *   Two Of - two of a group of school-level approvers need to approve an expense at the school level.
     *   Chain Of All - all school-level approvers need to approve an expense, in a certain order.
 
-Once final approval has been given for an expense request, the originating user is [notified](/user-guides/general/notifications) of its approval, and the purchase can be made. Depending on options selected along the way, a purchase officer or reimbursement officer might also be notified during or after this process.
+Once final approval has been given for an expense request, the originating user is [notified](/tutorials/using-gibbon/general/notifications) of its approval, and the purchase can be made. Depending on options selected along the way, a purchase officer or reimbursement officer might also be notified during or after this process.
 
 ### Getting Started
 
@@ -26,4 +26,4 @@ Once final approval has been given for an expense request, the originating user 
 4.  Go to **Other** > **Finance** in the main menu at the top of the page.
 5.  Select **Manage Expense Approvers** in the module menu
 6.  Use the add button to specify those users who have school level approval rights.
-7.  Once users being [making expense requests](/modules/other/finance/expenses/making-a-request.md), the relevant budget and school level approvers will begin receiving [notifications](/user-guides/general/notifications) for their approval.
+7.  Once users being [making expense requests](/modules/other/finance/expenses/making-a-request.md), the relevant budget and school level approvers will begin receiving [notifications](/tutorials/using-gibbon/general/notifications) for their approval.
