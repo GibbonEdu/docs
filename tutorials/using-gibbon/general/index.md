@@ -1,5 +1,5 @@
 ---
-title: General
+title: General Usage
 order: 10
 ---
 
