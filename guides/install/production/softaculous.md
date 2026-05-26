@@ -63,4 +63,4 @@ The URL will be in the form of `<protocol>://<server-domain>/<directory>` which 
 ## Where to go next
 
 * Explore the [Gibbon home page](https://docs.gibbonedu.org/user-guides/general/the-home-page).
-* Access information within a Gibbon system using the [Fast Finder](https://docs.gibbonedu.org/user-guides/general/fast-finder).
+* Access information within a Gibbon system using the [Fast Finder](/tutorials/using-gibbon/general/fast-finder).

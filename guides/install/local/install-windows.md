@@ -156,5 +156,5 @@ copy c:\Users\<your-username>\Downloads\GibbonEduCore-InstallBundle\* c:\xampp\h
 
 ## Where to go next
 
-* Explore the [Gibbon home page](https://docs.gibbonedu.org/user-guides/general/the-home-page).
-* Access information within a Gibbon system using the [Fast Finder](https://docs.gibbonedu.org/user-guides/general/fast-finder).
+* Explore the [Gibbon home page](/tutorials/using-gibbon/general/the-home-page).
+* Access information within a Gibbon system using the [Fast Finder](/tutorials/using-gibbon/general/fast-finder).
