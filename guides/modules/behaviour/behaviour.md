@@ -1,8 +1,8 @@
 ---
-title: "Behaviour"
+title: "How To Record Behaviour"
 categories: ["support"]
 tags: []
-order: 10
+order: 100
 contributors: ["rossdotparker"]
 ---
 
