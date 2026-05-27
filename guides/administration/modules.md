@@ -1,6 +1,6 @@
 ---
 title: Managing Modules
-order: 5
+order: 70
 draft: false
 ---
 # Managing Modules
