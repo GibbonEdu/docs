@@ -1,5 +1,5 @@
 ---
-title: "Impersonate User"
+title: "Impersonate a user"
 categories: ["support"]
 tags: []
 order: 50
