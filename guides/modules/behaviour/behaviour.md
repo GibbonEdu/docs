@@ -1,5 +1,5 @@
 ---
-title: "How To Record Behaviour"
+title: "Record Student Behaviour"
 categories: ["support"]
 tags: []
 order: 100
