@@ -23,5 +23,6 @@ echo "Starting local vitepress web server..."
 # Install dependencies using npm from Docker container
 docker compose run --rm vitepress npm install
 
-# Start Vitepress web server
-docker compose up -d
+# Always rebuild image and recreate container before starting Vitepress web
+# server so no cached artifacts are displayed in documentation
+docker compose up -d --build --force-recreate
