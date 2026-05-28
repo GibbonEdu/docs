@@ -1,8 +1,8 @@
 ---
-title: "Approval"
+title: "Approving Expenses"
 categories: ["support"]
 tags: []
-order: 20
+order: 30
 contributors: ["rossdotparker"]
 ---
 

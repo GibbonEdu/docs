@@ -1,8 +1,8 @@
 ---
-title: "Budgets"
+title: "Manage Budgets"
 categories: ["support"]
 tags: []
-order: 10
+order: 20
 contributors: ["rossdotparker"]
 ---
 

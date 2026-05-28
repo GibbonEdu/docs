@@ -1,8 +1,8 @@
 ---
-title: "Making a Request"
+title: "Making Expense Requests"
 categories: ["support"]
 tags: []
-order: 30
+order: 40
 contributors: ["rossdotparker"]
 ---
 
