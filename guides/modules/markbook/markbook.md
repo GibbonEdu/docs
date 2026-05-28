@@ -1,5 +1,5 @@
 ---
-title: "Markbook"
+title: "Create a markbook column"
 categories: ["support"]
 tags: []
 order: 10

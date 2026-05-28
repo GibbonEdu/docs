@@ -1,5 +1,5 @@
 ---
-title: "Read Receipts"
+title: "Enable email read receipts"
 categories: ["support"]
 tags: []
 order: 10
@@ -12,7 +12,7 @@ New as of v13, Messenger's Read Receipts offer email recipients a unique link th
 
 ### Getting Started
 
-To view a enable read receipts, create a new message (___Other___ > ___Messenger___), and make sure to enable Email as one of the delivery modes. Given the correct access rights, you will see a section entitled Read Receipts. In this section you can enable receipts, and add a custom link message: ![messenger-read-receipts-getting-started](https://docs.gibbonedu.org/img/teachers/messenger/Messenger-Read-Receipts-Getting-Started-1024x333.png)
+To view and enable read receipts, create a new message (___Other___ > ___Messenger___), and make sure to enable Email as one of the delivery modes. Given the correct access rights, you will see a section entitled Read Receipts. In this section you can enable receipts, and add a custom link message: ![messenger-read-receipts-getting-started](https://docs.gibbonedu.org/img/teachers/messenger/Messenger-Read-Receipts-Getting-Started-1024x333.png)
 
 ### Reports
 

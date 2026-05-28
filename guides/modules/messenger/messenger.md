@@ -1,5 +1,5 @@
 ---
-title: "Messenger"
+title: "Compose messages"
 categories: ["support"]
 tags: []
 order: 20
