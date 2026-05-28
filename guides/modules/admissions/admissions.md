@@ -1,5 +1,5 @@
 ---
-title: Admissions
+title: Manage student admissions
 description: Manage student applications, enrolments, and withdrawals in Gibbon.
 ---
 
