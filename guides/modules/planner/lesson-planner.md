@@ -1,5 +1,5 @@
 ---
-title: "Lesson Planner"
+title: "Create lesson plans"
 categories: ["support"]
 tags: []
 order: 20

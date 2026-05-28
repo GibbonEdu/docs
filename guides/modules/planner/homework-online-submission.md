@@ -1,8 +1,8 @@
 ---
-title: "Homework & Online Submission"
+title: "Enable online homework submission"
 categories: ["support"]
 tags: []
-order: 30
+order: 40
 contributors: ["rossdotparker"]
 ---
 

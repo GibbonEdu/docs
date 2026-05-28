@@ -1,8 +1,8 @@
 ---
-title: "Outcomes"
+title: "Manage learning outcomes"
 categories: ["support"]
 tags: []
-order: 40
+order: 30
 contributors: ["rossdotparker"]
 ---
 
