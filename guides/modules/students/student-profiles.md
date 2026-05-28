@@ -1,8 +1,8 @@
 ---
-title: "Student Profiles"
+title: "Manage Student Profiles"
 categories: ["support"]
 tags: []
-order: 20
+order: 10
 contributors: ["rossdotparker"]
 ---
 
