@@ -1,8 +1,8 @@
 ---
-title: "Rubrics"
+title: "Creating Rubrics"
 categories: ["support"]
 tags: []
-order: 30
+order: 10
 contributors: ["rossdotparker"]
 ---
 
