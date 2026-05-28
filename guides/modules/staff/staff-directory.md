@@ -1,6 +1,6 @@
 ---
-title: Staff Directory
-order: 20
+title: Manage Staff
+order: 10
 ---
 # Staff Directory
 

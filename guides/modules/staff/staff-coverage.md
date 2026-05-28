@@ -1,3 +1,7 @@
+---
+title: Manage Staff Substitutes
+order: 30
+---
 # Staff Coverage and Substitutes
 
 ## Overview
