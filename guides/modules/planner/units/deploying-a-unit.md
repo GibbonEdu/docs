@@ -2,7 +2,7 @@
 title: "Deploying a Unit"
 categories: ["support"]
 tags: []
-order: 10
+order: 20
 contributors: ["rossdotparker"]
 ---
 
