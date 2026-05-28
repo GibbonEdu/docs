@@ -8,6 +8,8 @@ contributors: ["rossdotparker"]
 
 ### Introduction
 
+The Planner is one of Gibbon's key tools for teachers and departments. It supports a collaborative planning process that stretches from design through to delivery and then to ongoing improvement. In addition, it provides a key way for teachers to communicate learning content with students, parents and colleagues.
+
 When it comes to planning, teachers have an almost infinite number of ways to do things. Gibbon tries to avoid tying you down to a particular approach, but instead seeks to give options. In starting planning you have an incremental range of approaches, each additional level of which represents an increase in upfront investment of time, but each of which saves time in the long run.
 
 ### Decisions
