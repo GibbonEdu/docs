@@ -26,4 +26,4 @@ Once final approval has been given for an expense request, the originating user 
 4.  Go to **Other** > **Finance** in the main menu at the top of the page.
 5.  Select **Manage Expense Approvers** in the module menu
 6.  Use the add button to specify those users who have school level approval rights.
-7.  Once users being [making expense requests](/modules/other/finance/expenses/making-a-request.md), the relevant budget and school level approvers will begin receiving [notifications](/tutorials/using-gibbon/general/notifications) for their approval.
+7.  Once users being [making expense requests](/guides/modules/finance/making-a-request), the relevant budget and school level approvers will begin receiving [notifications](/tutorials/using-gibbon/general/notifications) for their approval.

@@ -54,4 +54,4 @@ Coverage settings and absence management are found in **People > Staff > Manage 
 :::
 
 ## See Also
-- [Staff Absences](https://docs.gibbonedu.org/modules/people/staff/staff-absences/)
+- [Staff Absences](/guides/modules/staff/staff-absences)

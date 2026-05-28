@@ -26,4 +26,4 @@ Budgets allow the division and annual re-stocking, of financial resources, again
 3.  Select **Manage Budget Cycles** in the module menu
     1.  Use the **Add** button to create new budget cycles.
     2.  For each new budget cycle, allocate funds to appropriate budgets.
-4.  Move on to look at the [expense Approval Process](/modules/other/finance/expenses/approval).
+4.  Move on to look at the [expense Approval Process](/guides/modules/finance/approval).

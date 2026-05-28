@@ -31,4 +31,4 @@ When properly configured, Gibbon knows a lot about your school, making it possib
 
 ### Read Receipts
 
-As of v13 (due for release January 20th 2017), Gibbon supports read receipts for messenger emails. [Click here](/modules/other/messenger/read-receipts) to learn more.
+As of v13 (due for release January 20th 2017), Gibbon supports read receipts for messenger emails. [Click here](/guides/modules/messenger/read-receipts) to learn more.
