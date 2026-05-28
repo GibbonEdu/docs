@@ -1,5 +1,5 @@
 ---
-title: "Timetable"
+title: "Viewing Timetables"
 categories: ["support"]
 tags: []
 order: 20
