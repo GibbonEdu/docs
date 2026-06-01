@@ -67,7 +67,7 @@ If you uploaded to `/var/www/html` then your URL will likely be https://yourdoma
 :::
 ## Installation & Login
 
-The installer will step you though the rest of the installation process, beginning with a system requirements check, and then creating and populating the Gibbon database. 
+The installer will step you through the rest of the installation process, beginning with a system requirements check, and then creating and populating the Gibbon database. 
 
 After completing the installer, you can navigate back to your Gibbon URL to login using the administrator user you created during installation.
 

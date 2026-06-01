@@ -50,7 +50,7 @@ flowchart LR
 ```
 
 - **School years are divided into terms**
-  These may be called semesters or terms depending on your region, and managed though <u>School Admin > Manage Terms</u>. If you don't use terms, you can set one term that covers the whole year.
+  These may be called semesters or terms depending on your region, and managed through <u>School Admin > Manage Terms</u>. If you don't use terms, you can set one term that covers the whole year.
   
 - **Terms are divided into days**
   The days within each term can be managed through <u>School Admin > Manage Special Days</u>, as well as timetabled with <u>Timetable Admin > Tie Days to Dates</u>.
