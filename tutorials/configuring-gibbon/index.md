@@ -1,4 +1,4 @@
 ---
 title: Configuring Gibbon
-order: 90
+order: 20
 ---

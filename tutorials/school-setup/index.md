@@ -1,4 +1,4 @@
 ---
-title: School Setup
-order: 80
+title: Setting Up Your School
+order: 10
 ---
