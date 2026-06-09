@@ -8,8 +8,8 @@ Redirect /administrators/getting-started/installing-gibbon/google-oauth/ /get-st
 Redirect /administrators/getting-started/installing-gibbon/microsoft-oauth/ /get-started/configuration/integrations/microsoft-integration
 Redirect /administrators/getting-started/getting-started-with-gibbon/ /get-started/next-steps
 Redirect /administrators/getting-started/importing-users/ /get-started/school-setup/importing-data
-Redirect /administrators/getting-started/customizing-gibbon/ /get-started/customization/customizing-gibbon
-Redirect /administrators/getting-started/customizing-gibbon/custom-fields/ /get-started/customization/custom-fields
+Redirect /administrators/getting-started/customizing-gibbon/ /tutorials/customizing-gibbon/customizing-gibbon
+Redirect /administrators/getting-started/customizing-gibbon/custom-fields/ /tutorials/customizing-gibbon/custom-fields
 Redirect /administrators/getting-started/updating-gibbon/ /guides/administration/updating-gibbon
 Redirect /administrators/getting-started/backing-up-your-installation/ /guides/administration/backing-up-your-system
 Redirect /administrators/timetable/timetabling/ /get-started/school-setup/timetabling

@@ -13,7 +13,7 @@
 /teachers/learn/planner/outcomes/ /guides/modules/planner/outcomes
 /teachers/other/finance/expenses/ /guides/modules/finance/budgets
 /teachers/other/messenger/read-receipts/ /guides/modules/messenger/read-receipts
-/administrators/getting-started/customizing-gibbon/custom-fields/ /get-started/customization/custom-fields
+/administrators/getting-started/customizing-gibbon/custom-fields/ /tutorials/customizing-gibbon/custom-fields
 /administrators/getting-started/installing-gibbon/cutting-edge-code/ /explanation/cutting-edge-code
 /administrators/getting-started/installing-gibbon/install-ubuntu-debian/ /guides/install/local/install-linux
 /administrators/misc/connecting-to-moodle/ /get-started/configuration/integrations/connecting-to-moodle
@@ -30,7 +30,7 @@
 /teachers/learn/planner/ /guides/modules/planner/approaches-to-planning
 /teachers/other/finance/ /guides/modules/finance/budgets
 /teachers/other/messenger/ /guides/modules/messenger/messenger
-/administrators/getting-started/customizing-gibbon/ /get-started/customization/customizing-gibbon
+/administrators/getting-started/customizing-gibbon/ /tutorials/customizing-gibbon/customizing-gibbon
 /administrators/getting-started/importing-users/ /get-started/school-setup/importing-data
 /administrators/misc/internationalisation/ /get-started/configuration/internationalisation
 /administrators/misc/useful-sql/ /reference/useful-sql

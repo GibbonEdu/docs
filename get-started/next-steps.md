@@ -25,7 +25,7 @@ Gibbon aims to cater to all sorts of schools, and the back end has a correspondi
     <p class="box-title">Configuration</p>
     <p class="box-caption">Explore system settings and options such as languages and email settings.</p>
   </a>
-  <a class="vp-box" href="/get-started/customization/customizing-gibbon">
+  <a class="vp-box" href="/tutorials/customizing-gibbon/customizing-gibbon">
     <p class="box-title">Customization</p>
     <p class="box-caption">Fine-tune the features and appearance of Gibbon to suit your school.</p>
   </a>
