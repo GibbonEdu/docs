@@ -21,7 +21,7 @@ Gibbon aims to cater to all sorts of schools, and the back end has a correspondi
     <p class="box-title">School Setup</p>
     <p class="box-caption">Begin setting up school years, groupings, and user permissions.</p>
   </a>
-  <a class="vp-box" href="/get-started/configuration/system-settings">
+  <a class="vp-box" href="/tutorials/configuring-gibbon/system-settings">
     <p class="box-title">Configuration</p>
     <p class="box-caption">Explore system settings and options such as languages and email settings.</p>
   </a>
