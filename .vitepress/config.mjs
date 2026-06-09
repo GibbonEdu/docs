@@ -18,6 +18,7 @@ const vitepressSidebarOptions = {
     excludeByGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
+    useFolderLinkFromSameNameSubFile: true,
 };
 
 // https://vitepress.dev/reference/site-config
@@ -46,6 +47,7 @@ export default withMermaid({
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: "Gibbon Docs",
         logo: "/gibbon-purple.svg",
+        outline: false,
 
         nav: [
             {
