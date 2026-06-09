@@ -1,4 +1,4 @@
 ---
-title: Customing Gibbon
+title: Customizing Gibbon
 order: 100
 ---
