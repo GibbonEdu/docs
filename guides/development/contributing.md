@@ -14,7 +14,7 @@ You can contribute your time and expertise many ways. For example, you might:
 * Write tutorials and “how-to” articles for the [Gibbon documentation](https://gibbonedu.org/support/).
 * Help people with the questions they ask on the [Support forum](https://ask.gibbonedu.org).
 * [Create a module](/explanation/development/module-development) that provides additional functionality above and beyond the core.
-* Expand our internationalization and [help translate Gibbon](/getting-started/configuration/internationalisation) in your language.
+* Expand our internationalization and [help translate Gibbon](/get-started/configuration/internationalisation) in your language.
 * Improve the existing [guides and documentation](/about) of features in Gibbon.
 * Submit bug reports or hack on Gibbon itself by fixing bugs you've found in the [GitHub Issue tracker](https://github.com/GibbonEdu/core/issues).
 

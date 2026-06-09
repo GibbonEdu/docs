@@ -22,7 +22,7 @@ Gibbon is an independent project, maintained by a core development team and supp
 
 Since then, through its open-source roots, Gibbon has grown into a global project. In 2018, Sandra Kuipers stepped into the role of Gibbon's maintainer. Sandra currently leads the development of Gibbon, setting the short-term goals and long-range architecture plans.
 
-In 2023 the [Gibbon Foundation](/getting-started/welcome#gibbon-foundation) was established as a non-profit entity incorporated in Hong Kong to further support Gibbon a global project, and the copyright of the Gibbon codebase was transferred from Ross Parker to the Gibbon Foundation.
+In 2023 the [Gibbon Foundation](/get-started/welcome#gibbon-foundation) was established as a non-profit entity incorporated in Hong Kong to further support Gibbon a global project, and the copyright of the Gibbon codebase was transferred from Ross Parker to the Gibbon Foundation.
 ## Is Gibbon reliable?
 
 One of the core development principles of Gibbon is to maintain stable, reliable software. After all, the school where Gibbon was developed {{ new Date().getFullYear() - 2010 }} years ago still uses it daily for all aspects of school management. While some software companies "[move fast and break things](https://en.wikipedia.org/wiki/Move_fast_and_break_things)," the Gibbon project "moves deliberately and sustains things." Schools need software that can be relied upon from day-to-day, and this philosophy is at the heart of our [developer workflow](development/getting-started/developer-workflow.md) and [release cycle](/explanation/development/gibbon-road-map.md).
