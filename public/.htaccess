@@ -7,12 +7,12 @@ Redirect /administrators/getting-started/installing-gibbon/install-windows/ /gui
 Redirect /administrators/getting-started/installing-gibbon/google-oauth/ /tutorials/configuring-gibbon/integrations/google-integration
 Redirect /administrators/getting-started/installing-gibbon/microsoft-oauth/ /tutorials/configuring-gibbon/integrations/microsoft-integration
 Redirect /administrators/getting-started/getting-started-with-gibbon/ /get-started/next-steps
-Redirect /administrators/getting-started/importing-users/ /get-started/school-setup/importing-data
+Redirect /administrators/getting-started/importing-users/ /tutorials/school-setup/importing-data
 Redirect /administrators/getting-started/customizing-gibbon/ /tutorials/customizing-gibbon/customizing-gibbon
 Redirect /administrators/getting-started/customizing-gibbon/custom-fields/ /tutorials/customizing-gibbon/custom-fields
 Redirect /administrators/getting-started/updating-gibbon/ /guides/administration/updating-gibbon
 Redirect /administrators/getting-started/backing-up-your-installation/ /guides/administration/backing-up-your-system
-Redirect /administrators/timetable/timetabling/ /get-started/school-setup/timetabling
+Redirect /administrators/timetable/timetabling/ /tutorials/school-setup/timetabling
 Redirect /administrators/timetable/rollover/ /guides/modules/user-admin/rollover
 Redirect /administrators/reports/ /guides/modules/reports/reporting_cycles
 Redirect /administrators/reports/reporting_cycles/ /guides/modules/reports/reporting_cycles
@@ -20,7 +20,7 @@ Redirect /administrators/reports/contributing/ /guides/modules/reports/contribut
 Redirect /administrators/reports/proofreading/ /guides/modules/reports/proofreading
 Redirect /administrators/reports/publishing/ /guides/modules/reports/publishing
 Redirect /administrators/reports/templates/ /guides/modules/reports/templates
-Redirect /administrators/people/form-groups/ /get-started/school-setup/student-enrolment
+Redirect /administrators/people/form-groups/ /tutorials/school-setup/student-enrolment
 Redirect /administrators/people/staff/ /guides/modules/staff/staff-directory
 Redirect /administrators/people/staff-absences/ /guides/modules/staff/staff-absences
 Redirect /administrators/people/student-profile/ /tutorials/using-gibbon/general/student-profile
@@ -75,9 +75,9 @@ Redirect /teachers/other/messenger/read-receipts/ /guides/modules/messenger/read
 Redirect /teachers/other/latex/ /tutorials/using-gibbon/general/latex/
 Redirect /parents/ /tutorials/using-gibbon/parents
 Redirect /administrators/getting-started/ /guides/administration/gibbon-lifecycle
-Redirect /administrators/timetable/ /get-started/school-setup/timetabling
-Redirect /administrators/people/ /get-started/school-setup/student-enrolment
-Redirect /administrators/user-admin/ /get-started/school-setup/roles-permissions
+Redirect /administrators/timetable/ /tutorials/school-setup/timetabling
+Redirect /administrators/people/ /tutorials/school-setup/student-enrolment
+Redirect /administrators/user-admin/ /tutorials/school-setup/roles-permissions
 Redirect /administrators/misc/ /guides/administration/gibbon-lifecycle
 Redirect /developers/getting-started/ /guides/development/developer-workflow
 Redirect /developers/core-concepts/ /guides/development/developer-workflow

@@ -16,7 +16,7 @@ Gibbon is designed on the idea that every school is different, and hopes to prov
 1. [String Replacement](/tutorials/customizing-gibbon/string-replacement)
 2. [Custom Fields](/tutorials/customizing-gibbon/custom-fields)
 3. [Display Settings](/tutorials/customizing-gibbon/display-settings)
-4. [User Permissions](/get-started/school-setup/roles-permissions)
+4. [User Permissions](/tutorials/school-setup/roles-permissions)
 5. [Modules](/guides/administration/modules)
 6. Themes
 7. [Feature Requests](https://ask.gibbonedu.org/c/feature-requests)

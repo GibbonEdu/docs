@@ -17,7 +17,7 @@ contributors:
 Gibbon aims to cater to all sorts of schools, and the back end has a correspondingly large assortment of options. This can be overwhelming to start with, so this page aims to highlight the most important options when first setting up a school. 
 
 <div class="vp-box-container">
-  <a class="vp-box" href="/get-started/school-setup/school-structure">
+  <a class="vp-box" href="/tutorials/school-setup/school-structure">
     <p class="box-title">School Setup</p>
     <p class="box-caption">Begin setting up school years, groupings, and user permissions.</p>
   </a>
