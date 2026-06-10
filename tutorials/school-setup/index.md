@@ -1,4 +1,4 @@
 ---
 title: Setting Up Your School
-order: 10
+order: 5
 ---
