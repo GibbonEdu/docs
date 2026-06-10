@@ -60,7 +60,7 @@ export default withMermaid({
                         items: [
                             { text: "System Requirements", link: "/reference/system-requirements" },
                             { text: "Installing Gibbon", link: "/guides/install/installing-gibbon" },
-                            { text: "Getting Started", link: "/get-started/next-steps" },
+                            { text: "Get Started", link: "/get-started/next-steps" },
 
                         ],
                     },
