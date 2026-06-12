@@ -13,14 +13,14 @@ hero:
 
   actions:
     - theme: brand
-      text: Getting Started
-      link: /getting-started/welcome
+      text: Get Started
+      link: /get-started/welcome
     - theme: alt
       text: Installing Gibbon
       link: /guides/install/installing-gibbon
     - theme: alt
       text: Setting up Gibbon
-      link: /getting-started/next-steps
+      link: /get-started/next-steps
 
 features:
   - icon: 
@@ -32,7 +32,7 @@ features:
        src: /assets/support.svg
     title: Community Support
     details: Explore available support options, including community-driven forums and docs.
-    link: /getting-started/welcome#gibbon-foundation
+    link: /get-started/welcome#gibbon-foundation
   - icon: 
        src: /assets/roadmap2.svg
     title: Gibbon Road Map

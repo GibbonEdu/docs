@@ -11,13 +11,14 @@ const vitepressSidebarOptions = {
     hyphenToSpace: true,
     collapsed: true,
     collapseDepth: 1,
-    manualSortFileNameByPriority: ['welcome.md', 'introduction', 'getting-started', 'administration', 'modules', 'user-guides', 'install', 'development', 'get-started', 'tutorials', 'guides', 'explanation', 'reference'],
+    manualSortFileNameByPriority: ['welcome.md', 'get-started', 'tutorials', 'guides', 'explanation', 'reference'],
     frontmatterOrderDefaultValue: 9,
     sortMenusByFrontmatterOrder: true,
     excludeFilesByFrontmatterFieldName: 'draft',
     excludeByGlobPattern: ['README.md', 'templates/', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
     includeFolderIndexFile: false,
     keepMarkdownSyntaxFromTitle: true,
+    useFolderLinkFromSameNameSubFile: true,
 };
 
 // https://vitepress.dev/reference/site-config
@@ -46,19 +47,20 @@ export default withMermaid({
         // https://vitepress.dev/reference/default-theme-config
         siteTitle: "Gibbon Docs",
         logo: "/gibbon-purple.svg",
+        outline: false,
 
         nav: [
             {
                 text: "Docs",
-                activeMatch: '/getting-started',
+                activeMatch: '/get-started',
                 items: [
-                    { text: "Welcome", link: "/getting-started/welcome" },
+                    { text: "Welcome", link: "/get-started/welcome" },
                     {
                         text: "New Users",
                         items: [
                             { text: "System Requirements", link: "/reference/system-requirements" },
                             { text: "Installing Gibbon", link: "/guides/install/installing-gibbon" },
-                            { text: "Getting Started", link: "/getting-started/next-steps" },
+                            { text: "Get Started", link: "/get-started/next-steps" },
 
                         ],
                     },
@@ -164,6 +166,6 @@ export default withMermaid({
     },
 
     // rewrites: {
-    //     'administrators/getting-started/installing-gibbon/:file': 'administrators/installing-gibbon/:file'
+    //     'administrators/get-started/installing-gibbon/:file': 'administrators/installing-gibbon/:file'
     // }
 });

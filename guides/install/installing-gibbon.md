@@ -29,7 +29,7 @@ flowchart LR
 2. Copy all files to your server, choosing either the root directory or a sub-folder within it.
 3. Navigate your browser to the folder on your server where Gibbon has been located.
 4. Follow the on-screen instructions in Gibbon's new installer.
-5. Login to Gibbon, then check out the [Getting Started](/getting-started/next-steps) section for next steps.
+5. Login to Gibbon, then check out the [Getting Started](/get-started/next-steps) section for next steps.
 
 For detailed instructions about each of these steps, continue reading the sections below.
 
