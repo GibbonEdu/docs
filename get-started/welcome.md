@@ -12,7 +12,7 @@ Our community offers documentation and guides to help get you up and running. Us
 Common questions include:
 - [How to Install Gibbon](/guides/install/installing-gibbon)
 - [Setting Up a New School](/get-started/next-steps)
-- [Rolling over to a New School Year](/modules/admin/user-admin/rollover)
+- [Rolling over to a New School Year](/guides/modules/user-admin/rollover)
 - [Updating to a New Version](/guides/administration/updating-gibbon)
 
 For more answers to common questions, please [visit our FAQ](/get-started/faq).
