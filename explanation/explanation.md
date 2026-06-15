@@ -1,16 +1,16 @@
 # Explanation
 
-Explanations are conceptual guides that provide more details on topics related to Gibbon.
+Explanations are conceptual guides that provide more details on topics related to Gibbon and its development.
 
 ## Source Code
 
 <div class="vp-box-container">
   <a class="vp-box" href="/explanation/guide-to-open-source">
-    <p class="box-title">Guide to open source</p>
-    <p class="box-caption">Understand the reasons why Gibbon is open source.</p>
+    <p class="box-title">Guide To Open Source</p>
+    <p class="box-caption">Understand the reasons why Gibbon's source code is freely available to view and modify.</p>
   </a>
   <a class="vp-box" href="/explanation/cutting-edge-code">
-    <p class="box-title">Cutting edge code</p>
+    <p class="box-title">Cutting Edge Code</p>
     <p class="box-caption">Differences between Gibbon's stable code and cutting edge code.</p>
   </a>
 </div>
