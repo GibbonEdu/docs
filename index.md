@@ -11,23 +11,43 @@ hero:
     src: /assets/documentation_2.svg
     alt: Gibbon Docs
 
-  actions:
-    - theme: brand
-      text: Get Started
-      link: /get-started/welcome
-    - theme: alt
-      text: Installing Gibbon
-      link: /guides/install/installing-gibbon
-    - theme: alt
-      text: Setting up Gibbon
-      link: /get-started/next-steps
+#  actions:
+#    - theme: brand
+#      text: Get Started
+#      link: /get-started/welcome
+#    - theme: alt
+#      text: Installing Gibbon
+#      link: /guides/install/installing-gibbon
+#    - theme: alt
+#      text: Setting up Gibbon
+#      link: /get-started/next-steps
 
 features:
-  - icon: 
-       src: /assets/open.svg
-    title: Open Source!
-    details: Learn what open source is and what it means for a project like Gibbon.
-    link: /explanation/guide-to-open-source
+  - icon:
+      src: /assets/rocket.svg
+    title: Get started
+    details: Learn Gibbon basics.
+    link: /get-started/welcome
+  - icon:
+      src: /assets/book.svg
+    title: Tutorials
+    details: Find out how to use Gibbon as a teacher, parent or system administrator.
+    link: /tutorials/tutorials
+  - icon:
+      src: /assets/document.svg
+    title: Guides
+    details: Install, configure and maintain Gibbon.
+    link: /guides/guides
+  - icon:
+      src: /assets/book-open-reader.svg
+    title: Explanation
+    details: Understand how to build modules and contribute changes to the core.
+    link: /explanation/explanation
+  - icon:
+      src: /assets/terminal.svg
+    title: Reference
+    details: Check system requirements needed to run Gibbon and its coding standards for contributions.
+    link: /reference/reference
   - icon: 
        src: /assets/support.svg
     title: Community Support
@@ -38,11 +58,11 @@ features:
     title: Gibbon Road Map
     details: View our upcoming release dates and see a map of our current development goals.
     link: /explanation/development/gibbon-road-map
-  - icon: 
-       src: /assets/code.svg
-    title: Start Developing
-    details: How to setup a dev environment, build modules and contribute changes to the core.
-    link: /guides/development/developer-workflow
+#  - icon: 
+#       src: /assets/code.svg
+#    title: Start Developing
+#    details: How to setup a dev environment, build modules and contribute changes to the core.
+#    link: /guides/development/developer-workflow
 #   - icon: 
 #       src: assets/github.svg
 #     title: Open Source!
