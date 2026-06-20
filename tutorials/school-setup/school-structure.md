@@ -1,4 +1,6 @@
----
+Students name
+reg number 
+results portal ---
 title: School Structure
 order: 10
 draft: false
