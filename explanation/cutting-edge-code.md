@@ -29,7 +29,7 @@ During installation, your Gibbon code will check its version against our servers
 As of Gibbon v22.0.00, Cutting Edge code uses composer to manage the vendor folder. See the installation and update instructions below.
 :::
 
-If you are using Cutting Edge code, before installing Gibbon you will need to first install PHP's dependency manager, [Composer](https://getcomposer.org/), on your server. Follow the [Getting Started](https://getcomposer.org/doc/00-intro) guides on the Composer website for more instructions about how to do this. 
+If you are using Cutting Edge code, before installing Gibbon you will need to first install PHP's dependency manager, [Composer](https://getcomposer.org/), on your server. Follow the [Getting Started](https://getcomposer.org/doc/00-intro.md)) guides on the Composer website for more instructions about how to do this. 
 
 Using composer, navigate to your root Gibbon folder and run the `composer install` command once to install all required libraries. You can also run `composer install --no-dev` to exclude any libraries that are used solely for development and testing.
 
