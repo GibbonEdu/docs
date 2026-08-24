@@ -4,3 +4,41 @@
     border-radius: 2px;
     transition: background-color 0.25s;
 }
+
+/* For FAQ accordion display */
+
+/* Target the built-in details container */
+.vp-doc .custom-block.details {
+    /*border: 1px solid var(--vp-c-brand-1); !* Change border color *!*/
+    background-color: var(--vp-c-bg-soft); /* Change background color */
+    border-radius: 8px;
+    padding: 16px;
+    margin: 1.2em 0;
+    transition: background-color 0.3s ease;
+}
+
+.vp-doc .custom-block.details::before {
+    content: none;
+}
+
+/* Style the clickable summary title */
+.vp-doc .custom-block.details summary {
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--vp-c-text-1);
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+/* Style the title when hovered */
+.vp-doc .custom-block.details summary:hover {
+    color: var(--vp-c-brand-1);
+}
+
+/* Customize the spacing of the content inside */
+.vp-doc .custom-block.details :not(summary) {
+    margin-top: 0.5rem;
+    font-size: 16px;
+    color: var(--vp-c-text-2);
+}
