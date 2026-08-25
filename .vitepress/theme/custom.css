@@ -5,40 +5,61 @@
     transition: background-color 0.25s;
 }
 
-/* For FAQ accordion display */
-
-/* Target the built-in details container */
-.vp-doc .custom-block.details {
-    /*border: 1px solid var(--vp-c-brand-1); !* Change border color *!*/
-    background-color: var(--vp-c-bg-soft); /* Change background color */
-    border-radius: 8px;
-    padding: 16px;
-    margin: 1.2em 0;
-    transition: background-color 0.3s ease;
+/* FAQ container styling */
+details {
+    margin: 1em 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5em;
+    background-color: #fafafa;
 }
 
-.vp-doc .custom-block.details::before {
-    content: none;
-}
-
-/* Style the clickable summary title */
-.vp-doc .custom-block.details summary {
-    font-weight: 600;
-    font-size: 24px;
-    color: var(--vp-c-text-1);
+/* Summary (clickable header) */
+summary {
     cursor: pointer;
-    outline: none;
-    user-select: none;
+    font-weight: 600;
+    list-style: none;
 }
 
-/* Style the title when hovered */
-.vp-doc .custom-block.details summary:hover {
-    color: var(--vp-c-brand-1);
+/* Hide Safari’s default marker */
+summary::-webkit-details-marker {
+    display: none;
 }
 
-/* Customize the spacing of the content inside */
-.vp-doc .custom-block.details :not(summary) {
-    margin-top: 0.5rem;
-    font-size: 16px;
-    color: var(--vp-c-text-2);
+/* Expanded state */
+details[open] {
+    background-color: #fff;
+    border-color: #ccc;
 }
+
+/* --- Safari fix ---
+   Prevent ghost line of collapsed content */
+details:not([open]) > :not(summary) {
+    display: none;
+}
+
+/* Expanded content animation */
+details[open] > :not(summary) {
+    animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* FAQ text styling */
+details p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+}
+
+/* Optional: FAQ list styling inside details */
+details ul {
+    margin: 0.5em 0 0.5em 1.5em;
+    padding: 0;
+}
+details li {
+    margin: 0.3em 0;
+}
+
