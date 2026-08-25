@@ -6,60 +6,55 @@
 }
 
 /* FAQ container styling */
-details {
-    margin: 1em 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 0.5em;
-    background-color: #fafafa;
+
+/* Hide info icon */
+.faq-page details::before,
+.faq-page details .info::before,
+.faq-page details .info-icon {
+    content: none !important;
+    display: none !important;
 }
 
-/* Summary (clickable header) */
-summary {
+/* Chevron styling scoped to FAQ page */
+.faq-page summary {
     cursor: pointer;
     font-weight: 600;
     list-style: none;
+    position: relative;
+    padding-left: 1.5em;
 }
 
-/* Hide Safari’s default marker */
-summary::-webkit-details-marker {
+.faq-page summary::-webkit-details-marker,
+.faq-page summary::marker {
     display: none;
 }
 
-/* Expanded state */
-details[open] {
-    background-color: #fff;
-    border-color: #ccc;
+.faq-page summary::before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #666;
+    transition: transform 0.2s ease;
 }
 
-/* --- Safari fix ---
-   Prevent ghost line of collapsed content */
-details:not([open]) > :not(summary) {
+.faq-page details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+/* Safari fix */
+.faq-page details:not([open]) > :not(summary) {
     display: none;
 }
 
 /* Expanded content animation */
-details[open] > :not(summary) {
+.faq-page details[open] > :not(summary) {
     animation: fadeIn 0.2s ease-in;
 }
 
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-/* FAQ text styling */
-details p {
-    margin: 0.5em 0;
-    line-height: 1.5;
-}
-
-/* Optional: FAQ list styling inside details */
-details ul {
-    margin: 0.5em 0 0.5em 1.5em;
-    padding: 0;
-}
-details li {
-    margin: 0.3em 0;
 }
 

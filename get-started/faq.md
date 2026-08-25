@@ -5,6 +5,8 @@ draft: false
 ---
 # Frequently Asked Questions
 
+<div class="faq-page">
+
 ## General
 
 ::: details How much does Gibbon cost?
@@ -65,3 +67,5 @@ As of 2024, Gibbon does not currently have a general-purpose API. The reasons fo
 
 A multi-tenant option is one of the future goals of Gibbon, to enable installing and managing multiple schools on a single server. However, to make this work, there are currently a number of architectural changes and refactoring initiatives that need to be completed first. For this reason, a multi-install or school-district version of Gibbon remains on the [long-term road map](/explanation/development/gibbon-road-map).
 :::
+
+</div>
