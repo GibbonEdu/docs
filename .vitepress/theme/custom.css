@@ -8,6 +8,7 @@
 /* FAQ container styling */
 
 /* Hide info icon */
+/* FAQ page specific overrides */
 .faq-page details::before,
 .faq-page details .info::before,
 .faq-page details .info-icon {
@@ -22,6 +23,7 @@
     list-style: none;
     position: relative;
     padding-left: 1.5em;
+    font-size: 18px; /* Increase FAQ question size */
 }
 
 .faq-page summary::-webkit-details-marker,
@@ -57,4 +59,13 @@
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+/* FAQ answer text styling */
+.faq-page details p,
+.faq-page details ul,
+.faq-page details li {
+    font-size: 16px; /* Slightly larger answers */
+    line-height: 1.6;
+}
+
 
