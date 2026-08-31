@@ -4,3 +4,68 @@
     border-radius: 2px;
     transition: background-color 0.25s;
 }
+
+/* FAQ container styling */
+
+/* Hide info icon */
+/* FAQ page specific overrides */
+.faq-page details::before,
+.faq-page details .info::before,
+.faq-page details .info-icon {
+    content: none !important;
+    display: none !important;
+}
+
+/* Chevron styling scoped to FAQ page */
+.faq-page summary {
+    cursor: pointer;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+    padding-left: 1.5em;
+    font-size: 18px; /* Increase FAQ question size */
+}
+
+.faq-page summary::-webkit-details-marker,
+.faq-page summary::marker {
+    display: none;
+}
+
+.faq-page summary::before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: #666;
+    transition: transform 0.2s ease;
+}
+
+.faq-page details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+/* Safari fix */
+.faq-page details:not([open]) > :not(summary) {
+    display: none;
+}
+
+/* Expanded content animation */
+.faq-page details[open] > :not(summary) {
+    animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* FAQ answer text styling */
+.faq-page details p,
+.faq-page details ul,
+.faq-page details li {
+    font-size: 16px; /* Slightly larger answers */
+    line-height: 1.6;
+}
+
+
