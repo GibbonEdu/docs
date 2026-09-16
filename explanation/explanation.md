@@ -22,7 +22,7 @@ Explanations are conceptual guides that provide more details on topics related t
     <p class="box-title">Gibbon Road Map</p>
     <p class="box-caption">Timeline for future releases of Gibbon.</p>
   </a>
-  <a class="vp-box" href="/explanation//development/core-development">
+  <a class="vp-box" href="/explanation/development/core-development">
     <p class="box-title">Core Development</p>
     <p class="box-caption">How to develop Gibbon's core</p>
   </a>
