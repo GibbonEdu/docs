@@ -7,12 +7,17 @@
   },
   "devDependencies": {
     "mermaid": "^11.16.1",
-    "vitepress": "^1.3.4",
+    "vite": "^6.4.5",
+    "vitepress": "^1.6.4",
     "vitepress-plugin-google-analytics": "^1.0.2",
-    "vitepress-plugin-mermaid": "^2.0.16",
-    "vitepress-sidebar": "^1.33.1"
+    "vitepress-plugin-mermaid": "^2.0.17",
+    "vitepress-sidebar": "^1.41.0"
   },
   "dependencies": {
-    "vitepress-markdown-timeline": "^1.2.1"
+    "vitepress-markdown-timeline": "^1.2.2"
+  },
+  "overrides": {
+    "vite": "^6.4.5",
+    "katex": "^0.18.2"
   }
 }
