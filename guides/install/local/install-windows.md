@@ -14,7 +14,6 @@ contributors:
 This page provides download links and step-by-step instructions for installing Gibbon on Windows.
 
 ::: warning
-
 This installation method is intended only for local testing and evaluation.
 
 - The default database credentials are insecure.
@@ -28,16 +27,14 @@ This installation method is intended only for local testing and evaluation.
 
 XAMPP provides Apache, PHP, and MySQL needed to run Gibbon.
 
-1. Go to the [XAMPP home page](https://www.apachefriends.org/index.html) and download the **XAMPP for Windows** installer.
+1. Go to the [XAMPP home page](https://www.apachefriends.org/index.html) and download the latest version of **XAMPP for Windows** installer.
 2. Double-click the installer in your Downloads folder and follow the prompts to install XAMPP.
 
 ::: info
-
 Click **Yes** to continue with installation if you see a question regarding antivirus software running may interfere with XAMPP installation.
 :::
 
 ::: info
-
 Click **OK** if there is a message about Windows User Account Control (UAC) being activated and to avoid installing XAMPP to C:\Program Files.
 :::
 
@@ -63,31 +60,28 @@ A few PHP Extensions required by Gibbon are not enabled by default in XAMPP. You
 1. In the XAMPP Control Panel, click the **Start** button for Apache to start the web server.
 
 ::: info
-
 Click **Allow** to enable public and private network access for Apache HTTP if prompted by Windows Firewall pop-up.
 :::
 
 2. Click **Start** button for **MySQL** to start the database server.
 
 ::: info
-
 Click **Allow** to enable public and private network access for mysqld if prompted by Windows Firewall pop-up.
 :::
 
 3. Verify you can see XAMPP welcome page by opening http://localhost/dashboard in your web browser.
 
-### Configure MySQL
+### Create a MySQL database
 
 Set a password for the root MySQL user.
 
 1. Click **Shell** on the XAMPP Control Panel to open a command prompt window.
-2. Run the following command to set a password for the root user:
+2. Run the following command to access the MySQL command-line client:
 ```
 mysql -u root -p
 ```
 
 ::: info
-
 Press **Enter** when you are prompted for a password. This will log you in to MySQL without a password since the root user does not have one by default.
 :::
 
@@ -96,14 +90,14 @@ Press **Enter** when you are prompted for a password. This will log you in to My
 alter user 'root'@'localhost' identified by 'root';
 ```
 
-### Create database
+4. Create a database for Gibbon by executing this command:
+```
+create database gibbon;
+```
 
-Set up a database for Gibbon using phpMyAdmin.
-
-1. Click **Admin** button for **MySQL** in the XAMPP Control Panel.
-2. Your browser will open http://localhost/phpadmin/ in a new tab.
-3. Click **Databases** tab.
-4. Enter **gibbon** as the name of a new database and click **Create** button.
+::: info
+The new password for the MySQL root user needs to be provided to phpMyAdmin in its `config.inc.php` file if you need access to this database tool. 
+:::
 
 ### Create web directory
 
@@ -124,30 +118,42 @@ dir htdocs
 ## Download Gibbon
 
 1. Go to [Gibbon's download page](https://gibbonedu.org/download) and download the latest version of Gibbon.
-2. Right-click on **GibbonEduCore-InstallBundle.zip** in your Downloads folder, select **Extract All..** then click **Extract** button to unpack archive.
-3. Copy contents in **GibbonEduCore-InstallBundle** folder into the `htdocs\gibbon` folder. You can do this in the file explorer or run the following command:
-
-```
-copy c:\Users\<your-username>\Downloads\GibbonEduCore-InstallBundle\* c:\xampp\htdocs\gibbon\
-```
+2. Right-click on **GibbonEduCore-InstallBundle.zip** in your Downloads folder, select **Extract All..** and extract files into the `C:\xampp\htdocs\gibbon` folder.
 
 ## Install Gibbon
 
 1. Open http://localhost/gibbon.
-2. The Gibbon installer will check system requirements. Click **Submit** button.
-3. Enter your database settings:
+2. On the INSTALLATION - STEP 1 page, check if all your System Requirements have been passed by the Gibbon installer. Click **Submit** button.
+
+::: info
+If PHP Extension curl is showing as not installed, use a shell window to copy the brotlidec.dll file into the XAMPP Apache bin folder:
+```
+copy C:\xampp\php\brotlidec.dll C:\xampp\apache\bin
+```
+
+Then use the XAMPP Control Panel to **Stop** and **Start** Apache. Refresh the http://localhost/gibbon page and check that PHP Extension curl is now installed.
+:::
+
+3. On the INSTALLATION - STEP 2 page, enter the following settings and then click **Submit**:
 * Database Server: **localhost**
 * Database Name: **gibbon**
 * Username: **root**
 * Password: **root**
+* Set **Install demo data** to **Yes**
+4. On the INSTALLATION - STEP 3 page, provide the requested information and click **Submit** to finish installation:
+* Enter surname, first name, email, username and password to create administrator user account
+* System Settings should contain the following values:
+  * Base URL: `http://localhost/gibbon`
+  * Base Path: `C:\xampp\htdocs\gibbon`
+  * System Name: Gibbon
+  * Install Type: Testing
 
-4. Set **Install demo data** to **Yes** then click **Submit**.
-5. To finish installation:
-* Enter surname, first name, email, username and password to create administrator account
-* Leave System Settings with default values
+::: info
+Ensure the Base URL contains forward slashes `[/]` in the `http://localhost/gibbon` URL.
+:::
+
 * Provide an organization name and initials
 * In the Miscellaneous section, select country, currency and timezone
-* Click **Submit** to continue.
 
 ## Verify Gibbon installation
 
