@@ -126,6 +126,8 @@ dir htdocs
 2. On the INSTALLATION - STEP 1 page, check if all your System Requirements have been passed by the Gibbon installer. Click **Submit** button.
 
 ::: info
+For testing purposes, a **Secure HTTPS Connection** is not required when evaluating Gibbon.
+
 If PHP Extension curl is showing as not installed, use a shell window to copy the brotlidec.dll file into the XAMPP Apache bin folder:
 ```
 copy C:\xampp\php\brotlidec.dll C:\xampp\apache\bin
