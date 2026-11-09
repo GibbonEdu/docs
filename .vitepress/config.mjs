@@ -37,6 +37,16 @@ export default withMermaid({
 
     srcExclude: ['**/README.md', 'templates/**', '.obsidian/**', '*.canvas', 'deploy/**', '.git/**', '.github/**'],
 
+    vite: {
+        optimizeDeps: {
+            include: [
+                "mermaid",
+                "fastdom",
+                "fastdom/extensions/fastdom-promised.js",
+            ],
+        },
+    },
+
     markdown: {
         config: (md) => {
             md.use(timeline);
